@@ -1,262 +1,261 @@
-.navbar-section{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+.navbar-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px 0;
 }
-.navbar-section__links{
-display: flex;
-align-items: center;
-justify-content: space-between;
-gap: 40px;
+.navbar-section__links {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 40px;
 }
-.navbar-section__link-span{
-    display: block;
-    height: 12px;
-    width: 2px;
-    background-color:#fff;
+.navbar-section__link-span {
+  display: block;
+  height: 12px;
+  width: 2px;
+  background-color: #fff;
 }
-.navbar-section__contact{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    gap: 2px;
+.navbar-section__contact {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 2px;
 }
-.navbar-section__contact >p {
-    font-family: "Roboto";
-    font-weight: 400;
-    font-size: 11px;
-    line-height: 12.89px;
-    letter-spacing: 1%;
-    color: white;
+.navbar-section__contact > p {
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 12.89px;
+  letter-spacing: 1%;
+  color: white;
 }
-.navbar-section__contact >h4{
-    font-family: "Roboto Slab";
-    font-weight: 700;
-    font-size: 22px;
-    line-height: 29.01px;
-    letter-spacing: 3%;
-    color:#fff;
+.navbar-section__contact > h4 {
+  font-family: "Roboto Slab";
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 29.01px;
+  letter-spacing: 3%;
+  color: #fff;
 }
-.navbar-section__contact > button{
-    background-color:#FFB800;
-    width: 164px;
-    border-radius: 5px;
-    height: 30px;
-    font-family: "Roboto";
-    font-weight: 700;
-    font-size: 11px;
-    line-height: 12.89px;
-    color: #000;
-    border: none;
-    outline: none;
-    text-align: center;
-    cursor: pointer;
+.navbar-section__contact > button {
+  background-color: #ffb800;
+  width: 164px;
+  border-radius: 5px;
+  height: 30px;
+  font-family: "Roboto";
+  font-weight: 700;
+  font-size: 11px;
+  line-height: 12.89px;
+  color: #000;
+  border: none;
+  outline: none;
+  text-align: center;
+  cursor: pointer;
 }
-.navbar-section__link{
-    font-family: "Roboto Slab";
-    font-weight: 400;
-    font-size: 22px;
-    line-height: 29.01px;
-    color: #fff;
+.navbar-section__link {
+  font-family: "Roboto Slab";
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 29.01px;
+  color: #fff;
 }
-.navbar__hamburger{
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 8px;
-    flex-direction: column;
-    cursor: pointer;
+.navbar__hamburger {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  flex-direction: column;
+  cursor: pointer;
 }
-.navbar__hamburger > li{
-    display: block;
-    width: 40px;
-    height: 5px;
-    background-color: #FFB800
+.navbar__hamburger > li {
+  display: block;
+  width: 40px;
+  height: 5px;
+  background-color: #ffb800;
 }
-.navbar__ham-box{
-    display: none;  
+.navbar__ham-box {
+  display: none;
 }
-.mobilelogo{
-    display: none;
+.mobilelogo {
+  display: none;
 }
-.hamburger-sidebar{
-    top: 0;
-    right: 0;
-    position: absolute;
-    height: 100vh;
-    background-color: #000;
-    width: 100%;
-    padding: 20px;
+.hamburger-sidebar {
+  top: 0;
+  right: 0;
+  position: absolute;
+  z-index: 3;  
+  height: 100vh;
+  background-color: #000;
+  width: 100%;
+  padding: 20px;
 }
 .hamburger__box-logo {
-    display: flex;
-    align-items: flex-start;
-    justify-content: space-between;
-    margin-bottom: 20px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin-bottom: 20px;
 }
-.exit-box{
-    position: relative;  
-    cursor: pointer;
+.exit-box {
+  position: relative;
+  cursor: pointer;
 }
-.exit-line1{
-    top: 20px;
-    right: 20px;
-    position: absolute;
-    width: 30px;
-    height: 4px;
-    background-color: #FFB800;
-   transform: rotate(45deg);
+.exit-line1 {
+  top: 20px;
+  right: 20px;
+  position: absolute;
+  width: 30px;
+  height: 4px;
+  background-color: #ffb800;
+  transform: rotate(45deg);
 }
-.exit-line2{
-    top: 20px;
-    right: 20px;
-    position: absolute;
-    width: 30px;
-    height: 4px;
-    background-color: #FFB800;
-   transform: rotate(-45deg);
+.exit-line2 {
+  top: 20px;
+  right: 20px;
+  position: absolute;
+  width: 30px;
+  height: 4px;
+  background-color: #ffb800;
+  transform: rotate(-45deg);
 }
-.navbar-hamburger{
-    margin-bottom: 20px;
+.navbar-hamburger {
+  margin-bottom: 20px;
 }
-.navbar-section__link2{
-    display: block;
-    padding: 25px;
-    font-family: "Roboto Slab";
-    font-weight: 400;
-    font-size: 22px;
-    line-height: 29.01px;
-    color: #fff;
-    border-bottom: #fff 3px solid;
+.navbar-section__link2 {
+  display: block;
+  padding: 25px;
+  font-family: "Roboto Slab";
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 29.01px;
+  color: #fff;
+  border-bottom: #fff 3px solid;
 }
-.hamburger__contact > h4{
-    font-family: "Roboto Slab";
-    font-weight: 400;
-    font-size: 22px;
-    line-height: 29.01px;
-    color: #fff;
+.hamburger__contact > h4 {
+  font-family: "Roboto Slab";
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 29.01px;
+  color: #fff;
 }
-.hamburger__contact >p{
-    font-family: "Roboto";
-    font-weight: 400;
-    font-size: 11px;
-    line-height: 12.89px;
-    letter-spacing: 4%;
-    color: #fff;
-    margin-top: 4px;
-    margin-bottom: 8px;
+.hamburger__contact > p {
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 12.89px;
+  letter-spacing: 4%;
+  color: #fff;
+  margin-top: 4px;
+  margin-bottom: 8px;
 }
-.hamburger__contact > button{
-    background-color:#FFB800;
-    width: 164px;
-    border-radius: 5px;
-    height: 30px;
-    font-family: "Roboto";
-    font-weight: 700;
-    font-size: 11px;
-    line-height: 12.89px;
-    color: #000;
-    border: none;
-    outline: none;
-    text-align: center;
-    cursor: pointer;
+.hamburger__contact > button {
+  background-color: #ffb800;
+  width: 164px;
+  border-radius: 5px;
+  height: 30px;
+  font-family: "Roboto";
+  font-weight: 700;
+  font-size: 11px;
+  line-height: 12.89px;
+  color: #000;
+  border: none;
+  outline: none;
+  text-align: center;
+  cursor: pointer;
 }
 
-@media only screen and (max-width:1080px){
-    .navbar-section__links{
-        gap: 20px;
-    }
+@media only screen and (max-width: 1080px) {
+  .navbar-section__links {
+    gap: 20px;
+  }
 }
-@media only screen and (max-width:945px){
-    .navbar-section__link{
-        font-size: 18px;
-        line-height: 25px;
-    }
-    .navbar-section__contact >h4{
-        font-size: 20px;
-        line-height: 26px;
-        letter-spacing: 2%;
-    }
-    .navbar-section__contact > button{
-        width: 155px;
-        border-radius: 5px;
-        font-size: 10px;
-        line-height: 11px;      
-    }
+@media only screen and (max-width: 945px) {
+  .navbar-section__link {
+    font-size: 18px;
+    line-height: 25px;
+  }
+  .navbar-section__contact > h4 {
+    font-size: 20px;
+    line-height: 26px;
+    letter-spacing: 2%;
+  }
+  .navbar-section__contact > button {
+    width: 155px;
+    border-radius: 5px;
+    font-size: 10px;
+    line-height: 11px;
+  }
 }
-@media only screen and (max-width:850px){
-    .navbar-section__link{
-        font-size: 16px;
-        line-height: 23px;
-    }
-    .navbar-section__contact >h4{
-        font-size: 18px;
-        line-height: 23px;
-    }
-    .navbar-section__contact > button{
-        width: 140px;
-        border-radius: 4px;
-        font-size: 10px;
-        line-height: 11px;      
-    }
-    .navbar-section__contact >p {
-        font-size: 10px;
-        line-height: 11px;
-    }
+@media only screen and (max-width: 850px) {
+  .navbar-section__link {
+    font-size: 16px;
+    line-height: 23px;
+  }
+  .navbar-section__contact > h4 {
+    font-size: 18px;
+    line-height: 23px;
+  }
+  .navbar-section__contact > button {
+    width: 140px;
+    border-radius: 4px;
+    font-size: 10px;
+    line-height: 11px;
+  }
+  .navbar-section__contact > p {
+    font-size: 10px;
+    line-height: 11px;
+  }
 }
-@media only screen and (max-width:794px){
-    .navbar-section__links{
-        display: none;
-    }
-    .navbar-section__contact{
-        display: none;
-    }
-    .navbar__ham-box{
-        display: block;
-    }
-}
-@media only screen and (max-width:615px){
- .desctoplogo{
+@media only screen and (max-width: 794px) {
+  .navbar-section__links {
     display: none;
- }   
- .mobilelogo{
-   display: block;
- }
- .navbar__hamburger > li{
+  }
+  .navbar-section__contact {
+    display: none;
+  }
+  .navbar__ham-box {
+    display: block;
+  }
+}
+@media only screen and (max-width: 615px) {
+  .desctoplogo {
+    display: none;
+  }
+  .mobilelogo {
+    display: block;
+  }
+  .navbar__hamburger > li {
     display: block;
     width: 30px;
-    height: 4px
-}
-.exit-line1{
+    height: 4px;
+  }
+  .exit-line1 {
     top: 10px;
     right: 15px;
-}
-.exit-line2{
+  }
+  .exit-line2 {
     top: 10px;
     right: 15px;
-}
-.navbar-section__link2{
+  }
+  .navbar-section__link2 {
     padding: 15px;
     border-bottom: #fff 2px solid;
-}
+  }
 }
 
-@media only screen and (max-width:400px){
-    .navbar__hamburger > li{
-        display: block;
-        width: 25px;
-        height: 3px
-    }
-    .exit-line1{
-       width: 20px;
-       height: 3px;
-    }
-    .exit-line2{
-      width: 20px;
-      height: 3px;
-    }
-    
- 
+@media only screen and (max-width: 400px) {
+  .navbar__hamburger > li {
+    display: block;
+    width: 25px;
+    height: 3px;
+  }
+  .exit-line1 {
+    width: 20px;
+    height: 3px;
+  }
+  .exit-line2 {
+    width: 20px;
+    height: 3px;
+  }
 }

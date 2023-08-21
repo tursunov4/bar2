@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import './navbar.css'
-import sitelogo from '../../../assets/Images/logoheader.svg'
-import sitelogo2 from '../../../assets/Images/logomobil.svg'
+import sitelogo from '../../../assets/Images/svg/logoheader.svg'
+import sitelogo2 from '../../../assets/Images/svg/logomobil.svg'
 import { Link } from 'react-router-dom'
 const Navbar = () => {
   const [sidebar ,setSidebar] = useState(false)

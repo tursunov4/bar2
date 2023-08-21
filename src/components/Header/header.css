@@ -1,3 +1,6 @@
 .header-section{
-    padding: 40px 0;
+    background-image: url("../../assets/Images/png/header-sectionbag.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }

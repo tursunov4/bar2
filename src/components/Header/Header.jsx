@@ -1,5 +1,6 @@
 import React from 'react'
 import Navbar from './Navbar/Navbar'
+import Headers from './HeaderSection/Header'
 import './header.css'
 const Header = () => {
   return (
@@ -7,6 +8,7 @@ const Header = () => {
         <section className='header-section'>
          <div className="container">
             <Navbar/>
+            <Headers/>
          </div>
         </section>
     </header>

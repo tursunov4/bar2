@@ -1,0 +1,165 @@
+.header-section2{
+    display: flex;
+    align-items: flex-start;
+    justify-content:space-around;
+    gap: 20px;
+}
+.header-section__img-wrapper{
+    margin-left: 40px;
+    width: 590.88px;
+    height: 939px;
+    position: relative;
+}
+.img-wrapper__text{
+    position: absolute;
+    width: 107px;
+    text-align: end;
+    top: 43px;
+    left: -45px
+}
+.img-wrapper__text h4{
+    margin-bottom: 8px;
+   font-family: "Philosopher";
+   font-weight: 700;
+   font-size: 22px;
+   line-height: 24px;
+   color: #fff;
+   
+}
+.img-wrapper__text > del{
+    text-decoration: line-through;
+    color: rgba(255, 255, 255, 0.7) ;
+    font-family: "Inter";
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21.78px;
+}
+.img-wrapper__text > h3{
+    font-family: "Roboto";
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 46.88px;
+    color: #fff;
+}
+.hus{
+    width: 100%;
+    position: relative;
+}
+.img-box__text{
+    position: absolute;
+    right: 109px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 14px;
+    bottom: 268px;
+    cursor: pointer;
+}
+.img-box__text > span{
+    display: block;
+    width: 125px;
+    color: #fff;
+    font-family: 'Roboto';
+    opacity: 70%;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25.78px;
+}
+.header-section__text-wrapper{
+    padding-top: 25px;
+    max-width: 630px;
+}
+.header-section__text-wrapper > h4{
+    font-family: "Roboto Slab";
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 32px;
+    color: #fff;
+}
+.header-section__text-wrapper >  h5{
+    font-family: "Roboto Slab";
+    font-weight: 500;
+    font-size: 27px;
+    line-height: 35px;
+    color: #fff;
+    margin-bottom: 45px;
+}
+.text-wrapper__pirice{
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    margin-bottom: 15px;
+}
+.text-wrapper__pirice > h2{
+    font-family: "Merriweather";
+    font-weight: 700;
+    font-size: 110px;
+    line-height: 138.27px;
+    color: #fff;
+}
+.text-wrapper__about{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+
+}
+.text-wrapper__about > li {
+    width: 290px;
+    margin-bottom: 40px;
+}
+.text-wrapper__about > li > h6{
+    font-family: "Roboto Slab";
+    font-size: 22px;
+    line-height: 28px;
+    font-weight: 900;
+    color: #ffb800;
+
+    margin-bottom: 10px;
+}
+.text-wrapper__about > li > p{
+    font-family: "Roboto";
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 25.78px;
+    color: #fff;
+    opacity: 80%;
+    letter-spacing: 1%  ;
+}
+.img-wrapper__box {
+    display: flex; 
+    gap: 15px;
+}
+.img-wrapper__box > button{
+    border: none;
+    background-color: #ffb800;
+    outline: none;
+    width: 271px;
+    height: 96px;
+    font-family: "Roboto Slab";
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 52.75px;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.img-wrapper__box-text > del{
+    text-decoration: line-through;
+    font-family: "Roboto";
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23.44px;
+    display: block;
+    margin-bottom: 10px;
+    color: #fff;
+}
+.img-wrapper__box-text > h5{
+    font-family: "Roboto";
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 46.88px;
+    color: #fff;
+}
+
