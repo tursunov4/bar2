@@ -2,7 +2,8 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 30px 0;
+  padding: 15px 0;
+  border-bottom: 1px solid #717171;
 }
 .navbar-section__links {
   display: flex;
@@ -17,49 +18,39 @@
   background-color: #fff;
 }
 .navbar-section__contact {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  gap: 2px;
-}
-.navbar-section__contact > p {
-  font-family: "Roboto";
-  font-weight: 400;
-  font-size: 11px;
-  line-height: 12.89px;
-  letter-spacing: 1%;
-  color: white;
-}
-.navbar-section__contact > h4 {
-  font-family: "Roboto Slab";
-  font-weight: 700;
-  font-size: 22px;
-  line-height: 29.01px;
-  letter-spacing: 3%;
-  color: #fff;
-}
-.navbar-section__contact > button {
-  background-color: #ffb800;
-  width: 164px;
-  border-radius: 5px;
-  height: 30px;
-  font-family: "Roboto";
-  font-weight: 700;
-  font-size: 11px;
-  line-height: 12.89px;
-  color: #000;
-  border: none;
-  outline: none;
-  text-align: center;
+  text-align: end;
   cursor: pointer;
 }
+.navbar-section__contact > a {
+  color: #FFF;
+text-align: right;
+font-family: Inter;
+font-size: 15px;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
+letter-spacing: 0.15px;
+text-decoration-line: underline;  
+}
+.navbar-section__contact > h4 {
+  color: #FFF;
+  text-align: right;
+  font-family: Roboto;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 0.32px;
+}
+
 .navbar-section__link {
-  font-family: "Roboto Slab";
+  color: #FFF;
+  font-family: Roboto Slab;
+  font-size: 18px;
+  font-style: normal;
   font-weight: 400;
-  font-size: 22px;
-  line-height: 29.01px;
-  color: #fff;
+  line-height: 25px; /* 138.889% */
+  
 }
 .navbar__hamburger {
   display: flex;

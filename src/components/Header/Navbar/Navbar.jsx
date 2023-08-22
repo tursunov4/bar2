@@ -1,15 +1,13 @@
 import React, { useState } from 'react'
 import './navbar.css'
 import sitelogo from '../../../assets/Images/svg/logoheader.svg'
-import sitelogo2 from '../../../assets/Images/svg/logomobil.svg'
 import { Link } from 'react-router-dom'
 const Navbar = () => {
   const [sidebar ,setSidebar] = useState(false)
   return (
     <div className='navbar-section'>
      <Link to={'/'}>
-     <img className='desctoplogo' src={sitelogo} alt="sitelogo" />
-     <img className='mobilelogo' src={sitelogo2} alt="siteLogo"  />
+     <img  src={sitelogo} alt="sitelogo" />
      </Link>
      <div className="navbar-section__links">
         <Link className='navbar-section__link' to={'/'}>О Bavaria</Link>
@@ -24,9 +22,9 @@ const Navbar = () => {
         <Link className='navbar-section__link' to={'/'}>Bavaria с WIFI</Link>   
      </div>
      <div className="navbar-section__contact">
-        <p>Звонок по России бесплатный</p>
          <h4>8 800 250 59 32</h4>
-         <button>Заказать обратный звонок</button>
+        <a>Заказать звонок</a>
+       
      </div>
      <div onClick={()=>setSidebar(true)} className="navbar__ham-box">
      <ul className="navbar__hamburger">
@@ -40,8 +38,7 @@ const Navbar = () => {
         <div className="hamburger-sidebar">
           <div className="hamburger__box-logo">
           <Link to={'/'}>
-          <img className='desctoplogo' src={sitelogo} alt="sitelogo" />
-          <img className='mobilelogo' src={sitelogo2} alt="siteLogo"  />
+          <img  src={sitelogo} alt="sitelogo" />
           </Link>
            <div>
            <ul onClick={()=>setSidebar(false)} className="exit-box">

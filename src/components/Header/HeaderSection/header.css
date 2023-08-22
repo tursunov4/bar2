@@ -1,58 +1,28 @@
 .header-section2{
+    margin-top: 15px;
     display: flex;
     align-items: flex-start;
     justify-content:space-around;
     gap: 20px;
 }
 .header-section__img-wrapper{
-    margin-left: 40px;
-    width: 590.88px;
-    height: 939px;
+    width: 481px;
+    height: 796px;
     position: relative;
-}
-.img-wrapper__text{
-    position: absolute;
-    width: 107px;
-    text-align: end;
-    top: 43px;
-    left: -45px
-}
-.img-wrapper__text h4{
-    margin-bottom: 8px;
-   font-family: "Philosopher";
-   font-weight: 700;
-   font-size: 22px;
-   line-height: 24px;
-   color: #fff;
-   
-}
-.img-wrapper__text > del{
-    text-decoration: line-through;
-    color: rgba(255, 255, 255, 0.7) ;
-    font-family: "Inter";
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 21.78px;
-}
-.img-wrapper__text > h3{
-    font-family: "Roboto";
-    font-weight: 700;
-    font-size: 40px;
-    line-height: 46.88px;
-    color: #fff;
 }
 .hus{
     width: 100%;
     position: relative;
 }
-.img-box__text{
+
+.img-box__text {
     position: absolute;
-    right: 109px;
+    right: 80px;
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 14px;
-    bottom: 268px;
+    bottom: 214px;
     cursor: pointer;
 }
 .img-box__text > span{
@@ -67,35 +37,35 @@
 }
 .header-section__text-wrapper{
     padding-top: 25px;
-    max-width: 630px;
+    max-width: 810px;
 }
 .header-section__text-wrapper > h4{
-    font-family: "Roboto Slab";
-    font-weight: 500;
+    color: #FFF;
+    font-family: Stolzl;
     font-size: 22px;
-    line-height: 32px;
-    color: #fff;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 29px; /* 131.818% */
 }
 .header-section__text-wrapper >  h5{
-    font-family: "Roboto Slab";
-    font-weight: 500;
+    color: var(--white, #FFF);
+    font-family: Gilroy;
     font-size: 27px;
-    line-height: 35px;
-    color: #fff;
-    margin-bottom: 45px;
-}
-.text-wrapper__pirice{
-    display: flex;
-    align-items: center;
-    gap: 25px;
-    margin-bottom: 15px;
-}
-.text-wrapper__pirice > h2{
-    font-family: "Merriweather";
+    font-style: normal;
     font-weight: 700;
+    line-height: 34px; /* 125.926% */
+    margin-bottom: 50px;
+}
+
+.text-wrapper__pirice > h2{
+    color: #FFF;
+    font-family: Merriweather;
     font-size: 110px;
-    line-height: 138.27px;
-    color: #fff;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 119px; /* 108.182% */
+    text-transform: uppercase;
+    margin-bottom: 10px;
 }
 .text-wrapper__about{
     display: flex;
@@ -106,7 +76,7 @@
 
 }
 .text-wrapper__about > li {
-    width: 290px;
+    width: 338px;
     margin-bottom: 40px;
 }
 .text-wrapper__about > li > h6{
@@ -131,35 +101,55 @@
     display: flex; 
     gap: 15px;
 }
-.img-wrapper__box > button{
-    border: none;
-    background-color: #ffb800;
+.img-wrapper__raspochka{
+    padding: 28px 61px ;
+    border-radius: 4px;
+    flex-shrink: 0;
+ background-color: rgba(255, 184, 0, 1);
+   cursor: pointer;
+   color: #323232;
+text-align: center;
+font-family: Inter;
+font-size: 32px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+outline: none;
+border: none;
+}
+.img-wrapper__raspochka2{
     outline: none;
-    width: 271px;
-    height: 96px;
-    font-family: "Roboto Slab";
-    font-size: 40px;
-    font-weight: 700;
-    line-height: 52.75px;
-    text-align: center;
-    cursor: pointer;
-    border-radius: 5px;
+    border: none;
+    border-radius: 4px;
+    padding: 28px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+    color: #323232;
+text-align: center;
+font-family: Inter;
+font-size: 32px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+background-color: #FFE500;
 }
 .img-wrapper__box-text > del{
-    text-decoration: line-through;
-    font-family: "Roboto";
-    font-weight: 500;
+    color: rgba(255, 255, 255, 0.70);
+    font-family: Gilroy;
     font-size: 20px;
-    line-height: 23.44px;
-    display: block;
-    margin-bottom: 10px;
-    color: #fff;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 27px; /* 135% */
+    text-decoration-line: line-through;
 }
 .img-wrapper__box-text > h5{
-    font-family: "Roboto";
-    font-weight: 700;
+    color: #FFF;
+    font-family: Gilroy;
     font-size: 40px;
-    line-height: 46.88px;
-    color: #fff;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 47px; /* 117.5% */
 }
 
