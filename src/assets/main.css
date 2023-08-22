@@ -69,9 +69,7 @@
     list-style: none;
     text-decoration: none;
 }
-body{
-    background-color: black;
-}
+
 .container{
     max-width: 1620px;
     padding: 0 15px;

@@ -3,29 +3,33 @@ import './bavriya.css'
 import product1 from "../../assets/Images/png/product1.png"
 import product2 from '../../assets/Images/png/product2.png'
 import product3 from '../../assets/Images/png/product3.png'
-const wife2 = [
-    {img:product1 ,
-    litr:'10 литров',
-    litr2:'30 литров'
-    },
-    {img:product2 ,
-     litr:'30 литров',
-     litr2:'50 литров'
-    },
-    {img:product3 ,
-    litr:'50 литров',
-    litr2:'70 литров'
-    }
-]
+import wpro from '../../assets/Images/png/wpro.png'
+import wpro2 from '../../assets/Images/png/wpro2.png'
+import wpro3 from '../../assets/Images/png/wpro3.png'
+
 const Bavariya = () => {
     const [wife , serWife] = useState(true)
+    const wife2 = [
+        {img: wife ? product1 : wpro  ,
+        litr:'10 литров',
+        litr2:'30 литров'
+        },
+        {img:wife ? product2 : wpro2  ,
+         litr:'30 литров',
+         litr2:'50 литров'
+        },
+        {img:wife ? product3 : wpro3  ,
+        litr:'50 литров',
+        litr2:'70 литров'
+        }
+    ]
   return (
     <>
     <section className="bavariya-section">
         <div className="container">
            <div className="bavariya-section__text">
-            <h2>Выберите свою пивоварню BAVARIA</h2>
-            <h4>От хобби до производственных масштабов</h4>
+            <h2>{wife ? "Выберите свою пивоварню BAVARIA":'BAVARIA для каждого'} </h2>
+            <h4>{wife ? "От хобби до производственных масштабов" : "От хобби до производственных масштабов"}</h4>
            </div>
            <div className="bavariya-section__quiz">
                 <button onClick={()=>serWife(false)} className={wife ? 'bavariya-section__quiz-button':'bavariya-section__quiz-avtive'}>Без WiFi</button>   

@@ -1,0 +1,313 @@
+.paraka-section {
+  background-color: #ececec;
+  padding: 100px 0;
+}
+.padarka-section__wrapper {
+  padding: 100px 94px 50px;
+  border-radius: 10px 10px 0 0;
+  background: #fff;
+  box-shadow: 0px 4px 14px 0px rgba(111, 111, 111, 0.15);
+}
+.padarka-section__wrapper > h2 {
+  color: #323232;
+  text-align: center;
+  font-family: Gilroy;
+  font-size: 52px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 59px; /* 113.462% */
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+.padarka-section__wrapper > h4 {
+  color: #323232;
+  text-align: center;
+  font-family: Gilroy;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 39px; /* 121.875% */
+  margin-bottom: 70px;
+}
+.padarka-section__product {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+.padarka-section__product-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 30px;
+}
+.paraka-list1 {
+  width: 697px;
+  height: 332px;
+  border-radius: 10px;
+  border: 3px solid #e0e0e0;
+  background: url("../../assets/Images/png/padarka1.png"), 50% / cover no-repeat;
+}
+.padarka-list2 {
+  width: 697px;
+  height: 332px;
+  border-radius: 10px;
+  border: 3px solid #e0e0e0;
+  background: url("../../assets/Images/png/padarka2.png");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.padarka-list3 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding-left: 20px;
+}
+.padarka__product-number {
+  width: 300px;
+}
+.padarka__product-numberlist {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  margin-bottom: 23px;
+  cursor: pointer;
+}
+.padarka__product-numberlist > span {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  border: 2px solid #323232;
+  border-radius: 50%;
+  color: #323232;
+  text-align: center;
+  font-family: Gilroy;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 29px; /* 131.818% */
+  letter-spacing: 0.22px;
+}
+.padarka__product-numberlist > p {
+  color: #323232;
+  font-family: Gilroy;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 29px; /* 131.818% */
+  letter-spacing: 0.22px;
+}
+
+.padarka-section__skidka {
+  padding: 30px 140px;
+  border-radius: 10px;
+  background: #ffb800;
+}
+.padarka-section__skidka > h3 {
+  color: #fff;
+  text-align: center;
+  font-family: Gilroy;
+  font-size: 27px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 34px; /* 125.926% */
+  letter-spacing: 0.27px;
+  margin-bottom: 20px;
+}
+.padarka-section__skidka-img {
+  display: flex;
+  width: 212px;
+  height: 212px;
+  padding: 21px 66px 22px 65px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  background: #fff;
+  margin-bottom: 15px;
+}
+.padarka-section__skidka-listitem {
+  margin-bottom: 20px;
+}
+.padarka-section__skidka-listitem > h4 {
+  color: #fff;
+  text-align: center;
+  font-family: Gilroy;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 29px; /* 131.818% */
+  letter-spacing: 0.22px;
+}
+.padarka-section__skidka-listitem > p {
+  color: #fff;
+  text-align: center;
+  font-family: Gilroy;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 29px; /* 131.818% */
+  letter-spacing: 0.22px;
+  text-decoration-line: line-through;
+}
+.padarka__product-active {
+  background-color: #ffb800;
+  color: #fff !important;
+  border: none !important;
+}
+.padarka__product-active2 {
+  color: #ffb800 !important;
+}
+
+.padarka__contact {
+  width: 100%;
+  padding: 30px 100px;
+  border-radius: 0px 0px 10px 10px;
+  background: #3f3f3f;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.padarka__litraj-wrapper > h4 {
+  color: #fff;
+  text-align: center;
+  font-family: Gilroy;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 29px; /* 131.818% */
+  opacity: 0.8;
+  margin-bottom: 10px;
+}
+.litraj-wrapper__buttons {
+  margin-bottom: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+.litraj-wrapper__buttons > button {
+  cursor: pointer;
+  outline: none;
+  border: none;
+  display: flex;
+  width: 80.085px;
+  height: 58px;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+  border-radius: 30px;
+  border: 1px solid #fff;
+  color: #fff;
+  text-align: center;
+  font-family: Inter;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 29px; /* 131.818% */
+  background: #3f3f3f;
+}
+.litraj-buttons__active {
+  color: #323232 !important;
+  background: #fff !important;
+}
+.litraj__wife-button {
+  outline: none;
+  border: none;
+  display: flex;
+  padding: 15px 40px 14px 20px;
+  align-items: center;
+  gap: 10px;
+  border-radius: 30px;
+background: #FFB800;
+cursor: pointer;
+}
+.wife-button__p1{
+    color: rgba(50, 50, 50, 0.50);
+text-align: center;
+font-family: Inter;
+font-size: 22px;
+font-style: normal;
+font-weight: 400;
+line-height: 29px; /* 131.818% */
+}
+.wife-button__p2{
+    color: #323232;
+text-align: center;
+font-family: Inter;
+font-size: 22px;
+font-style: normal;
+font-weight: 600;
+line-height: 29px; /* 131.818% */
+}
+.padarka__litraj-line{
+    display: block;
+    width: 2px;
+    background-color: #fff;
+    height: 224px;
+}
+.padarka__litraj-inputs > label{
+  display: block;
+  margin-bottom: 30px;
+  position: relative;
+}
+.padarka__litraj-inputs input{
+    display: block;
+    outline: none;
+    padding: 15px 0px 15px 61px;
+    border-radius: 30px;
+border: 1px solid #FFF;
+color: rgba(255, 255, 255, 0.50);
+font-family: Inter;
+font-size: 22px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+background-color: #3F3F3F;
+}
+.litraj-inputs__img{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+.litraj-prices{
+    margin-bottom: 20px;
+}
+.litraj-price1{
+    color: #FFF;
+font-family: Gilroy;
+font-size: 40px;
+font-style: normal;
+font-weight: 600;
+line-height: 47px; /* 117.5% */
+}
+.litraj-price2{
+    color: rgba(255, 255, 255, 0.70);
+font-family: Gilroy;
+font-size: 20px;
+font-style: normal;
+font-weight: 800;
+line-height: 27px; /* 135% */
+text-decoration-line: line-through;
+margin-left: 30px;
+}
+.padarka__litraj-price > button{
+    cursor: pointer;
+    display: block;
+    height: 91px;
+    outline: none;
+    border: none;
+    background-color: #FFB800;
+width: 271px;
+flex-shrink: 0;
+color: #323232;
+text-align: center;
+font-family: Inter;
+font-size: 40px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
