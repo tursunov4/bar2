@@ -1,7 +1,7 @@
-import React from 'react'
+import React from "react";
 
-import phone from '../../assets/Images/png/order_phone.png';
-import './style.css';
+import phone from "../../assets/Images/png/order_phone.png";
+import "./style.css";
 
 const index = () => {
   return (
@@ -10,14 +10,13 @@ const index = () => {
         <div className="container">
           <div className="order_wrapper">
             <div className="order_items">
-              <h2>Консультируем по горячей линии</h2>
+              <h2>Консультируем <br /> по горячей линии</h2>
               <div className="order_items_btn">
                 <h1>8 800 250 59 32</h1>
                 <p>Звонок по России бесплатный</p>
 
                 <button>Заказать звонок</button>
               </div>
-
               <img src={phone} alt="Phone" />
             </div>
           </div>
@@ -25,6 +24,6 @@ const index = () => {
       </section>
     </>
   );
-}
+};
 
-export default index
+export default index;

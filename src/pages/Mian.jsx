@@ -12,15 +12,15 @@ import Footer from "../components/Footer";
 const Mian = () => {
   return (
     <div>
-      <Header />
+      {/* <Header />
       <Hero />
       <Bavariya />
-      <Padarka />
-      <Bvcards />
+      <Padarka /> */}
+      {/* <Bvcards /> */}
       <Delivery />
-      <Order />
-      <Khaos />
-      <Footer />
+      {/* <Order /> */}
+      {/* <Khaos /> */}
+      {/* <Footer /> */}
     </div>
   );
 };

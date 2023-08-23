@@ -58,6 +58,11 @@
   src: url("./Fonts/font/Gilroy-Regular.ttf");
 }
 
+@font-face {
+  font-family: Gilroy-Bold;
+  src: url("./Fonts/font/Gilroy-Bold.ttf");
+}
+
 * {
   margin: 0;
   padding: 0;
