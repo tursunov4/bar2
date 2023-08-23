@@ -1,0 +1,18 @@
+.order {
+  background-image: url("../../assets/Images/png/order_background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 234px 253px;
+}
+
+.order_wrapper {
+  background-image: url("../../assets/Images/png/order_wrapper_background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 30px;
+}
+
+.order_items{
+    border: 2px solid #33333375;
+    padding: 62px 39px;
+}

@@ -2,6 +2,7 @@
   padding: 100px 0;
   background-color: #ececec;
   cursor: default;
+ 
 }
 .bv_about {
   color: #323232;
@@ -34,15 +35,17 @@
   gap: 50px;
 }
 
-.card__rev{
-    display: flex;
+.card__rev {
+  display: flex;
   align-items: center;
-  /* gap: 50px; */
+  
 }
 
 .left__ {
+  padding-left: 10px;
   width: 710px;
   height: 513px;
+  background: #fff;
   /* padding: 30px 38px 54px 50px; */
   display: flex;
   flex-direction: column;
