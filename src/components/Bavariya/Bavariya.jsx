@@ -12,15 +12,24 @@ const Bavariya = () => {
     const wife2 = [
         {img: wife ? product1 : wpro  ,
         litr:'10 литров',
-        litr2:'30 литров'
+        litr2:'30 литров',
+        ves :'13,7 кг',
+        vife:wife ? 'нет': 'да',
+        motor :'3,2 кВт'
         },
         {img:wife ? product2 : wpro2  ,
          litr:'30 литров',
-         litr2:'50 литров'
+         litr2:'50 литров',
+         ves :'16,3 кг',
+         vife:wife ? 'нет': 'да',
+         motor :'2,8 кВт'
         },
         {img:wife ? product3 : wpro3  ,
         litr:'50 литров',
-        litr2:'70 литров'
+        litr2:'70 литров',
+        ves :'25,5 кг',
+        vife:wife ? 'нет': 'да',
+        motor :'1,5 кВт'
         }
     ]
   return (
@@ -48,9 +57,9 @@ const Bavariya = () => {
                     <div className="bavariya-section__product-about">
                         <div className="bavariya__product-text">
                         <p>Выход сусла за цикл:<span>{item.litr}</span></p>  
-                        <p>Потребляемая мощность: <span> 1,5 кВт</span></p>
-                        <p>Вес:  <span>13,7 кг</span></p>
-                        <p>Работа через WiFi: <span> нет</span></p>
+                        <p>Потребляемая мощность: <span>{item.motor}</span></p>
+                        <p>Вес:  <span>{item.ves}</span></p>
+                        <p>Работа через WiFi: <span> {item.vife}</span></p>
                         </div>
                         <div className="bavariya-price">
                             <span className='bavariya-price__new'>44 990 ₽</span>

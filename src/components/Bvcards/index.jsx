@@ -15,7 +15,6 @@ const index = () => {
             <div className="cards_wrapper">
               <div className="card__">
                 <img src={Bv} alt="Card Image" />
-
                 <div className="left__">
                   <p className="left__number">1</p>
                   <h3 className="left__h4">

@@ -1,155 +1,158 @@
-.header-section2{
-    margin-top: 15px;
-    display: flex;
-    align-items: flex-start;
-    justify-content:space-around;
-    gap: 20px;
+.header-section2 {
+  margin-top: 15px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-around;
+  gap: 20px;
 }
-.header-section__img-wrapper{
-    width: 481px;
-    height: 796px;
-    position: relative;
+.header-section__img-wrapper {
+  width: 481px;
+  height: 796px;
+  position: relative;
 }
-.hus{
-    width: 100%;
-    position: relative;
+.hus {
+  width: 100%;
+  position: relative;
 }
 
 .img-box__text {
-    position: absolute;
-    right: 80px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 14px;
-    bottom: 214px;
-    cursor: pointer;
+  position: absolute;
+  right: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 14px;
+  bottom: 214px;
+  cursor: pointer;
 }
-.img-box__text > span{
-    display: block;
-    width: 125px;
-    color: #fff;
-    font-family: 'Roboto';
-    opacity: 70%;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 25.78px;
+.img-box__text > span {
+  display: block;
+  width: 125px;
+  color: #fff;
+  font-family: "Roboto";
+  opacity: 70%;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 25.78px;
 }
-.header-section__text-wrapper{
-    padding-top: 25px;
-    max-width: 810px;
+.header-section__text-wrapper {
+  padding-top: 25px;
+  max-width: 810px;
 }
-.header-section__text-wrapper > h4{
-    color: #FFF;
-    font-family: Stolzl;
-    font-size: 22px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 29px; /* 131.818% */
+.header-section__text-wrapper > h4 {
+  color: #fff;
+  font-family: Stolzl;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 29px; /* 131.818% */
 }
-.header-section__text-wrapper >  h5{
-    color: var(--white, #FFF);
-    font-family: Gilroy;
-    font-size: 27px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 34px; /* 125.926% */
-    margin-bottom: 50px;
+.header-section__text-wrapper > h5 {
+  color: var(--white, #fff);
+  font-family: Gilroy;
+  font-size: 27px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 34px; /* 125.926% */
+  margin-bottom: 50px;
 }
 
-.text-wrapper__pirice > h2{
-    color: #FFF;
-    font-family: Merriweather;
-    font-size: 110px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 119px; /* 108.182% */
-    text-transform: uppercase;
-    margin-bottom: 10px;
+.text-wrapper__pirice > h2 {
+  color: #fff;
+  font-family: Merriweather;
+  font-size: 110px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 119px; /* 108.182% */
+  text-transform: uppercase;
+  margin-bottom: 10px;
 }
-.text-wrapper__about{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    margin-bottom: 50px;
-
+.text-wrapper__about {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-bottom: 50px;
 }
 .text-wrapper__about > li {
-    width: 338px;
-    margin-bottom: 40px;
+  width: 338px;
+  margin-bottom: 40px;
 }
-.text-wrapper__about > li > h6{
-    font-family: "Roboto Slab";
-    font-size: 22px;
-    line-height: 28px;
-    font-weight: 900;
-    color: #ffb800;
+.text-wrapper__about > li > h6 {
+  font-family: "Roboto Slab";
+  font-size: 22px;
+  line-height: 28px;
+  font-weight: 900;
+  color: #ffb800;
 
-    margin-bottom: 10px;
+  margin-bottom: 10px;
 }
-.text-wrapper__about > li > p{
-    font-family: "Roboto";
-    font-weight: 400;
-    font-size: 22px;
-    line-height: 25.78px;
-    color: #fff;
-    opacity: 80%;
-    letter-spacing: 1%  ;
+.text-wrapper__about > li > p {
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 25.78px;
+  color: #fff;
+  opacity: 80%;
+  letter-spacing: 1%;
 }
 .img-wrapper__box {
-    display: flex; 
-    gap: 15px;
+  display: flex;
+  gap: 15px;
 }
-.img-wrapper__raspochka{
-    padding: 28px 61px ;
-    border-radius: 4px;
-    flex-shrink: 0;
- background-color: rgba(255, 184, 0, 1);
-   cursor: pointer;
-   color: #323232;
-text-align: center;
-font-family: Inter;
-font-size: 32px;
-font-style: normal;
-font-weight: 700;
-line-height: normal;
-outline: none;
-border: none;
+.img-wrapper__raspochka {
+  padding: 28px 61px;
+  border-radius: 4px;
+  flex-shrink: 0;
+  background-color: rgba(255, 184, 0, 1);
+  cursor: pointer;
+  color: #323232;
+  text-align: center;
+  font-family: Inter;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  outline: none;
+  border: none;
 }
-.img-wrapper__raspochka2{
-    outline: none;
-    border: none;
-    border-radius: 4px;
-    padding: 28px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 25px;
-    color: #323232;
-text-align: center;
-font-family: Inter;
-font-size: 32px;
-font-style: normal;
-font-weight: 700;
-line-height: normal;
-background-color: #FFE500;
+.img-wrapper__raspochka2 {
+  cursor: pointer;
+  outline: none;
+  border: none;
+  border-radius: 4px;
+  padding: 28px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 25px;
+  color: #323232;
+  text-align: center;
+  font-family: Inter;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  background-color: #ffe500;
 }
-.img-wrapper__box-text > del{
-    color: rgba(255, 255, 255, 0.70);
-    font-family: Gilroy;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 800;
-    line-height: 27px; /* 135% */
-    text-decoration-line: line-through;
+.img-wrapper__raspochka2:hover{
+    transform: translateY(-15px);
+    transition: all 0.6s;
 }
-.img-wrapper__box-text > h5{
-    color: #FFF;
-    font-family: Gilroy;
-    font-size: 40px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: 47px; /* 117.5% */
+.img-wrapper__box-text > del {
+  color: rgba(255, 255, 255, 0.7);
+  font-family: Gilroy;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 27px; /* 135% */
+  text-decoration-line: line-through;
 }
-
+.img-wrapper__box-text > h5 {
+  color: #fff;
+  font-family: Gilroy;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 47px; /* 117.5% */
+}

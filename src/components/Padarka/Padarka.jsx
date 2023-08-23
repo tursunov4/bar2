@@ -1,10 +1,11 @@
-import React from 'react'
+import React, { useState } from 'react'
 import './padarka.css'
 import padarka1 from '../../assets/Images/png/padarka-list1.png'
 import person from '../../assets/Images/svg/person.svg'
 import wifedrop from '../../assets/Images/svg/wifedrop.svg'
 import contact from '../../assets/Images/svg/contact.svg'
 const Padarka = () => {
+  const [number , setNumber] = useState(1)
   return (
     <>
     <section className="paraka-section">
@@ -22,40 +23,40 @@ const Padarka = () => {
                      </li>
                      <li className='padarka-list3'>
                         <div className='padarka__product-number'>
-                            <div className='padarka__product-numberlist'>
-                                <span className='padarka__product-active'>1</span>
-                                <p className='padarka__product-active2'>Крышка</p>
+                            <div onClick={()=>setNumber(1)} className='padarka__product-numberlist'>
+                                <span className={number===1 && 'padarka__product-active'}>1</span>
+                                <p className={number===1 && 'padarka__product-active2'}>Крышка</p>
                             </div>
-                            <div className='padarka__product-numberlist'>
-                                <span>2</span>
-                                <p>Прижимная планка</p>
+                            <div onClick={()=>setNumber(2)} className='padarka__product-numberlist'>
+                                <span  className={number===2 && 'padarka__product-active'}>2</span>
+                                <p className={number===2 && 'padarka__product-active2'}>Прижимная планка</p>
                             </div>
-                            <div className='padarka__product-numberlist'>
-                                <span>3</span>
-                                <p>2 фильтрующих сита</p>
+                            <div onClick={()=>setNumber(3)} className='padarka__product-numberlist'>
+                                <span  className={number===3 && 'padarka__product-active'}>3</span>
+                                <p className={number===3 && 'padarka__product-active2'}>2 фильтрующих сита</p>
                             </div>
-                            <div className='padarka__product-numberlist'>
-                                <span>4</span>
-                                <p>Сетка</p>
+                            <div onClick={()=>setNumber(4)} className='padarka__product-numberlist'>
+                                <span  className={number===4 && 'padarka__product-active'}>4</span>
+                                <p className={number===4 && 'padarka__product-active2'} >Сетка</p>
                             </div>
                          
                         </div>
                         <div className='padarka__product-number'>
-                            <div className='padarka__product-numberlist'>
-                                <span>5</span>
-                                <p>Заторный бак</p>
+                            <div onClick={()=>setNumber(5)} className='padarka__product-numberlist'>
+                                <span className={number===5 && 'padarka__product-active'} >5</span>
+                                <p className={number===5 && 'padarka__product-active2'}>Заторный бак</p>
                             </div>
-                            <div className='padarka__product-numberlist'>
-                                <span>6</span>
-                                <p>Сусловарочный котел</p>
+                            <div onClick={()=>setNumber(6)} className='padarka__product-numberlist'>
+                                <span className={number===6 && 'padarka__product-active'} >6</span>
+                                <p className={number===6 && 'padarka__product-active2'}>Сусловарочный котел</p>
                             </div>
-                            <div className='padarka__product-numberlist'>
-                                <span>7</span>
-                                <p>Кран для слива сусла</p>
+                            <div onClick={()=>setNumber(7)} className='padarka__product-numberlist'>
+                                <span  className={number===7 && 'padarka__product-active'}>7</span>
+                                <p className={number===7 && 'padarka__product-active2'}>Кран для слива сусла</p>
                             </div>
-                            <div className='padarka__product-numberlist'>
-                                <span>8</span>
-                                <p>Блок управления</p>
+                            <div onClick={()=>setNumber(8)} className='padarka__product-numberlist'>
+                                <span  className={number===8 && 'padarka__product-active'}>8</span>
+                                <p className={number===8 && 'padarka__product-active2'}>Блок управления</p>
                             </div>
                         </div>
                      </li>

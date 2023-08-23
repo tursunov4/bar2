@@ -33,7 +33,7 @@
   margin-bottom: 21px;
 }
 .bavariya-section__quiz-button {
-  width: 183px;
+
   outline: none;
   border: 1px solid #323232;
   border-radius: 70px;
@@ -47,7 +47,7 @@
   line-height: 29px; /* 131.818% */
 }
 .bavariya-section__quiz-avtive {
-  width: 183px;
+
   border: none;
   background-color: #ffb800;
   outline: none;
