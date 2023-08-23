@@ -1,0 +1,56 @@
+.khaos {
+  background-image: url("../../assets/Images/png/khaos_background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  cursor: default;
+}
+
+.khaos_wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+.khaos_title {
+  color: #fff;
+  font-family: Gilroy;
+  font-size: 52px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 59px;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+.khaos_parag {
+  color: #fff;
+  font-family: Gilroy-Regular;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 39px;
+  opacity: 0.75;
+  margin-bottom: 50px;
+}
+
+.khaos_uls {
+  display: flex;
+  gap: 69px;
+}
+
+.khaos_uls li {
+  list-style: disc;
+  color: #fff;
+  font-family: Gilroy-Regular;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  opacity: 0.75;
+  margin: 7px 0;
+}
+
+.khaos_uls li::marker {
+  color: #ffb800;
+}

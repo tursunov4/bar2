@@ -1,0 +1,106 @@
+.bv_card {
+  padding: 100px 0;
+  background-color: #ececec;
+  cursor: default;
+}
+.bv_about {
+  color: #323232;
+  text-align: center;
+  font-family: Gilroy;
+  font-size: 52px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 59px;
+  text-transform: uppercase;
+}
+
+.bv_title {
+  color: #323232;
+  text-align: center;
+  font-family: Gilroy;
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 39px;
+  margin-top: 20px;
+}
+
+.cards_wrapper {
+  margin-top: 50px;
+}
+
+.card__ {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+
+.card__rev{
+    display: flex;
+  align-items: center;
+  /* gap: 50px; */
+}
+
+.left__ {
+  width: 710px;
+  height: 513px;
+  /* padding: 30px 38px 54px 50px; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.left__number {
+  color: #323232;
+  text-align: center;
+  font-family: Gilroy;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 59px;
+  text-transform: uppercase;
+  width: 50px;
+  height: 50px;
+  border-radius: 10px;
+  background: #ffb800;
+  display: grid;
+  place-content: center;
+  margin-bottom: 20px;
+}
+
+.left__h4 {
+  color: #323232;
+  font-family: Gilroy;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 39px;
+}
+
+.left__title {
+  color: #323232;
+  font-family: Gilroy;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 29px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.left__dots {
+  padding: 0 24px;
+}
+
+.left__dots li {
+  list-style: disc;
+  color: #323232;
+  font-family: Gilroy;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 29px;
+}
+
+.left__dots li::marker {
+  font-size: 15px;
+}
