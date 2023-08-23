@@ -26,12 +26,16 @@
 
 .cards_wrapper {
   margin-top: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
 
 .card__ {
   display: flex;
   align-items: center;
-  gap: 50px;
+  
 }
 
 .card__rev{
@@ -43,7 +47,8 @@
 .left__ {
   width: 710px;
   height: 513px;
-  /* padding: 30px 38px 54px 50px; */
+  background-color: #fff;
+  padding: 30px 38px 54px 50px;
   display: flex;
   flex-direction: column;
   justify-content: center;
