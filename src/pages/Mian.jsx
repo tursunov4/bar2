@@ -8,19 +8,20 @@ import Delivery from "../components/Delivery";
 import Order from "../components/Order";
 import Khaos from "../components/Khaos";
 import Footer from "../components/Footer";
-
+import Youtube from "../components/Youtube/Youtube";
 const Mian = () => {
   return (
     <div>
       <Header />
       <Hero />
       <Bavariya />
-      <Padarka />
-      <Bvcards />
+      {/* <Youtube/> */}
+      {/* <Padarka /> */}
+      {/* <Bvcards />
       <Delivery />
       <Order />
-      <Khaos />
-      <Footer />
+      <Khaos /> */}
+      {/* <Footer /> */}
     </div>
   );
 };

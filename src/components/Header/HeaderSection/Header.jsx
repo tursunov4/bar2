@@ -3,13 +3,22 @@ import './header.css'
 import play from '../../../assets/Images/png/play.png'
 import raspochka from '../../../assets/Images/svg/raspochka.svg'
 import bar from '../../../assets/Images/png/headerbar.png'
+import bar2 from '../../../assets/Images/png/headerbarmobile.png'
 const Headers = () => {
   return (
     <div className='header-section2'>
+      <div className="header-section__mobile-text">
+      <h4>Автоматическая пивоварня</h4>
+        <div className="text-wrapper__pirice-mobile">
+          <h2>Bavaria</h2>
+        </div>
+        <h5>Варите действительно  качественное пиво</h5>
+      </div>
       <div className="header-section__img-wrapper">
       
         <div className="hus">
-          <img src={bar} alt="" />
+          <img className='hus__img1' src={bar} alt="" />
+          <img className='hus__img2' src={bar2} alt="" />
           <div className="img-box__text">
             <img src={play} alt="" />
             <span>Видеообзор пивоварни</span>

@@ -56,6 +56,7 @@ const Bavariya = () => {
                     </div>
                     <div className="bavariya-section__product-about">
                         <div className="bavariya__product-text">
+                         <h5>Характеристики</h5>
                         <p>Выход сусла за цикл:<span>{item.litr}</span></p>  
                         <p>Потребляемая мощность: <span>{item.motor}</span></p>
                         <p>Вес:  <span>{item.ves}</span></p>

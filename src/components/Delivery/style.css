@@ -7,18 +7,20 @@
 
 .delivery_wrapper {
   display: flex;
+  align-items: center;
+  justify-content: space-between;
   gap: 30px;
 }
 
 .del_left {
   display: flex;
   flex-direction: column;
+
   gap: 30px;
 }
 
 .del_leftcard {
-  width: 695px;
-  height: 365px;
+ 
   padding: 50px 30px;
   background: #fff;
   border-radius: 10px;
@@ -50,10 +52,10 @@
   align-items: center;
   gap: 37px;
 }
-
+.del__right{
+  height: 760px;
+}
 .del_right-top {
-  width: 696px;
-  height: 396px;
   padding: 30px 51px;
   display: flex;
   flex-direction: column;
@@ -86,8 +88,7 @@
 }
 
 .del_right-bot {
-  width: 696px;
-  height: 364px;
+
   background: #fff;
   padding: 30px;
   border-radius: 0px 0px 10px 10px;
