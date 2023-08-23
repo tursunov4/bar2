@@ -10,11 +10,11 @@ const index = () => {
           <div className="khaos_wrapper">
             <img src={image} alt="Bar image" />
             <div className="khaos__left">
-              <h2 className="khaos_title">
+              <h2>
                 Купить пивоварню еще удобнее <br /> в наших розничных магазинах <br /> “Градус
                 Хаус”
               </h2>
-              <p className="khaos_parag">В наших магазинах вы сможете:</p>
+              <p>В наших магазинах вы сможете:</p>
               <div className="khaos_uls">
                 <ul>
                   <li>

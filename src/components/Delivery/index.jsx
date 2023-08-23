@@ -1,72 +1,65 @@
-import React from 'react'
-import dpd from "../../assets/Images/svg/del_leftcard 1.svg"
-import trian from "../../assets/Images/svg/del_leftcard 2.svg"
+import React from "react";
+import dpd from "../../assets/Images/svg/del_leftcard 1.svg";
+import trian from "../../assets/Images/svg/del_leftcard 2.svg";
 import mail from "../../assets/Images/svg/del_leftcard 3.svg";
 import pek from "../../assets/Images/svg/del_leftcard 4.svg";
-import masterCard from "../../assets/Images/svg/mastecard.svg"
-import mir from "../../assets/Images/svg/mir.svg"
+import masterCard from "../../assets/Images/svg/mastecard.svg";
+import mir from "../../assets/Images/svg/mir.svg";
 import visa from "../../assets/Images/svg/visa.svg";
 import delLogo from "../../assets/Images/svg/del_logo.svg";
 
+import "./style.css";
 
-import "./style.css"
-
-const index = () => {
+const delivery = () => {
   return (
     <>
       <section className="delivery">
         <div className="container">
-          <div className="delivery_wrapper">
-            <div className="del_left">
-              <div className="del_leftcard">
-                <h1 className="del_leftcard_h1">Доставка</h1>
-                <p className="del_leftcard_p">
-                  по всей России от 1 до 5 дней курьером или ТК
-                </p>
-                <div className="del_left_img">
-                  <img src={dpd} alt="image" />
-                  <img src={trian} alt="image" />
-                  <img src={mail} alt="image" />
-                  <img src={pek} alt="image" />
+          <div className="del__wrapper">
+            <div className="delivery__left">
+              <div className="delivery__left--card">
+                <h3>Доставка</h3>
+                <p>по всей России от 1 до 5 дней курьером или ТК</p>
+                <div>
+                  <img src={dpd} alt="Image" />
+                  <img src={trian} alt="Image" />
+                  <img src={mail} alt="Image" />
+                  <img src={pek} alt="Image" />
                 </div>
               </div>
 
-              <div className="del_leftcard">
-                <h1 className="del_leftcard_h1">Оплата</h1>
-                <p className="del_leftcard_p">
-                  картой или наличными после получения товара
-                </p>
-                <div className="del_left_img">
-                  <img src={masterCard} alt="image" />
-                  <img src={mir} alt="image" />
-                  <img src={visa} alt="image" />
+              <div className="delivery__left--card">
+                <h3>Оплата</h3>
+                <p>картой или наличными после получения товара</p>
+                <div>
+                  <img src={masterCard} alt="Image" />
+                  <img src={mir} alt="Image" />
+                  <img src={visa} alt="Image" />
                 </div>
               </div>
             </div>
 
-            <div className="del_right">
-              <div className="del_right-top">
+            <div className="delivery__right--card">
+              <div>
                 <img src={delLogo} alt="Logo" />
-                <h1>Рассрочка от Тинькофф</h1>
+                <h2>Рассрочка от Тинькофф</h2>
                 <p>на 4 месяца без процентов и переплат</p>
               </div>
 
-              <div className="del_right-bot">
+              <div>
                 <p>
                   <strong>Шаг 1</strong>
-                  <span>Нажмите кнопку «Купить в рассрочку».</span>
+                  Нажмите кнопку «Купить в рассрочку».
                 </p>
-
                 <p>
-                  <strong>Шаг 2</strong>
-                  <span>В появившемся окне выберите нужную комплектацию.</span>
+                  <strong>Шаг 2</strong>B появившемся окне выберите нужную
                 </p>
                 <p>
                   <strong>Шаг 3</strong>
-                  <span>Нажмите «Заказать».</span>
+                  Нажмите «Заказать».
                 </p>
 
-                <div className='del_right-bot_btn'>
+                <div className="delivery__form">
                   <button>Заказать</button>
                   <p>От 2 499 руб. / мес.</p>
                 </div>
@@ -77,6 +70,6 @@ const index = () => {
       </section>
     </>
   );
-}
+};
 
-export default index
+export default delivery;
