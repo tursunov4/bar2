@@ -12,7 +12,65 @@
   padding: 30px;
 }
 
-.order_items{
-    border: 2px solid #33333375;
-    padding: 62px 39px;
+.order_items {
+  border: 2px solid #333333;
+  padding: 62px 39px;
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  position: relative;
+}
+
+.order_items_btn {
+  border-left: 1px solid #333333;
+  padding-left: 50px;
+}
+
+.order_items_btn h1 {
+  color: #323232;
+  font-family: Gilroy;
+  font-size: 52px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 59px;
+}
+
+.order_items_btn p {
+  color: #323232;
+  font-family: Gilroy;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 29px;
+}
+
+.order_items_btn button {
+  margin-top: 30px;
+  padding: 24px 40px;
+  color: #323232;
+  text-align: center;
+  font-family: Inter;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  border: none;
+  background-color: #FFB800;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.order_items h2 {
+  width: 267px;
+  color: #323232;
+  font-family: Gilroy;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 39px;
+}
+
+.order_items img {
+  position: absolute;
+  right: 127px;
 }
