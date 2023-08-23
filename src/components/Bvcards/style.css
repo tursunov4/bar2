@@ -43,7 +43,17 @@
 }
 
 .bv-card__text {
-  width: 50%;
+  width: 50%;}
+
+.card__rev {
+  display: flex;
+  align-items: center;
+  
+}
+
+.left__ {
+  width: 710px;
+  background: #fff;
   background-color: #fff;
 }
 .bv-card__text {
