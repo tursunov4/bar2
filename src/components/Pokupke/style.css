@@ -36,10 +36,11 @@
   border-radius: 10px;
   background: #fbfbfb;
   padding: 20px 15px;
-  width: 427px;
+  /* width: 427px; */
 }
 
 .zakazat__left--wrapper {
+  width: 427px;
   height: 784px;
   overflow-y: scroll;
   padding: 8px;
@@ -255,3 +256,5 @@
   font-weight: 500;
   line-height: normal;
 }
+
+

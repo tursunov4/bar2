@@ -128,7 +128,10 @@ const Ordered = () => {
           <form action="">
             <input type="text" placeholder="Имя" />
             <input type="tel" placeholder="+7 (___)-___-__-__" />
+<<<<<<< HEAD
+=======
             
+>>>>>>> b05176f8545f6a0851b23b4fb62436279a6a4f09
             <button>Заказать</button>
           </form>
 
