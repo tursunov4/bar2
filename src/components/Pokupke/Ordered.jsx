@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Checkbox } from "antd";
+// import { Checkbox } from "antd";
 import rasm from "../../assets/Images/svg/pokupka__left.svg";
 import center from "../../assets/Images/png/pokupke_img.png";
 
@@ -128,7 +128,7 @@ const Ordered = () => {
           <form action="">
             <input type="text" placeholder="Имя" />
             <input type="tel" placeholder="+7 (___)-___-__-__" />
-            <Checkbox className="checkbox"> Покупка в рассрочку</Checkbox>
+            {/* <Checkbox className="checkbox"> Покупка в рассрочку</Checkbox> */}
             <button>Заказать</button>
           </form>
 
