@@ -13,17 +13,17 @@ import Youtube from "../components/Youtube/Youtube";
 const Mian = () => {
   return (
     <div>
-      <Header />
-      <Hero />
+      {/* <Header /> */}
+      {/* <Hero /> */}
       <Bavariya />
       {/* <Youtube /> */}
       {/* <Padarka /> */}
-      <Bvcards />
+      {/* <Bvcards /> */}
       {/* <Delivery /> */}
       {/* <Pokupke /> */}
-      <Order />
-      <Khaos />
-      <Footer />
+      {/* <Order /> */}
+      {/* <Khaos /> */}
+      {/* <Footer /> */}
     </div>
   );
 };
