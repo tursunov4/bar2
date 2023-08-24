@@ -285,6 +285,10 @@
   .delivery__right--card div:nth-child(1) > p {
     font-size: 22px;
   }
+  .delivery__right--card div:nth-child(2){
+    height: auto;
+  }
+
   .delivery__right--card div:nth-child(2) > p {
     font-size: 15px;
     line-height: 25px;
@@ -314,5 +318,9 @@
 
   .delivery__left--card div img {
     width: 60px;
+  }
+
+  .delivery__form > button {
+    font-size: 22px;
   }
 }
