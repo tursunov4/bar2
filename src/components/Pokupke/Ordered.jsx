@@ -1,145 +1,148 @@
-// import React, { useState } from "react";
-// import { Checkbox } from "antd";
-// import rasm from "../../assets/Images/svg/pokupka__left.svg";
-// import center from "../../assets/Images/png/pokupke_img.png";
 
-// const Ordered = () => {
-//   const [click, setClick] = useState(true);
-//   return (
-//     <>
-//       <div className="zakazat">
-//         <div className="zakazat__left">
-//           <div className="zakazat__left--wrapper">
-//             <div className="zakazat__left--card">
-//               <button onClick={() => setClick(!click)}>
-//                 <p
-//                   style={click ? { display: "none" } : { display: "block" }}
-//                 ></p>
-//               </button>
+import React, { useState } from "react";
+import rasm from "../../assets/Images/svg/pokupka__left.svg";
+import center from "../../assets/Images/png/pokupke_img.png";
 
-//               <img src={rasm} alt="Image" />
-//               <h4>Набор для темного пива</h4>
-//               <p className="zakazat__left--card-sale">
-//                 7 990 ₽ <strong>7 990 ₽</strong>
-//               </p>
-//             </div>
+const Ordered = () => {
+  const [click, setClick] = useState(true);
+  return (
+    <>
+      <div className="zakazat">
+        <div className="zakazat__left">
+          <div className="zakazat__left--wrapper">
+            <div className="zakazat__left--card">
+              <button onClick={() => setClick(!click)}>
+                <p
+                  style={click ? { display: "none" } : { display: "block" }}
+                ></p>
+              </button>
 
-//             <div className="zakazat__left--card">
-//               <button onClick={() => setClick(!click)}>
-//                 <p
-//                   style={click ? { display: "none" } : { display: "block" }}
-//                 ></p>
-//               </button>
+              <img src={rasm} alt="Image" />
+              <h4>Набор для темного пива</h4>
+              <p className="zakazat__left--card-sale">
+                7 990 ₽ <strong>7 990 ₽</strong>
+              </p>
+            </div>
 
-//               <img src={rasm} alt="Image" />
-//               <h4>Набор для темного пива</h4>
-//               <p className="zakazat__left--card-sale">
-//                 7 990 ₽ <strong>7 990 ₽</strong>
-//               </p>
-//             </div>
+            <div className="zakazat__left--card">
+              <button onClick={() => setClick(!click)}>
+                <p
+                  style={click ? { display: "none" } : { display: "block" }}
+                ></p>
+              </button>
 
-//             <div className="zakazat__left--card">
-//               <button onClick={() => setClick(!click)}>
-//                 <p
-//                   style={click ? { display: "none" } : { display: "block" }}
-//                 ></p>
-//               </button>
+              <img src={rasm} alt="Image" />
+              <h4>Набор для темного пива</h4>
+              <p className="zakazat__left--card-sale">
+                7 990 ₽ <strong>7 990 ₽</strong>
+              </p>
+            </div>
 
-//               <img src={rasm} alt="Image" />
-//               <h4>Набор для темного пива</h4>
-//               <p className="zakazat__left--card-sale">
-//                 7 990 ₽ <strong>7 990 ₽</strong>
-//               </p>
-//             </div>
+            <div className="zakazat__left--card">
+              <button onClick={() => setClick(!click)}>
+                <p
+                  style={click ? { display: "none" } : { display: "block" }}
+                ></p>
+              </button>
 
-//             <div className="zakazat__left--card">
-//               <button onClick={() => setClick(!click)}>
-//                 <p
-//                   style={click ? { display: "none" } : { display: "block" }}
-//                 ></p>
-//               </button>
+              <img src={rasm} alt="Image" />
+              <h4>Набор для темного пива</h4>
+              <p className="zakazat__left--card-sale">
+                7 990 ₽ <strong>7 990 ₽</strong>
+              </p>
+            </div>
 
-//               <img src={rasm} alt="Image" />
-//               <h4>Набор для темного пива</h4>
-//               <p className="zakazat__left--card-sale">
-//                 7 990 ₽ <strong>7 990 ₽</strong>
-//               </p>
-//             </div>
+            <div className="zakazat__left--card">
+              <button onClick={() => setClick(!click)}>
+                <p
+                  style={click ? { display: "none" } : { display: "block" }}
+                ></p>
+              </button>
 
-//             <div className="zakazat__left--card">
-//               <button onClick={() => setClick(!click)}>
-//                 <p
-//                   style={click ? { display: "none" } : { display: "block" }}
-//                 ></p>
-//               </button>
+              <img src={rasm} alt="Image" />
+              <h4>Набор для темного пива</h4>
+              <p className="zakazat__left--card-sale">
+                7 990 ₽ <strong>7 990 ₽</strong>
+              </p>
+            </div>
 
-//               <img src={rasm} alt="Image" />
-//               <h4>Набор для темного пива</h4>
-//               <p className="zakazat__left--card-sale">
-//                 7 990 ₽ <strong>7 990 ₽</strong>
-//               </p>
-//             </div>
+            <div className="zakazat__left--card">
+              <button onClick={() => setClick(!click)}>
+                <p
+                  style={click ? { display: "none" } : { display: "block" }}
+                ></p>
+              </button>
 
-//             <div className="zakazat__left--card">
-//               <button onClick={() => setClick(!click)}>
-//                 <p
-//                   style={click ? { display: "none" } : { display: "block" }}
-//                 ></p>
-//               </button>
+              <img src={rasm} alt="Image" />
+              <h4>Набор для темного пива</h4>
+              <p className="zakazat__left--card-sale">
+                7 990 ₽ <strong>7 990 ₽</strong>
+              </p>
+            </div>
 
-//               <img src={rasm} alt="Image" />
-//               <h4>Набор для темного пива</h4>
-//               <p className="zakazat__left--card-sale">
-//                 7 990 ₽ <strong>7 990 ₽</strong>
-//               </p>
-//             </div>
+            <div className="zakazat__left--card">
+              <button onClick={() => setClick(!click)}>
+                <p
+                  style={click ? { display: "none" } : { display: "block" }}
+                ></p>
+              </button>
 
-//             <div className="zakazat__left--card">
-//               <button onClick={() => setClick(!click)}>
-//                 <p
-//                   style={click ? { display: "none" } : { display: "block" }}
-//                 ></p>
-//               </button>
+              <img src={rasm} alt="Image" />
+              <h4>Набор для темного пива</h4>
+              <p className="zakazat__left--card-sale">
+                7 990 ₽ <strong>7 990 ₽</strong>
+              </p>
+            </div>
 
-//               <img src={rasm} alt="Image" />
-//               <h4>Набор для темного пива</h4>
-//               <p className="zakazat__left--card-sale">
-//                 7 990 ₽ <strong>7 990 ₽</strong>
-//               </p>
-//             </div>
-//           </div>
-//         </div>
-//         <img src={center} alt="center_img" />
+            <div className="zakazat__left--card">
+              <button onClick={() => setClick(!click)}>
+                <p
+                  style={click ? { display: "none" } : { display: "block" }}
+                ></p>
+              </button>
 
-//         <div className="zakazat__right">
-//           <h4>Заказ</h4>
+              <img src={rasm} alt="Image" />
+              <h4>Набор для темного пива</h4>
+              <p className="zakazat__left--card-sale">
+                7 990 ₽ <strong>7 990 ₽</strong>
+              </p>
+            </div>
+          </div>
+        </div>
+        <img src={center} alt="center_img" />
 
-//           <select>
-//             <option value="wifi">30 литров с WiFi</option>
-//             <option value="wifi">30 литров с WiFi</option>
-//             <option value="wifi">30 литров с WiFi</option>
-//           </select>
+        <div className="zakazat__right">
+          <h4>Заказ</h4>
 
-//           <div>
-//             <h3>Итого:</h3>
-//             <h2>11 000 ₽</h2>
-//           </div>
+          <select>
+            <option value="wifi">30 литров с WiFi</option>
+            <option value="wifi">30 литров с WiFi</option>
+            <option value="wifi">30 литров с WiFi</option>
+          </select>
 
-//           <form action="">
-//             <input type="text" placeholder="Имя" />
-//             <input type="tel" placeholder="+7 (___)-___-__-__" />
-//             <Checkbox className="checkbox"> Покупка в рассрочку</Checkbox>
-//             <button>Заказать</button>
-//           </form>
+          <div>
+            <h3>Итого:</h3>
+            <h2>11 000 ₽</h2>
+          </div>
 
-//           <p>
-//             Менеджеры свяжутся с вами в ближайшее время для уточнения деталей
-//             заказа
-//           </p>
-//         </div>
-//       </div>
-//     </>
-//   );
-// };
+          <form action="">
+            <input type="text" placeholder="Имя" />
+            <input type="tel" placeholder="+7 (___)-___-__-__" />
+<<<<<<< HEAD
+=======
+            
+>>>>>>> b05176f8545f6a0851b23b4fb62436279a6a4f09
+            <button>Заказать</button>
+          </form>
 
-// export default Ordered;
+          <p>
+            Менеджеры свяжутся с вами в ближайшее время для уточнения деталей
+            заказа
+          </p>
+        </div>
+      </div>
+    </>
+  );
+};
+
+export default Ordered;
