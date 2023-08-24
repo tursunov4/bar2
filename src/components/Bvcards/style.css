@@ -31,6 +31,7 @@
   background-repeat: no-repeat;
   background-position: left;
   background-size: 50% 100%;
+  background-color: #fff;
 }
 .bv__card-list > li:nth-child(2n-1) {
   display: flex;
@@ -40,6 +41,7 @@
   background-repeat: no-repeat;
   background-position: right;
   background-size: 50% 100%;
+  background-color: #fff;
 }
 
 .bv-card__text {
@@ -159,6 +161,7 @@
   }
   .bv-card__text {
     padding: 24px 32px 26px 36px;
+    background-color: #fff;
   }
   .bv-card__text-number {
     width: 30px;
@@ -206,15 +209,19 @@
     line-height: 12px; /* 131.818% */
     margin-left: 12px;
   }
+  .bv-card__text {
+    height: 40%;
+  }
 
   .bv__card-list > li:nth-child(n) {
-    height: 600px;
+    height: 800px;
     justify-content: center;
     align-items: flex-end;
     background-position: top;
-    background-size: 100% 80%;
+    background-size: 100% 60%;
     margin-bottom: 30px;
     border-radius: 10px;
+
   }
   .bv-card__text {
     width: 100%;
@@ -222,6 +229,18 @@
   }
 }
 @media only screen and (max-width: 572px) {
+  .bv-card__text {
+    height: 40% !important;
+  }
+  .bv__card-list > li:nth-child(n) {
+    height: 700px;
+    justify-content: center;
+    align-items: flex-end;
+    background-position: top;
+    background-size: 100% 80%;
+    margin-bottom: 30px;
+
+  }
   .bv__card h2 {
     font-size: 20px !important;
     line-height: 30px;
@@ -233,7 +252,18 @@
     margin-bottom: 20px;
   }
 }
-@media only screen and (max-width: 460px) {
+@media only screen and (max-width: 537px) {
+  
+  .bv__card-list > li:nth-child(n) {
+    height: 600px;
+    justify-content: center;
+    align-items: flex-end;
+    background-position: top;
+    background-size: 100% 70% !important ;
+    margin-bottom: 30px;
+    border-radius: 10px;
+ 
+  }
   .bv-card__text > h4 {
     display: none;
   }
@@ -255,7 +285,8 @@
   }
   .bv-card__text {
     position: relative;
-    height: 40%;
+    height: 30% !important;
+   
   }
   .mobile__podrob {
     cursor: pointer;

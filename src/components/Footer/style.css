@@ -142,7 +142,7 @@ footer {
   display: none;
 }
 
-@media only screen and (max-width: 1160px) {
+@media only screen and (max-width: 1207px) {
   .footer_left_h2 {
     font-size: 26px;
   }
@@ -174,7 +174,7 @@ footer {
   }
 }
 
-@media only screen and (max-width: 1024px) {
+@media only screen and (max-width: 1097px) {
   footer {
     padding: 20px;
     height: 530px;
