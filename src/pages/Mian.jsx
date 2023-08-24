@@ -15,9 +15,9 @@ const Mian = () => {
     <div>
       {/* <Header /> */}
       {/* <Hero /> */}
-      <Bavariya />
+      {/* <Bavariya /> */}
       {/* <Youtube /> */}
-      {/* <Padarka /> */}
+      <Padarka />
       {/* <Bvcards /> */}
       {/* <Delivery /> */}
       {/* <Pokupke /> */}

@@ -16,10 +16,8 @@ const Padarka = () => {
                 <div className="padarka-section__product">
                   <ul className="padarka-section__product-list">
                      <li className='paraka-list1'>
-                        <img src="" alt="" />
                      </li>
                      <li className='padarka-list2'>
-                        <img src="" alt="" />
                      </li>
                      <li className='padarka-list3'>
                         <div className='padarka__product-number'>
@@ -67,7 +65,7 @@ const Padarka = () => {
 
                      <div className="padarka-section__skidka-listitem">
                      <div className='padarka-section__skidka-img'>
-                      <img src={padarka1} alt="" />
+                      <img  src={padarka1} alt="" />
                      </div>
                        <h4>Чиллер</h4>
                        <p>1500 ₽</p>
