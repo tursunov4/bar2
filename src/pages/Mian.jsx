@@ -19,11 +19,15 @@ const Mian = () => {
       {/* <Youtube /> */}
       {/* <Padarka /> */}
       {/* <Bvcards /> */}
+
+      <Delivery />
+
       {/* <Delivery /> */}
+
       {/* <Pokupke /> */}
       {/* <Order /> */}
       {/* <Khaos /> */}
-      {/* <Footer /> */}
+      <Footer />
     </div>
   );
 };
