@@ -63,6 +63,28 @@
   src: url("./Fonts/font/Gilroy-Bold.ttf");
 }
 
+@font-face {
+  font-family: Gilroy-Black;
+  src: url("./Fonts/font/Gilroy-Black.ttf");
+}
+
+@font-face {
+  font-family: Montserrat-Bold;
+  src: url("./Fonts/Montserrat/Montserrat-Bold.ttf");
+}
+
+
+@font-face {
+  font-family: Montserrat-Semibol;
+  src: url("./Fonts/Montserrat/Montserrat-SemiBold.ttf");
+}
+
+@font-face {
+  font-family: Montserrat-Black;
+  src: url("./Fonts/Montserrat/Montserrat-Black.ttf");
+}
+
+
 * {
   margin: 0;
   padding: 0;
