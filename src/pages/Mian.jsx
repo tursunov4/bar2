@@ -8,36 +8,27 @@ import Delivery from "../components/Delivery";
 
 import Pokupke from "../components/Pokupke/Pokupka";
 
-
 import Order from "../components/Order";
 import Khaos from "../components/Khaos";
 import Footer from "../components/Footer";
 import Youtube from "../components/Youtube/Youtube";
+import Otziv from './../components/Otziv/Otziv';
 const Mian = () => {
   return (
     <div>
-      {/* <Header />
-      <Hero />
-      <Bavariya /> */}
+      {/* <Header /> */}
+      {/* <Hero /> */}
+      {/* <Bavariya /> */}
       {/* <Youtube /> */}
-      {/* <Padarka />
-      <Bvcards />
-
-
-      <Delivery />
-      <Order />
-      <Khaos />
-      <Footer /> */}
-
+      {/* <Padarka /> */}
+      {/* <Bvcards /> */}
       {/* <Delivery /> */}
-
-      {/* <Delivery /> */}
-
-      <Pokupke />
       {/* <Order /> */}
+      <Otziv />
+      {/* <Footer /> */}
+      {/* <Pokupke /> */}
       {/* <Khaos /> */}
       {/* <Footer /> */}
-
     </div>
   );
 };
