@@ -46,8 +46,8 @@ const Bavariya = () => {
            </div>
         <ul className="bavariya-section__product">
             {
-                wife2.map((item , indes)=>(
-                    <li>
+                wife2.map((item , index)=>(
+                    <li key={index}>
                     <div className='bavariya-seciton__product-image'>
                            <img src={item.img} alt="" />
                            <div className='bavariya-section__product-text'>
