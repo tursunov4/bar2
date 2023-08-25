@@ -16,9 +16,15 @@ import Otziv from './../components/Otziv/Otziv';
 const Mian = () => {
   return (
     <div>
+
       {/* <Header /> */}
       {/* <Hero /> */}
       {/* <Bavariya /> */}
+
+      <Header />
+      <Hero />
+      <Bavariya /> 
+
       {/* <Youtube /> */}
       {/* <Padarka /> */}
       {/* <Bvcards /> */}

@@ -1,6 +1,10 @@
 .youtube-section{
     padding: 100px 0;
-    background-color: #000;
+    /* background-color: #000; */
+    background-color: #FFF;
+}
+.youtube-section__wrapper{
+    width: 100%;
 }
 .youtube-section__wrapper > h2{
     color: #FFF;

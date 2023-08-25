@@ -2,8 +2,11 @@ import React, { useState } from 'react'
 import './navbar.css'
 import sitelogo from '../../../assets/Images/svg/logoheader.svg'
 import { Link } from 'react-router-dom'
+import hamburger from '../../../assets/Images/svg/header.hamburger.svg'
+import call from '../../../assets/Images/svg/contact.svg'
 const Navbar = () => {
   const [sidebar ,setSidebar] = useState(false)
+  
   return (
     <div className='navbar-section'>
      <Link to={'/'}>
@@ -26,27 +29,18 @@ const Navbar = () => {
         <a>Заказать звонок</a>
        
      </div>
-     <div onClick={()=>setSidebar(true)} className="navbar__ham-box">
-     <ul className="navbar__hamburger">
-      <li></li>
-      <li></li>
-      <li></li>
-     </ul>
+       <div className="header-navbar__mobile">
+        <a href="#">
+          <img src={call} alt="" />
+        </a>
+       <div onClick={()=>setSidebar(true)} className="navbar__ham-box1">
+      <img src={hamburger} alt="" />
      </div>
+       </div>
       {
         sidebar &&      
-        <div className="hamburger-sidebar">
-          <div className="hamburger__box-logo">
-          <Link to={'/'}>
-          <img  src={sitelogo} alt="sitelogo" />
-          </Link>
-           <div>
-           <ul onClick={()=>setSidebar(false)} className="exit-box">
-            <li className='exit-line1'></li>
-            <li className='exit-line2'></li>
-          </ul>
-           </div>
-          </div>
+        <div id='navbar'  className="hamburger-sidebar">
+         
           <div className='navbar-hamburger'>
           <Link  onClick={()=>setSidebar(false)} className='navbar-section__link2' to={'/'}>О Bavaria</Link>
           <Link onClick={()=>setSidebar(false)} className='navbar-section__link2'  to={'/'}>Комплектация</Link>       
@@ -54,10 +48,10 @@ const Navbar = () => {
           <Link onClick={()=>setSidebar(false)} className='navbar-section__link2' to={'/'}>Bavaria с WIFI</Link>  
           </div>
           <div className="hamburger__contact">
-            <h4>8 800 250 59 32</h4>
-            <p>Звонок по России бесплатный</p>
-            <button>Заказать обратный звонок</button>
-          </div>
+         <h4>8 800 250 59 32</h4>
+        <a>Заказать звонок</a>
+       
+     </div>
         </div>
       }
 
