@@ -1,7 +1,7 @@
 .modal {
     position: fixed; /* Stay in place */
     z-index: 1; /* Sit on top */
-    padding-top: 100px; /* Location of the box */
+    padding-top: 30px; /* Location of the box */
     left: 0;
     top: 0;
     width: 100%; /* Full width */
@@ -13,11 +13,12 @@
   
   /* Modal Content */
   .modal-content {
+    position: relative;
     background-color: #fefefe;
     margin: auto;
-    padding: 20px;
     border: 1px solid #888;
-    width: 70%;
+    width: 90%;
+    margin-bottom: 20px;
     border-radius: 20px;
   }
   
@@ -27,6 +28,12 @@
     float: right;
     font-size: 28px;
     font-weight: bold;
+  }
+  .modal-exit{
+    position: absolute;
+    right: 20px;
+    top: 10px;
+    cursor: pointer;
   }
   
   .close:hover,

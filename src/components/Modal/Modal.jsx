@@ -1,5 +1,6 @@
 import React from 'react'
 import './Modal.css'
+import Exit from '../../assets/Images/svg/exit.svg'
 const Modal = ({modal ,setModal ,children}) => {
     window.onclick = function(event) {
         if (event.target.id ==="modal") {
@@ -10,7 +11,7 @@ const Modal = ({modal ,setModal ,children}) => {
         return (
           <div id='modal'  class="modal">
           <div class="modal-content">
-            <span onClick={()=>setModal(false)} class="close">&times;</span>
+          <img onClick={()=>setModal(false)} className='modal-exit' src={Exit} alt="" />
             {
               children
              }
