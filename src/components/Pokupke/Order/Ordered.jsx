@@ -1,7 +1,7 @@
 import React, { useState } from "react";
-import rasm from "../../assets/Images/svg/pokupka__left.svg";
-import center from "../../assets/Images/png/pokupke_img.png";
-
+import rasm from "../../../assets/Images/svg/pokupka__left.svg";
+import center from "../../../assets/Images/png/pokupke_img.png";
+import "./style.css"
 const Ordered = () => {
   const [click, setClick] = useState(true);
   return (

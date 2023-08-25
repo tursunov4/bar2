@@ -1,7 +1,7 @@
 import React from "react";
 import "./style.css";
-import Ordered from "./Ordered";
-import Images from './Images';
+import Ordered from "./Order/Ordered";
+import Images from "./Grids/Images";
 
 const index = () => {
   return (
