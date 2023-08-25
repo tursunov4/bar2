@@ -20,14 +20,14 @@ const Mian = () => {
       <Padarka />
       {/* <Bvcards /> */}
 
-      <Delivery />
+      {/* <Delivery /> */}
 
       {/* <Delivery /> */}
 
-      {/* <Pokupke /> */}
+      <Pokupke />
       {/* <Order /> */}
       {/* <Khaos /> */}
-      <Footer />
+      {/* <Footer /> */}
     </div>
   );
 };
