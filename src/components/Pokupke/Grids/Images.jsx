@@ -1,14 +1,16 @@
 import React from "react";
-import P1 from "../../assets/Images/png/P1.png";
-import P2 from "../../assets/Images/png/P2.png";
-import P3 from "../../assets/Images/png/P3.png";
-import P4 from "../../assets/Images/png/P4.png";
-import P5 from "../../assets/Images/png/P5.png";
-import P6 from "../../assets/Images/png/P6.png";
-import P7 from "../../assets/Images/png/P7.png";
-import P8 from "../../assets/Images/png/P8.png";
-import P9 from "../../assets/Images/png/P9.png";
-import ResponsiveCard from './ResponsiveCard';
+import P1 from "../../../assets/Images/png/P1.png";
+import P2 from "../../../assets/Images/png/P2.png";
+import P3 from "../../../assets/Images/png/P3.png";
+import P4 from "../../../assets/Images/png/P4.png";
+import P5 from "../../../assets/Images/png/P5.png";
+import P6 from "../../../assets/Images/png/P6.png";
+import P7 from "../../../assets/Images/png/P7.png";
+import P8 from "../../../assets/Images/png/P8.png";
+import P9 from "../../../assets/Images/png/P9.png";
+import ResponsiveCard from "./ResponsiveCard";
+
+import "./style.css";
 
 const Images = () => {
   return (

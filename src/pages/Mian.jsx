@@ -5,7 +5,7 @@ import Bavariya from "../components/Bavariya/Bavariya";
 import Padarka from "../components/Padarka/Padarka";
 import Bvcards from "../components/Bvcards";
 import Delivery from "../components/Delivery";
-import Pokupke from "../components/Pokupke";
+import Pokupke from "../components/Pokupke/Pokupka";
 import Order from "../components/Order";
 import Khaos from "../components/Khaos";
 import Footer from "../components/Footer";
