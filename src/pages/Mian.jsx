@@ -7,7 +7,7 @@ import Bvcards from "../components/Bvcards";
 import Delivery from "../components/Delivery";
 
 import Pokupke from "../components/Pokupke/Pokupka";
-=======
+
 
 import Order from "../components/Order";
 import Khaos from "../components/Khaos";
@@ -19,7 +19,7 @@ const Mian = () => {
       {/* <Header />
       <Hero />
       <Bavariya /> */}
-      <Youtube />
+      {/* <Youtube /> */}
       {/* <Padarka />
       <Bvcards />
 
@@ -33,7 +33,7 @@ const Mian = () => {
 
       {/* <Delivery /> */}
 
-      {/* <Pokupke /> */}
+      <Pokupke />
       {/* <Order /> */}
       {/* <Khaos /> */}
       {/* <Footer /> */}
