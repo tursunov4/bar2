@@ -1,7 +1,7 @@
 import React, { useState } from "react";
-import rasm from "../../assets/Images/svg/pokupka__left.svg";
-import center from "../../assets/Images/png/pokupke_img.png";
-
+import rasm from "../../../assets/Images/svg/pokupka__left.svg";
+import center from "../../../assets/Images/png/pokupke_img.png";
+import "./style.css";
 const Ordered = () => {
   const [click, setClick] = useState(true);
   return (
@@ -146,7 +146,23 @@ const Ordered = () => {
           </p>
         </div>
 
-        <img src={center} className="zakazat__top" alt="center_img" />
+        <div className="absolute__buttons">
+          <img src={center} className="zakazat__top" alt="center_img" />
+          <div className="top__btns">
+            <button className="img__btn1" onClick={() => setClick(!click)}>
+              <p style={click ? { display: "none" } : { display: "block" }}></p>
+            </button>
+            <button className="img__btn2" onClick={() => setClick(!click)}>
+              <p style={click ? { display: "none" } : { display: "block" }}></p>
+            </button>
+            <button className="img__btn3" onClick={() => setClick(!click)}>
+              <p style={click ? { display: "none" } : { display: "block" }}></p>
+            </button>
+            <button className="img__btn4" onClick={() => setClick(!click)}>
+              <p style={click ? { display: "none" } : { display: "block" }}></p>
+            </button>
+          </div>
+        </div>
       </div>
     </>
   );
