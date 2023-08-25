@@ -85,6 +85,11 @@
 }
 
 
+@font-face {
+  font-family: Gilroy-Light;
+  src: url("./Fonts/font/Gilroy-Light.ttf");
+}
+
 * {
   margin: 0;
   padding: 0;

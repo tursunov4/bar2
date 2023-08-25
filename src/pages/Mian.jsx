@@ -19,10 +19,21 @@ const Mian = () => {
       {/* <Padarka />
       <Bvcards />
 
+
       <Delivery />
       <Order />
       <Khaos />
       <Footer /> */}
+
+      {/* <Delivery /> */}
+
+      {/* <Delivery /> */}
+
+      {/* <Pokupke /> */}
+      {/* <Order /> */}
+      {/* <Khaos /> */}
+      {/* <Footer /> */}
+
     </div>
   );
 };

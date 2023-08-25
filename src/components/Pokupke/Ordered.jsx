@@ -1,4 +1,3 @@
-
 import React, { useState } from "react";
 import rasm from "../../assets/Images/svg/pokupka__left.svg";
 import center from "../../assets/Images/png/pokupke_img.png";
@@ -109,7 +108,8 @@ const Ordered = () => {
             </div>
           </div>
         </div>
-        <img src={center} alt="center_img" />
+
+        <img src={center} alt="center_img" className="zakazat__bot" />
 
         <div className="zakazat__right">
           <h4>Заказ</h4>
@@ -120,7 +120,15 @@ const Ordered = () => {
             <option value="wifi">30 литров с WiFi</option>
           </select>
 
-          <div>
+          <div className="responsive__paragraph">
+            <p>
+              Набор лент (3 шт.) <span>..........1990 руб.</span>
+            </p>
+            <p>
+              Электронапильник <span>........1990 руб.</span>
+            </p>
+          </div>
+          <div className="zakazat__bolds">
             <h3>Итого:</h3>
             <h2>11 000 ₽</h2>
           </div>
@@ -128,10 +136,7 @@ const Ordered = () => {
           <form action="">
             <input type="text" placeholder="Имя" />
             <input type="tel" placeholder="+7 (___)-___-__-__" />
-<<<<<<< HEAD
-=======
-            
->>>>>>> b05176f8545f6a0851b23b4fb62436279a6a4f09
+
             <button>Заказать</button>
           </form>
 
@@ -140,6 +145,8 @@ const Ordered = () => {
             заказа
           </p>
         </div>
+
+        <img src={center} className="zakazat__top" alt="center_img" />
       </div>
     </>
   );
