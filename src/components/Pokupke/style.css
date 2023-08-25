@@ -1,6 +1,9 @@
 .pokupke {
-  padding: 100px 250px;
   background: #ececec;
+}
+
+.pokupka__wrapper {
+  padding: 100px 0;
 }
 
 .pokupka__title {
@@ -36,11 +39,9 @@
   border-radius: 10px;
   background: #fbfbfb;
   padding: 20px 15px;
-  /* width: 427px; */
 }
 
 .zakazat__left--wrapper {
-  width: 427px;
   height: 784px;
   overflow-y: scroll;
   padding: 8px;
@@ -48,6 +49,17 @@
 
 .zakazat__left--wrapper::-webkit-scrollbar {
   width: 2px;
+}
+
+.zakazat__bot {
+  background-size: cover;
+  width: 50%;
+}
+
+.zakazat__top {
+  display: none;
+  background-size: cover;
+  width: 50%;
 }
 
 .zakazat__left--wrapper::-webkit-scrollbar-track {
@@ -63,10 +75,14 @@
 .zakazat__left--card {
   display: flex;
   align-items: center;
-  column-gap: 16px;
+  gap: 16px;
   padding-bottom: 20px;
   margin: 35px auto;
   border-bottom: 1px solid #c8c8c8;
+}
+
+.zakazat__left--card img {
+  width: 40px;
 }
 
 .zakazat__left--card h4 {
@@ -119,7 +135,7 @@
 
 .zakazat__right {
   padding: 30px;
-  width: 342px;
+  /* width: 342px; */
   border-radius: 10px;
   background: #fff;
   box-shadow: 0px 4px 15px 0px rgba(170, 170, 170, 0.2);
@@ -151,7 +167,7 @@
   outline: none;
 }
 
-.zakazat__right div {
+.zakazat__bolds {
   border-bottom: 1px solid #e0e0e0;
   border-top: 1px solid #e0e0e0;
 }
@@ -206,20 +222,6 @@
   border: 1px solid #8b8b8b;
 }
 
-.zakazat__right form p {
-  display: flex;
-  gap: 10px;
-  align-items: center;
-  justify-content: center;
-  color: #4f4f4f;
-  font-family: Inter;
-  font-size: 20px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: normal;
-  letter-spacing: 0.2px;
-}
-
 .checkbox {
   display: flex;
   justify-content: center;
@@ -255,6 +257,385 @@
   font-style: normal;
   font-weight: 500;
   line-height: normal;
+  width: 280px;
 }
 
+.images {
+  margin-top: 100px;
+  padding: 100px auto;
+}
 
+.images > h1 {
+  color: #323232;
+  text-align: center;
+  font-family: Gilroy;
+  font-size: 52px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 59px;
+  margin-bottom: 50px;
+  text-transform: uppercase;
+}
+
+.pokupka__images {
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  justify-content: center;
+  gap: 30px;
+  height: 100%;
+}
+
+#item-0 img {
+  width: 100%;
+}
+#item-0 {
+  cursor: pointer;
+  grid-row-start: 1;
+  grid-column-start: 1;
+  border-radius: 5px;
+  grid-row-end: 3;
+  grid-column-end: 3;
+}
+
+#item-1 img {
+  width: 100%;
+}
+
+#item-1 {
+  cursor: pointer;
+  grid-row-start: 3;
+  grid-column-start: 1;
+  border-radius: 5px;
+  grid-row-end: 4;
+  grid-column-end: 2;
+}
+
+#item-2 img {
+  width: 100%;
+}
+
+#item-2 {
+  cursor: pointer;
+  grid-row-start: 3;
+  grid-column-start: 2;
+  border-radius: 5px;
+  grid-row-end: 4;
+  grid-column-end: 3;
+}
+
+#item-3 img {
+  width: 100%;
+}
+
+#item-3 {
+  cursor: pointer;
+  grid-row-start: 1;
+  grid-column-start: 3;
+  border-radius: 5px;
+  grid-row-end: 2;
+  grid-column-end: 4;
+}
+
+#item-4 img {
+  width: 100%;
+}
+
+#item-4 {
+  cursor: pointer;
+  grid-row-start: 1;
+  grid-column-start: 4;
+  border-radius: 5px;
+  grid-row-end: 2;
+  grid-column-end: 5;
+}
+
+#item-5 img {
+  width: 100%;
+}
+
+#item-5 {
+  cursor: pointer;
+  grid-row-start: 2;
+  grid-column-start: 3;
+  border-radius: 5px;
+  grid-row-end: 4;
+  grid-column-end: 5;
+}
+
+#item-6 img {
+  width: 100%;
+}
+
+#item-6 {
+  cursor: pointer;
+  grid-row-start: 1;
+  grid-column-start: 5;
+  border-radius: 5px;
+  grid-row-end: 3;
+  grid-column-end: 7;
+}
+
+#item-7 img {
+  width: 100%;
+}
+
+#item-7 {
+  cursor: pointer;
+  grid-row-start: 3;
+  grid-column-start: 5;
+  border-radius: 5px;
+  grid-row-end: 4;
+  grid-column-end: 6;
+}
+
+#item-8 img {
+  width: 100%;
+}
+
+#item-8 {
+  cursor: pointer;
+  grid-row-start: 3;
+  grid-column-start: 6;
+  border-radius: 5px;
+  grid-row-end: 4;
+  grid-column-end: 7;
+}
+
+.responsive {
+  display: none;
+}
+
+.responsive h1 {
+  color: #323232;
+  text-align: center;
+  font-family: Gilroy;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 29px;
+  text-transform: uppercase;
+}
+
+.responsive__card {
+  display: flex;
+  justify-content: center;
+  overflow-x: scroll;
+  justify-content: space-between;
+  gap: 80px;
+}
+
+.responsive__paragraph {
+  display: none;
+}
+
+@media only screen and (max-width: 1370px) {
+  .pokupka__title {
+    font-size: 42px;
+  }
+
+  .images h1 {
+    font-size: 42px;
+  }
+
+  .zakazat {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .pokupka__paragraph {
+    font-size: 24px;
+  }
+  .zakazat__left {
+    padding: 12px;
+    width: 100%;
+  }
+
+  .zakazat__left--card h4 {
+    font-size: 16px;
+  }
+
+  .zakazat__left--card button {
+    width: 24px;
+    height: 24px;
+  }
+
+  .zakazat__left--card-sale {
+    font-size: 12px;
+  }
+
+  .zakazat__left--card-sale strong {
+    font-size: 14px;
+  }
+
+  .zakazat__right h4 {
+    font-size: 27px;
+  }
+
+  .zakazat__right select {
+    font-size: 16px;
+  }
+
+  .zakazat__right div h3 {
+    font-size: 25px;
+  }
+
+  .zakazat__right select {
+    font-size: 17px;
+  }
+
+  .zakazat__right form input {
+    font-size: 17px;
+  }
+
+  .zakazat__right form button {
+    font-size: 32px;
+  }
+
+  .zakazat__right p {
+    font-size: 15px;
+    width: 278px;
+  }
+}
+
+@media only screen and (max-width: 866px) {
+  .pokupka__wrapper {
+    padding: 30px 20px;
+  }
+  .zakazat {
+    flex-wrap: nowrap;
+    flex-direction: column-reverse;
+  }
+  .zakazat__left {
+    display: none;
+  }
+
+  .zakazat__right {
+    width: 100%;
+  }
+
+  .zakazat__right select {
+    width: 50%;
+    display: grid;
+
+    place-content: center;
+  }
+
+  .zakazat__right p {
+    width: 100%;
+  }
+
+  .zakazat__bot {
+    display: none;
+  }
+
+  .zakazat__top {
+    display: block;
+  }
+}
+
+@media only screen and (max-width: 570px) {
+  .zakazat {
+    gap: 30px;
+    padding: 25px 0;
+  }
+  .pokupka__title {
+    font-size: 22px;
+    line-height: 29px;
+  }
+
+  .pokupka__paragraph {
+    margin-top: 0;
+    font-size: 18px;
+    line-height: 25px;
+    margin-bottom: 30px;
+  }
+
+  .images h1 {
+    font-size: 22px;
+    line-height: 29px;
+  }
+
+  .images {
+    display: none;
+  }
+
+  .responsive {
+    display: block;
+    margin-top: 30px;
+  }
+
+  .responsive h1 {
+    margin-bottom: 30px;
+  }
+
+  .responsive__card img {
+    width: 100%;
+  }
+
+  .zakazat__right h4 {
+    font-size: 22px;
+  }
+
+  .zakazat__right select {
+    font-size: 15px;
+    margin: 15px 10px;
+    width: 100%;
+  }
+
+  .responsive__paragraph {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 20px auto;
+  }
+
+  .responsive__paragraph p {
+    color: #323232;
+    font-family: Gilroy-Regular;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 21px;
+    margin: 5px auto;
+  }
+
+  .responsive__paragraph span {
+    color: #707070;
+    text-align: right;
+    font-family: Gilroy-Light;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 21px;
+  }
+
+  .zakazat__right h3 {
+    font-size: 22px;
+  }
+
+  .zakazat__bolds {
+    margin-bottom: 20px;
+    padding: 10px auto;
+  }
+
+  .zakazat__right h2 {
+    font-size: 32px;
+    line-height: 39px;
+  }
+
+  .zakazat__right form input {
+    margin-bottom: 10px;
+  }
+
+  .zakazat__right form button {
+    font-size: 22px;
+    padding: 20px 49px;
+    width: 100%;
+    text-align: center;
+  }
+
+  .zakazat__right {
+    padding: 25px 17px;
+  }
+}
