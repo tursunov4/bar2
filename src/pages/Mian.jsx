@@ -12,10 +12,10 @@ import Youtube from "../components/Youtube/Youtube";
 const Mian = () => {
   return (
     <div>
-      {/* <Header />
+      <Header />
       <Hero />
-      <Bavariya /> */}
-      <Youtube />
+      <Bavariya />
+      {/* <Youtube /> */}
       {/* <Padarka />
       <Bvcards />
 
