@@ -24,6 +24,11 @@
 }
 
 @font-face {
+  font-family: Roboto-Bold;
+  src: url('./Fonts/Roboto/Roboto-Bold.ttf');
+}
+
+@font-face {
   font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
   font-family: "Merriweather";
   font-style: normal;
@@ -93,6 +98,12 @@
 @font-face {
   font-family: Gilroy-Light;
   src: url("./Fonts/font/Gilroy-Light.ttf");
+}
+
+
+@font-face {
+  font-family: Gilroy-Medium;
+  src: url("./Fonts/font/Gilroy-Medium.ttf");
 }
 
 * {
