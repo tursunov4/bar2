@@ -1,7 +1,7 @@
-.modal {
+.modal3 {
     position: fixed; /* Stay in place */
     z-index: 1; /* Sit on top */
-    padding-top: 30px; /* Location of the box */
+    padding-top: 80px; /* Location of the box */
     left: 0;
     top: 0;
     width: 100%; /* Full width */
@@ -12,34 +12,31 @@
   }
   
   /* Modal Content */
-  .modal-content {
+  .modal-content3 {
     position: relative;
-    background-color: #fefefe;
+    border-radius: 10px;
+background: #E0E0E0;
     margin: auto;
-    border: 1px solid #888;
-    width: 90%;
+   width: 745px;
+   height: 745px;
+   padding: 20px;
     margin-bottom: 20px;
     border-radius: 20px;
     
-  }
-  
-  /* The Close Button */
-  .close {
-    color: #aaaaaa;
-    float: right;
-    font-size: 28px;
-    font-weight: bold;
-  }
-  .modal-exit{
+  } 
+  .modal-exit3{
     position: absolute;
     right: 20px;
     top: 10px;
     cursor: pointer;
   }
-  
-  .close:hover,
-  .close:focus {
-    color: #000;
-    text-decoration: none;
-    cursor: pointer;
+  @media only screen and (max-width:900px){
+    .modal-content3 {
+    
+       width: 500px;
+       height: 500px;
+        
+      } 
   }
+  
+  

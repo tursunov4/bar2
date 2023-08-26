@@ -5,57 +5,29 @@ import Bavariya from "../components/Bavariya/Bavariya";
 import Padarka from "../components/Padarka/Padarka";
 import Bvcards from "../components/Bvcards";
 import Delivery from "../components/Delivery";
-
 import Pokupke from "../components/Pokupke/Pokupka";
-
 import Order from "../components/Order";
 import Khaos from "../components/Khaos";
 import Footer from "../components/Footer";
 import Youtube from "../components/Youtube/Youtube";
 import Otziv from './../components/Otziv/Otziv';
+import Kanstruktor from "../components/Kasntruktor/Kanstruktor";
 const Mian = () => {
   return (
-    <div>
-
-      {/* <Header />
-      <Hero />
-      <Bavariya />  */}
-      {/* <Padarka />
-      <Bvcards />
-      
-      
-      <Delivery />
-      <Order />
-      <Khaos />
-    <Footer /> */}
-
-      {/* <Delivery /> */}
-
-      {/* <Delivery /> */}
-
-      {/* <Pokupke /> */}
-
-
-      {/* <Header /> */}
-      {/* <Hero /> */}
-      {/* <Bavariya /> */}
-
+    <div>  
       <Header />
       <Hero />
       <Bavariya /> 
-    <Youtube />
-
-      {/* <Youtube /> */}
-      {/* <Padarka /> */}
-      {/* <Bvcards /> */}
-      {/* <Delivery /> */}
-
-      {/* <Order /> */}
+      <Youtube />
+      <Padarka />
+      <Bvcards />
+      <Delivery />
+      <Kanstruktor/>
       <Otziv />
-      {/* <Footer /> */}
-      {/* <Pokupke /> */}
-      {/* <Khaos /> */}
-      {/* <Footer /> */}
+      <Pokupke />
+      <Order />
+      <Khaos />
+      <Footer />
     </div>
   );
 };

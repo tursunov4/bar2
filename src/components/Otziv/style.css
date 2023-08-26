@@ -1,83 +1,27 @@
 .otziv {
-  background: #ececec;
-  padding: 100px 325px;
+  padding: 100px 0;
+  background-color: #ececec;
 }
-
-.otziv__wrapper {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  width: 100%;
-}
-
-.otziv__wrapper h1 {
+.otziv h2 {
   color: #323232;
   text-align: center;
-  font-family: Gilroy-Bold;
+  font-family: Gilroy;
   font-size: 52px;
   font-style: normal;
   font-weight: 700;
-  line-height: 59px;
+  line-height: 59px; /* 113.462% */
   text-transform: uppercase;
   margin-bottom: 60px;
 }
-
-.otziv__wrapper button {
-  color: #323232;
-  text-align: center;
-  font-family: Inter;
-  font-size: 40px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: normal;
-  background: #e0e0e0;
-  border: none;
-  padding: 24px 40px;
-  border-radius: 5px;
-  margin-top: 50px;
-  cursor: pointer;
-  outline: none;
-}
-
-.otziv__slide {
-  padding: 50px;
-  border-radius: 10px;
-  background: #fff;
-  box-shadow: 0px 4px 14px 0px rgba(111, 111, 111, 0.15);
-  display: flex;
-  gap: 42.5px;
-  align-items: center;
-  justify-content: center;
-}
-
-.otziv__slide--user p {
-  color: #323232;
-  font-family: Gilroy;
-  font-size: 22px;
-  font-style: normal;
-  font-weight: 300;
-  line-height: 29px;
-  margin: 10px auto;
-}
-
-.information {
-  display: flex;
-  align-items: center;
-  gap: 30px;
-  margin-bottom: 50px;
-}
-
-.owner h3 {
-  color: #4f4f4f;
+.otviz-wrapper__contact-name > h3 {
+  color: var(--gray-2, #4f4f4f);
   font-family: Gilroy;
   font-size: 32px;
   font-style: normal;
   font-weight: 500;
   line-height: 39px;
 }
-
-.owner p {
+.otviz-wrapper__contact-name > p {
   color: #323232;
   font-family: Gilroy;
   font-size: 22px;
@@ -86,126 +30,204 @@
   line-height: 29px;
 }
 
-@media only screen and (max-width: 1611px) {
-  .otziv__wrapper h1 {
-    font-size: 42px;
-    line-height: 40px;
-  }
-
-  .information {
-    flex-direction: column;
-  }
-
-  .otziv__slide--user p {
-    font-size: 18px;
-  }
-
-  .owner h3 {
-    font-size: 26px;
-  }
-  .owner p {
-    font-size: 18px;
-  }
-
-  .otziv__wrapper button {
-    font-size: xx-large;
-  }
+.otviz__wrapper {
+  width: 90%;
+  margin: 0 auto;
+  padding: 50px;
+  border-radius: 10px;
+  background: #fff;
+  box-shadow: 0px 4px 14px 0px rgba(111, 111, 111, 0.15);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
 }
 
-@media only screen and (max-width: 1390px) {
+.otviz__wrapper-text {
+  max-width: 776px;
+}
+.otviz__wrapper-contact {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 50px;
+  gap: 20px;
+}
+.contact-name__textp {
+  color: #323232;
+  font-family: Gilroy;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 29px;
+  margin-bottom: 20px;
+}
+.otziv__carusel {
+  width: 100%;
+  position: relative;
+}
+.otziv__prev {
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  top: 46%;
+  z-index: 3;
+}
+.otziv__next {
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  right: 25px;
+  top: 46%;
+  z-index: 3;
+}
+.otziv__prev {
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  top: 46%;
+  z-index: 3;
+}
+.otviz__phone {
+  position: relative;
+}
+.otviz__telegram {
+  position: absolute;
+  width: 219.226px;
+  height: 457px;
+  top: 68px;
+  right: 26px;
+}
+.otviz__btn{
+  display: block;
+  cursor: pointer;
+  width: 404px;
+  height: 96px;
+  margin: 0 auto;
+  margin-top: 50px;
+  border-radius: 5px;
+  outline: none;
+  border: none  ;
+  background-color: #E0E0E0;;
+color: #323232;
+text-align: center;
+font-family: Inter;
+font-size: 40px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+@media only screen and (max-width: 1072px) {
+  .otziv h2 {
+    font-size: 30px;
+    line-height: 35px; /* 113.462% */
+    margin-bottom: 50px;
+  }
   .otziv {
-    padding: 50px 325px;
+    padding: 70px 0;
   }
-  .otziv__wrapper h1 {
-    font-size: 36px;
-  }
-
-  .otziv__slide--user p {
-    font-size: 16px;
-  }
-  .otziv__slide {
-    flex-direction: column-reverse;
-  }
-
-  .owner h3 {
-    font-size: 24px;
-  }
-
-  .owner p {
-    font-size: 16px;
-  }
-
-  .otziv__wrapper button {
-    font-size: 26px;
-  }
-}
-
-@media only screen and (max-width: 1055px) {
-  .otziv {
-    padding: 50px 150px;
-  }
-  .otziv__wrapper h1 {
-    font-size: 28px;
-    margin-bottom: 25px;
-    line-height: 30px;
-  }
-
-  .otziv__slide {
-    padding: 20px;
-  }
-
-  .otziv__slide--user p {
-    font-size: 15px;
-  }
-
-  .owner h3 {
-    font-size: 20px;
-  }
-
-  .owner p {
-    font-size: 15px;
-  }
-
-  .otziv__wrapper button {
-    font-size: 20px;
-    padding: 15px 20px;
-    margin-top: 25px;
-  }
-}
-
-@media only screen and (max-width: 882px) {
-  .otziv__wrapper h1 {
+  .otviz-wrapper__contact-name > h3 {
     font-size: 22px;
-  }
-
-  .owner h3 {
-    font-size: 18px;
     line-height: 25px;
+    margin-bottom: 10px;
   }
-
-  .information {
-    margin-bottom: 20px;
+  .otviz-wrapper__contact-name > p {
+    font-size: 18px;
+    line-height: 21px;
   }
-
-  .owner p {
-    line-height: 22px;
-  }
-
-  .otziv__slide {
-    gap: 30px;
+  .contact-name__textp {
+    font-size: 18px;
+    line-height: 21px;
+    margin-bottom: 15px;
   }
 }
-
-@media only screen and (max-width: 606px) {
-  .otziv {
-    padding: 30px 20px;
-  }
-
-  .hidden{
+@media only screen and (max-width: 804px) {
+  .contact-name__textp {
     display: none;
   }
-
-  .otziv__slide{
-    gap: 5px;
+  .otviz__wrapper {
+    flex-direction: column-reverse;
+    gap: 0;
+  }
+  .otviz__telegram {
+    width: 174.798px;
+    height: 348.19px;
+    top: 47px;
+    right: 14px;
+  }
+  .otviz__wrapper-contact {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .otviz-wrapper__contact-name > h3 {
+    text-align: center;
+  }
+  .otviz-wrapper__contact-name > p {
+    text-align: center;
+    margin-bottom: 0;
+  }
+  .otviz__phone-img {
+    width: 204.952px;
+    height: 432px;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .otziv {
+    padding: 50px 0;
+  }
+  .otziv h2 {
+    font-size: 22px;
+    line-height: 29px;
+  }
+  .otviz__wrapper-contact {
+    margin-bottom: 10px;
+  }
+  .otviz__wrapper-contact > img {
+    width: 61px;
+    height: 61px;
+  }
+  .otviz-wrapper__contact-name > h3 {
+    font-size: 18px;
+    line-height: 25px;
+    margin-bottom: 5px;
+  }
+  .otviz__btn{
+    margin-top: 30px;
+    width: 200px;
+height: 67px;
+font-size: 22px;
+line-height: normal;
+  }
+  .otviz-wrapper__contact-name > p {
+    font-size: 15px;
+    line-height: 22px;
+    margin-bottom: 0;
+  }
+  .otviz__wrapper {
+    height: 637px;
+    padding: 10px;
+  }
+  .otziv__next {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    right: 10px;
+    top: 48%;
+    z-index: 3;
+  }
+  .otziv__next > img {
+    width: 30px;
+    height: 30px;
+  }
+  .otziv__prev > img {
+    width: 30px;
+    height: 30px;
+  }
+  .otziv__prev {
+    position: absolute;
+    top: 48%;
+    left: 10px;
+    z-index: 3;
   }
 }
