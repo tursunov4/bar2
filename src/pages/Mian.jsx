@@ -45,7 +45,7 @@ const Mian = () => {
       <Bavariya />
       <Youtube /> */}
 
-      {/* <Youtube /> */}
+      <Youtube />
       {/* <Padarka /> */}
       {/* <Bvcards /> */}
       {/* <Delivery /> */}
@@ -53,7 +53,7 @@ const Mian = () => {
       {/* <Order /> */}
       {/* <Otziv /> */}
       {/* <Manage /> */}
-      <Zakajite />
+      {/* <Zakajite /> */}
       {/* <Footer /> */}
       {/* <Pokupke /> */}
       {/* <Khaos /> */}
