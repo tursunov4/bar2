@@ -12,11 +12,11 @@ import Order from "../components/Order";
 import Khaos from "../components/Khaos";
 import Footer from "../components/Footer";
 import Youtube from "../components/Youtube/Youtube";
-import Otziv from './../components/Otziv/Otziv';
+import Otziv from "./../components/Otziv/Otziv";
+import Manage from './../components/Manage/Manage';
 const Mian = () => {
   return (
     <div>
-
       {/* <Header />
       <Hero />
       <Bavariya />  */}
@@ -35,15 +35,14 @@ const Mian = () => {
 
       {/* <Pokupke /> */}
 
-
       {/* <Header /> */}
       {/* <Hero /> */}
       {/* <Bavariya /> */}
 
-      <Header />
+      {/* <Header />
       <Hero />
-      <Bavariya /> 
-    <Youtube />
+      <Bavariya />
+      <Youtube /> */}
 
       {/* <Youtube /> */}
       {/* <Padarka /> */}
@@ -51,7 +50,8 @@ const Mian = () => {
       {/* <Delivery /> */}
 
       {/* <Order /> */}
-      <Otziv />
+      {/* <Otziv /> */}
+      <Manage />
       {/* <Footer /> */}
       {/* <Pokupke /> */}
       {/* <Khaos /> */}
