@@ -10,9 +10,11 @@ import Order from "../components/Order";
 import Khaos from "../components/Khaos";
 import Footer from "../components/Footer";
 import Youtube from "../components/Youtube/Youtube";
-
 import Otziv from './../components/Otziv/Otziv';
 import Kanstruktor from "../components/Kasntruktor/Kanstruktor";
+import Manage from './../components/Manage/Manage';
+import Zakajite from './../components/Zakajite/Zakajite';
+
 const Mian = () => {
   return (
     <div>  
@@ -25,10 +27,14 @@ const Mian = () => {
       <Delivery />
       <Kanstruktor/>
       <Otziv />
+      <Zakajite />
       <Pokupke />
       <Order />
       <Khaos />
       <Footer />
+
+
+    
 
     </div>
   );
