@@ -14,6 +14,11 @@
 }
 
 @font-face {
+  font-family: Inter-Bold;
+  src: url("./Fonts/static/Inter-Bold.ttf");
+}
+
+@font-face {
   font-family: Roboto;
   src: url('./Fonts/Roboto/Roboto-Regular.ttf');
 }

@@ -14,6 +14,7 @@ import Footer from "../components/Footer";
 import Youtube from "../components/Youtube/Youtube";
 import Otziv from "./../components/Otziv/Otziv";
 import Manage from './../components/Manage/Manage';
+import Zakajite from './../components/Zakajite/Zakajite';
 const Mian = () => {
   return (
     <div>
@@ -51,7 +52,8 @@ const Mian = () => {
 
       {/* <Order /> */}
       {/* <Otziv /> */}
-      <Manage />
+      {/* <Manage /> */}
+      <Zakajite />
       {/* <Footer /> */}
       {/* <Pokupke /> */}
       {/* <Khaos /> */}
