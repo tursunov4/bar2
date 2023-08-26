@@ -10,6 +10,7 @@ import Order from "../components/Order";
 import Khaos from "../components/Khaos";
 import Footer from "../components/Footer";
 import Youtube from "../components/Youtube/Youtube";
+
 import Otziv from './../components/Otziv/Otziv';
 import Kanstruktor from "../components/Kasntruktor/Kanstruktor";
 const Mian = () => {
@@ -28,6 +29,7 @@ const Mian = () => {
       <Order />
       <Khaos />
       <Footer />
+
     </div>
   );
 };
