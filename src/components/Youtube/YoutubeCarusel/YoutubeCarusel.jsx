@@ -3,13 +3,34 @@ import './style.css'
 import { Navigation, Pagination, Scrollbar, A11y } from 'swiper/modules';
 import {Swiper,SwiperSlide} from 'swiper/react'
 import buttle1 from "../../../assets/Images/png/ybutul1.png"
+import buttle3 from "../../../assets/Images/png/ybutul3.png"
+import buttle4 from "../../../assets/Images/png/ybutul4.png"
 import prev from '../../../assets/Images/svg/prev.svg'
 import next from '../../../assets/Images/svg/next.svg'
 import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 
+
 const YoutubeCarusel = () => {
+  const carusel = [
+    {
+      img : buttle1,
+      text :'Пшеничное пиво'
+    },
+    {
+      img : buttle1,
+      text :'Ячменное пиво'
+    },
+    {
+      img : buttle3,
+      text :'IPA'
+    },
+    {
+      img : buttle4,
+      text :'Молочный стаут'
+    },
+  ]
   return (
     <div className='youtubecarusel'>
       <div className='youtubecarusel-line'></div>
@@ -17,9 +38,8 @@ const YoutubeCarusel = () => {
         <div className="youtubecarusel__wrapper">
         <Swiper
         className='youtubecarusel__swipper'
-      modules={[Navigation, Pagination,  A11y]}
-    
-       centerInsufficientSlides
+        modules={[Navigation, Pagination,  A11y]}    
+        centerInsufficientSlides
       breakpoints={{
         300:{
           slidesPerView:1
@@ -38,35 +58,19 @@ const YoutubeCarusel = () => {
     >
       <img className='youtubecarusel__wrapper-prev' src={prev} alt="sdfasf" />
       <img className='youtubecarusel__wrapper-next' src={next} alt="sdfasf" />
-      <SwiperSlide className='youtubecarusel__swipper-slide'>
+      {
+        carusel.map((item, index)=> (
+
+      <SwiperSlide key={index} className='youtubecarusel__swipper-slide'>
         <div className='youtubecarusel__swipper-wrap'>
-          <h4>Пшеничное пиво</h4>
+          <h4>{item.text}</h4>
           <p>Открыть рецепт</p>
-          <img src={buttle1} alt="" />
+          <img src={item.img} alt="img" />
         </div>
       </SwiperSlide>
-      <SwiperSlide className='youtubecarusel__swipper-slide'>
-        <div className='youtubecarusel__swipper-wrap'>
-          <h4>Пшеничное пиво</h4>
-          <p>Открыть рецепт</p>
-          <img src={buttle1} alt="" />
-        </div>
-      </SwiperSlide>
-      <SwiperSlide className='youtubecarusel__swipper-slide'>
-        <div className='youtubecarusel__swipper-wrap'>
-          <h4>Пшеничное пиво</h4>
-          <p>Открыть рецепт</p>
-          <img src={buttle1} alt="" />
-        </div>
-      </SwiperSlide>
-      
-      <SwiperSlide className='youtubecarusel__swipper-slide'>
-        <div className='youtubecarusel__swipper-wrap'>
-          <h4>Пшеничное пиво</h4>
-          <p>Открыть рецепт</p>
-          <img src={buttle1} alt="" />
-        </div>
-      </SwiperSlide>
+        ))
+      }
+    
       
    
     </Swiper>

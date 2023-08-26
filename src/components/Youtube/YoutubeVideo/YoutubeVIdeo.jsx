@@ -23,7 +23,7 @@ const YoutubeVIdeo = () => {
         </li>
         <li className='youtube-video__text-listitem'>
            <h5>3. Варка</h5>
-           <p>Добавьте хмель для горечи в самом начале варки. Добавьте хмель для вкуса, когда прошло ¾ всего процесса. Добавьте хмель для аромата за 5–7 минут до конца варки.</p>
+           <p>Добавьте хмель для горечи в самом начале варки. Добавьте хмель для вкуса, когда прошло ¾ всего процесса. Добавьте хмель для аромата за 5–7 минут до конца варки.</p>
         </li>
         <li className='youtube-video__text-listitem'>
            <h5>4. Охлаждение</h5>
@@ -37,7 +37,9 @@ const YoutubeVIdeo = () => {
       <div onClick={()=>setModal(true)} className='youtubevideo__mashina-text'>Подробнее об этапах приготовления</div>
      </div>
      <div className="youtubevide-wrapper__videos">
-      <div className='youtubevideo-wrapper__video' ></div>
+      <div className='youtubevideo-wrapper__video' >
+      <iframe width="100%" height="100%" src="https://www.youtube.com/embed/5eBBdBEbbXQ?si=lwIgRVcNZcWQl-VX" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+      </div>
       <div className='youtubevideo-wrapper__video'></div>
      </div>
      

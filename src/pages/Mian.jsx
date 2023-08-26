@@ -5,36 +5,37 @@ import Bavariya from "../components/Bavariya/Bavariya";
 import Padarka from "../components/Padarka/Padarka";
 import Bvcards from "../components/Bvcards";
 import Delivery from "../components/Delivery";
-
 import Pokupke from "../components/Pokupke/Pokupka";
-
 import Order from "../components/Order";
 import Khaos from "../components/Khaos";
 import Footer from "../components/Footer";
 import Youtube from "../components/Youtube/Youtube";
-import Otziv from "./../components/Otziv/Otziv";
+import Otziv from './../components/Otziv/Otziv';
+import Kanstruktor from "../components/Kasntruktor/Kanstruktor";
 import Manage from './../components/Manage/Manage';
 import Zakajite from './../components/Zakajite/Zakajite';
+
 const Mian = () => {
   return (
-    <div>
-      {/* <Header />
+    <div>  
+      <Header />
       <Hero />
-      <Bavariya />  */}
-      {/* <Padarka />
+      <Bavariya /> 
+      <Youtube />
+      <Padarka />
       <Bvcards />
-      
-      
       <Delivery />
+      <Kanstruktor/>
+      <Otziv />
+      <Zakajite />
+      <Pokupke />
       <Order />
       <Khaos />
-    <Footer /> */}
+      <Footer />
 
-      {/* <Delivery /> */}
 
-      {/* <Delivery /> */}
+    
 
-      {/* <Pokupke /> */}
 
       {/* <Header /> */}
       {/* <Hero /> */}
@@ -58,6 +59,8 @@ const Mian = () => {
       {/* <Pokupke /> */}
       {/* <Khaos /> */}
       {/* <Footer /> */}
+
+
     </div>
   );
 };
