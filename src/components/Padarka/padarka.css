@@ -47,6 +47,7 @@
   height: 332px;
   border-radius: 10px;
   border: 3px solid #e0e0e0;
+  position: relative;
   background: url("../../assets/Images/png/padarka1.png"), 50% / cover no-repeat;
 }
 .padarka-list2 {
@@ -56,8 +57,133 @@
   border: 3px solid #e0e0e0;
   background: url("../../assets/Images/png/padarka2.png");
   background-repeat: no-repeat;
+  position: relative;
   background-position: center;
 }
+
+.button {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  border: 2px solid #000;
+  color: #323232;
+  text-align: center;
+  font-family: Gilroy;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 29px;
+  letter-spacing: 0.22px;
+}
+
+.button:focus {
+  color: #fff;
+  background: #ffb800;
+  border: none;
+}
+
+.paraka-list1--btn1 {
+  position: absolute;
+  bottom: 30%;
+  left: 35%;
+}
+
+.paraka-list1--btn2 {
+  position: absolute;
+  bottom: 20%;
+  right: 20%;
+}
+
+.paraka-list1--btn3 {
+  position: absolute;
+  bottom: 12%;
+  left: 21%;
+}
+
+.paraka-list1--btn4 {
+  position: absolute;
+  bottom: 8%;
+  right: 33%;
+}
+
+.paraka-list1--btn5 {
+  position: absolute;
+  bottom: 40%;
+  left: 25%;
+}
+
+.paraka-list1--btn6 {
+  position: absolute;
+  bottom: 55%;
+  right: 36%;
+}
+
+.paraka-list1--btn7 {
+  position: absolute;
+  bottom: 37%;
+  right: 38%;
+}
+
+.paraka-list1--btn8 {
+  position: absolute;
+  bottom: 27%;
+  left: 46%;
+}
+
+.paraka-list2--btn1 {
+  position: absolute;
+  top: 50%;
+  left: 37%;
+}
+
+.paraka-list2--btn2 {
+  position: absolute;
+  bottom: 35%;
+  right: 22%;
+}
+
+.paraka-list2--btn3 {
+  position: absolute;
+  bottom: 17%;
+  left: 27%;
+}
+
+.paraka-list2--btn4 {
+  position: absolute;
+  bottom: 10%;
+  right: 40%;
+}
+
+.paraka-list2--btn5 {
+  position: absolute;
+  top: 46%;
+  left: 27%;
+}
+
+.paraka-list2--btn6 {
+  position: absolute;
+  top: 23%;
+  right: 36%;
+}
+
+.paraka-list2--btn7 {
+  position: absolute;
+  top: 59%;
+  right: 39%;
+}
+
+.paraka-list2--btn7 {
+  position: absolute;
+  top: 56%;
+  right: 39%;
+}
+
+.paraka-list2--btn8 {
+  position: absolute;
+  top: 55%;
+  right: 47%;
+}
+
 .padarka-list3 {
   display: flex;
   align-items: center;
@@ -377,6 +503,117 @@
     flex-wrap: wrap;
     gap: 20px;
   }
+
+  .button {
+    width: 24px;
+    height: 24px;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .paraka-list1--btn1 {
+    position: absolute;
+    bottom: 35%;
+    left: 35%;
+  }
+
+  .paraka-list1--btn2 {
+    position: absolute;
+    bottom: 20%;
+    right: 20%;
+  }
+
+  .paraka-list1--btn3 {
+    position: absolute;
+    bottom: 23%;
+    left: 23%;
+  }
+
+  .paraka-list1--btn4 {
+    position: absolute;
+    bottom: 22%;
+    right: 37%;
+  }
+
+  .paraka-list1--btn5 {
+    position: absolute;
+    bottom: 40%;
+    left: 25%;
+  }
+
+  .paraka-list1--btn6 {
+    position: absolute;
+    bottom: 52%;
+    right: 38%;
+  }
+
+  .paraka-list1--btn7 {
+    position: absolute;
+    bottom: 37%;
+    right: 39%;
+  }
+
+  .paraka-list1--btn8 {
+    position: absolute;
+    bottom: 33%;
+    left: 46%;
+  }
+
+  .paraka-list2--btn1 {
+    position: absolute;
+    top: 50%;
+    left: 37%;
+  }
+
+  .paraka-list2--btn2 {
+    position: absolute;
+    bottom: 35%;
+    right: 22%;
+  }
+
+  .paraka-list2--btn3 {
+    position: absolute;
+    bottom: 17%;
+    left: 23%;
+  }
+
+  .paraka-list2--btn4 {
+    position: absolute;
+    bottom: 10%;
+    right: 40%;
+  }
+
+  .paraka-list2--btn5 {
+    position: absolute;
+    top: 46%;
+    left: 27%;
+  }
+
+  .paraka-list2--btn6 {
+    position: absolute;
+    top: 23%;
+    right: 36%;
+  }
+
+  .paraka-list2--btn7 {
+    position: absolute;
+    top: 59%;
+    right: 39%;
+  }
+
+  .paraka-list2--btn7 {
+    position: absolute;
+    top: 56%;
+    right: 39%;
+  }
+
+  .paraka-list2--btn8 {
+    position: absolute;
+    top: 55%;
+    right: 47%;
+  }
 }
 @media only screen and (max-width: 632px) {
   .padarka-section__wrapper > h2 {
@@ -399,6 +636,110 @@
     height: 20px;
     font-size: 16px;
     line-height: 18px;
+  }
+
+  .button {
+    width: 15px;
+    height: 15px;
+    font-size: 8px;
+    border: 1px solid #000;
+  }
+
+  .paraka-list1--btn1 {
+    position: absolute;
+    bottom: 43%;
+    left: 35%;
+  }
+
+  .paraka-list1--btn2 {
+    position: absolute;
+    bottom: 39%;
+    right: 20%;
+  }
+
+  .paraka-list1--btn3 {
+    position: absolute;
+    bottom: 36%;
+    left: 23%;
+  }
+
+  .paraka-list1--btn4 {
+    position: absolute;
+    bottom: 35%;
+    right: 37%;
+  }
+
+  .paraka-list1--btn5 {
+    position: absolute;
+    bottom: 46%;
+    left: 27%;
+  }
+
+  .paraka-list1--btn6 {
+    position: absolute;
+    bottom: 52%;
+    right: 38%;
+  }
+
+  .paraka-list1--btn7 {
+    position: absolute;
+    bottom: 44%;
+    right: 39%;
+  }
+
+  .paraka-list1--btn8 {
+    position: absolute;
+    bottom: 45%;
+    left: 46%;
+  }
+
+  .paraka-list2--btn1 {
+    position: absolute;
+    top: 50%;
+    left: 36%;
+  }
+
+  .paraka-list2--btn2 {
+    position: absolute;
+    bottom: 42%;
+    right: 22%;
+  }
+
+  .paraka-list2--btn3 {
+    position: absolute;
+    bottom: 33%;
+    left: 23%;
+  }
+
+  .paraka-list2--btn4 {
+    position: absolute;
+    bottom: 29%;
+    right: 38%;
+  }
+
+  .paraka-list2--btn5 {
+    position: absolute;
+    top: 49%;
+    left: 23%;
+  }
+
+  .paraka-list2--btn6 {
+    position: absolute;
+    top: 37%;
+    right: 33%;
+  }
+
+  .paraka-list2--btn7 {
+    position: absolute;
+    top: 54%;
+    right: 39%;
+  }
+
+
+  .paraka-list2--btn8 {
+    position: absolute;
+    top: 53%;
+    right: 47%;
   }
 }
 @media only screen and (max-width: 552px) {
@@ -485,12 +826,12 @@
     font-size: 18px;
     line-height: 25px;
   }
-   .litraj-wrapper__buttons{
+  .litraj-wrapper__buttons {
     gap: 5px;
-   }
-   .padarka__litraj-inputs > label{
+  }
+  .padarka__litraj-inputs > label {
     margin-bottom: 15px;
-   }
+  }
   .litraj-wrapper__buttons button {
     padding: 10px 20px !important;
     height: 45px;
@@ -515,31 +856,31 @@
   }
   .padarka__litraj-price > button {
     width: 200px;
-height: 67px;
+    height: 67px;
     font-size: 22px;
     font-weight: 700;
   }
 }
-@media only screen and (max-width:340px){
+@media only screen and (max-width: 340px) {
   .paraka-list1 {
     width: 80%;
-    background-size: 80%;  
+    background-size: 80%;
   }
   .padarka-list2 {
     width: 80%;
     background-size: 80%;
   }
-  .litraj__wife-button{
+  .litraj__wife-button {
     display: flex;
-  margin: 0 auto;
+    margin: 0 auto;
     padding: 10px;
   }
-  .wife-button__p1{
+  .wife-button__p1 {
     font-size: 18px;
-line-height: 25px; /* 138.889% */
+    line-height: 25px; /* 138.889% */
   }
-  .wife-button__p2{
+  .wife-button__p2 {
     font-size: 18px;
-line-height: 25px; 
+    line-height: 25px;
   }
 }
