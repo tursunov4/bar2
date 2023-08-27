@@ -299,6 +299,11 @@ th:nth-child(3) {
     width: 25%;
   }
 
+  .madange__resbtn-active{
+    padding: 15px 26px 15px 27px;
+    border-radius: 10px;
+border: 3px solid #FFB800 !important;
+  }
   .manage__responsive button {
     color: rgba(50, 50, 50, 0.8);
     text-align: center;
@@ -313,19 +318,7 @@ th:nth-child(3) {
     margin: 10px auto;
   }
 
-  .clc:focus {
-    color: #323232;
-    text-align: center;
-    font-family: Gilroy;
-    font-size: 22px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 29px;
-    padding: 15px 26px;
-    border-radius: 10px;
-    border: 3px solid #ffb800;
-    text-decoration: none;
-  }
+
 
   .wifi__table {
     border-collapse: collapse;

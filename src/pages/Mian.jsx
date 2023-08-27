@@ -19,22 +19,22 @@ import ZakajiteModal from "../components/Zakajite/Zakajitemodal/ZakajiteModal";
 const Mian = () => {
   return (
     <div>
-      <Header />
+      {/* <Header />
       <Hero />
       <Bavariya /> 
       <Youtube />
       <Padarka />
       <Bvcards />
       <Delivery />
-      <Kanstruktor/>
+      <Kanstruktor/> */}
       <Manage/>
-      <Otziv />
+      {/* <Otziv />
       <Zakajite />
       <Pokupke />
       <Order />
       <Khaos />
       <Yandexmap/>    
-      <Footer /> 
+      <Footer />  */}
     </div>
   );
 };
