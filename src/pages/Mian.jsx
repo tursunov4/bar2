@@ -70,10 +70,8 @@ const Mian = () => {
       {/* <Pokupke /> */}
       {/* <Khaos /> */}
       {/* <Footer /> */}
-
-      {/* <Headertop /> */}
-
-
+      <Headertop />
+      {/* <OrderedMd /> */}
       {/* <Yandexmap/>     */}
     </div>
   );

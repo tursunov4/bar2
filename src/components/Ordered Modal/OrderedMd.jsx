@@ -26,7 +26,10 @@ const OrderedMd = ({ modal, setModal, children }) => {
               <input type="text" placeholder="+7 (___)-___-__-__" />
               <button>Заказать</button>
             </form>
-            <p></p>
+            <p>
+              Мы свяжемся с Вами в течение 10 минут <br /> и проконсультируем по любым
+              вопросам
+            </p>
           </div>
         </div>
       </div>

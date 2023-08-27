@@ -267,7 +267,7 @@ const Headermodal = ({ modal, setModal, children }) => {
                       </button>
 
                       <p className="headeertop__md--card-sale">
-                        Набор для темного пива
+                        Набор для копчения
                       </p>
                     </div>
                     <h4>7 990 ₽</h4>
@@ -284,7 +284,7 @@ const Headermodal = ({ modal, setModal, children }) => {
                       </button>
 
                       <p className="headeertop__md--card-sale">
-                        Набор для темного пива
+                        Набор для копчения
                       </p>
                     </div>
                     <h4>7 990 ₽</h4>
@@ -301,7 +301,7 @@ const Headermodal = ({ modal, setModal, children }) => {
                       </button>
 
                       <p className="headeertop__md--card-sale">
-                        Набор для темного пива
+                        Набор для копчения
                       </p>
                     </div>
                     <h4>7 990 ₽</h4>
