@@ -15,6 +15,7 @@ import Kanstruktor from "../components/Kasntruktor/Kanstruktor";
 import Manage from "./../components/Manage/Manage";
 import Zakajite from "./../components/Zakajite/Zakajite";
 import Yandexmap from "../components/Yandexmap/Yandexmap";
+import ZakajiteModal from "../components/Zakajite/Zakajitemodal/ZakajiteModal";
 const Mian = () => {
   return (
     <div>
@@ -28,7 +29,7 @@ const Mian = () => {
       <Kanstruktor/>
       <Manage/>
       <Otziv />
-      {/* <Zakajite /> */}
+      <Zakajite />
       <Pokupke />
       <Order />
       <Khaos />
