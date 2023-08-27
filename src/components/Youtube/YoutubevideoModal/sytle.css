@@ -286,6 +286,13 @@ td {
   }
 
   .video__md iframe {
+    height: 200px;
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 370px) {
+  .video__md iframe {
     height: 135px;
     width: 100%;
   }
