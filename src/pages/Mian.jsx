@@ -19,7 +19,11 @@ import Yandexmap from "../components/Yandexmap/Yandexmap";
 import Modal from "./../components/Modal/Modal";
 import Headertop from "./../components/Headertop/Headertop";
 
+import OrderedMd from "./../components/Ordered Modal/OrderedMd";
+
+
 import ZakajiteModal from "../components/Zakajite/Zakajitemodal/ZakajiteModal";
+
 
 const Mian = () => {
   return (
@@ -42,11 +46,9 @@ const Mian = () => {
 
       <Footer /> */}
       {/* <Yandexmap/> */}
-
       {/* <Header /> */}
       {/* <Hero /> */}
       {/* <Bavariya /> */}
-
       {/* <Header />
       <Hero />
       <Bavariya />
@@ -58,16 +60,20 @@ const Mian = () => {
       {/* <Delivery /> */}
       {/* <Order /> */}
       {/* <Otziv /> */}
-      {/* <Manage /> */}
+      <Manage />
       {/* <Zakajite /> */}
       {/* <Footer /> */}
       {/* <Pokupke /> */}
       {/* <Khaos /> */}
       {/* <Footer /> */}
 
+      {/* <Headertop /> */}
+
+
       {/* <Yandexmap/>     */}
 
  
+
 
 
     </div>

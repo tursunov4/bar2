@@ -8,6 +8,7 @@ import visa from "../../assets/Images/svg/visa_large.png";
 import rasskochka from "../../assets/Images/svg/rasskochka.svg";
 import rasskochka1 from "../../assets/Images/svg/rassrochka_phone.svg";
 
+
 import "./style.css";
 const Headermodal = ({ modal, setModal, children }) => {
   const [click, setClick] = useState(true);

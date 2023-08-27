@@ -22,6 +22,8 @@ const index = () => {
           </div>
         </div>
       </section>
+
+      
     </>
   );
 };

@@ -34,6 +34,11 @@
 }
 
 @font-face {
+  font-family: Roboto-Medium;
+  src: url("./Fonts/Roboto/Roboto-Medium.ttf");
+}
+
+@font-face {
   font-family: Rubik-Bold;
   src: url("./Fonts/rubic/Rubik-Bold.ttf");
 }

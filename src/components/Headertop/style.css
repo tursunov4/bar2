@@ -366,6 +366,10 @@
   letter-spacing: 0.15px;
 }
 
+.itogo__phone{
+  display: none;
+}
+
 @media only screen and (max-width: 1215px) {
   .headertopmd__image {
     width: 100%;
@@ -472,6 +476,9 @@
 }
 
 @media only screen and (max-width: 610px) {
+  .itogo__phone{
+    display: block;
+  }
   .headertop__md--wrapper {
     padding: 5px;
   }
