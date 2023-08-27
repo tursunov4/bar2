@@ -476,6 +476,9 @@
 }
 
 @media only screen and (max-width: 610px) {
+  .headertop__md--menu {
+    padding: 0px; 
+  }
   .itogo__phone{
     display: block;
   }

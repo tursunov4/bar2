@@ -60,22 +60,15 @@ const Mian = () => {
       {/* <Delivery /> */}
       {/* <Order /> */}
       {/* <Otziv /> */}
-      <Manage />
+      {/* <Manage /> */}
       {/* <Zakajite /> */}
       {/* <Footer /> */}
       {/* <Pokupke /> */}
       {/* <Khaos /> */}
       {/* <Footer /> */}
-
-      {/* <Headertop /> */}
-
-
+      <Headertop />
+      {/* <OrderedMd /> */}
       {/* <Yandexmap/>     */}
-
- 
-
-
-
     </div>
   );
 };
