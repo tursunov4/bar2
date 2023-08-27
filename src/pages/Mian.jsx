@@ -20,6 +20,9 @@ const Mian = () => {
     <div>  
       {/* <Header /> */}
       {/* <Hero />
+=======
+      {/* <Header />
+      <Hero />
       <Bavariya /> 
       <Youtube />
       <Padarka />
@@ -31,8 +34,38 @@ const Mian = () => {
       <Pokupke />
       <Order />
       <Khaos />
+
       <Footer /> */}  
-      <Yandexmap/>
+      {/* <Yandexmap/> */}
+
+
+    
+
+
+      {/* <Header /> */}
+      {/* <Hero /> */}
+      {/* <Bavariya /> */}
+
+      {/* <Header />
+      <Hero />
+      <Bavariya />
+      <Youtube /> */}
+
+      <Youtube />
+      {/* <Padarka /> */}
+      {/* <Bvcards /> */}
+      {/* <Delivery /> */}
+
+      {/* <Order /> */}
+      {/* <Otziv /> */}
+      {/* <Manage /> */}
+      {/* <Zakajite /> */}
+      {/* <Footer /> */}
+      {/* <Pokupke /> */}
+      {/* <Khaos /> */}
+      {/* <Footer /> */}
+
+
     </div>
   );
 };
