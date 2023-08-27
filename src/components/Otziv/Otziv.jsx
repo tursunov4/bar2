@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import phone from '../../assets/Images/png/phone.png'
 import user from "../../assets/Images/svg/User.svg"
 import "./style.css"
@@ -16,7 +16,9 @@ import telegram7 from '../../assets/Images/png/telegram7.png'
 import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
+import OtvizModal from './Otzivmodal/OtvizModal';
 const Otziv = () => {
+  const [modal , setModal] = useState(false)
   const imgs =[
     {img :telegram1},
     {img :telegram2},
@@ -29,6 +31,18 @@ const Otziv = () => {
   return (
     <>
       <section className="otziv">
+        <OtvizModal modal={modal} setModal={setModal} >
+          <div className="otziv-modal__wrapper">
+            <h4>Оставить отзыв</h4>
+            <form className='otziv-modal__form'>
+              <input type="text" placeholder='Имя' />
+              <input type="text" placeholder='+7 (___)-___-__-__' />
+              <textarea placeholder='Ваш отзыв' >
+              </textarea>
+              <button>Отправить</button>
+            </form>
+          </div>
+        </OtvizModal>
         <div className="container">
               <h2>Отзывы пользователей пивоварни BAVARIA</h2>
             <Swiper       
@@ -70,7 +84,7 @@ const Otziv = () => {
         ))
        }
       </Swiper>
-      <button className='otviz__btn'>Оставить отзыв</button>
+      <button onClick={()=>setModal(true)} className='otviz__btn'>Оставить отзыв</button>
       </div>
       </section>
     </>

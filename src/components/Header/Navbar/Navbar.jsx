@@ -4,11 +4,14 @@ import sitelogo from '../../../assets/Images/svg/logoheader.svg'
 import { Link } from 'react-router-dom'
 import hamburger from '../../../assets/Images/svg/header.hamburger.svg'
 import call from '../../../assets/Images/svg/contact.svg'
+import exit from '../../../assets/Images/svg/exitheader.svg'
+
 const Navbar = () => {
   const [sidebar ,setSidebar] = useState(false)
-  
+
   return (
     <div className='navbar-section'>
+
      <Link to={'/'}>
      <img  src={sitelogo} alt="sitelogo" />
      </Link>
@@ -33,9 +36,18 @@ const Navbar = () => {
         <a href="#">
           <img src={call} alt="" />
         </a>
-       <div onClick={()=>setSidebar(true)} className="navbar__ham-box1">
-      <img src={hamburger} alt="" />
+       <div onClick={()=>setSidebar(!sidebar)} className="navbar__ham-box1">
+        {
+          sidebar ? 
+             <div className="navbar__exit">
+                    <img src={exit} alt="" /> 
+             </div>
+          : <img src={hamburger} alt="" />
+        }
+     
+      
      </div>
+     
        </div>
       {
         sidebar &&      
