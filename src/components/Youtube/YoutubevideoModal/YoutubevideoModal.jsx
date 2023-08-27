@@ -6,8 +6,6 @@ import "./sytle.css";
 const YoutubevideoModal = () => {
   return (
     <>
-      <div className="modal__blur"></div>
-
       <div className="md">
         <div className="youTube__modal">
           <h3>Пшеничное пиво</h3>
@@ -112,7 +110,15 @@ const YoutubevideoModal = () => {
                 24–25° на 14 дней.
               </p>
 
-              
+              <div className="video__md">
+                <iframe
+                  src="https://www.youtube.com/embed/VYSc1h8qkgg?si=zsYKEq6exWZnHbHw"
+                  title="YouTube video player"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  allowfullscreen
+                ></iframe>
+              </div>
             </div>
           </div>
         </div>

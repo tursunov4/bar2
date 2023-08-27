@@ -8,7 +8,7 @@ const Youtube = () => {
     <>
       <YoutubevideoModal />
 
-      {/* <section className="youtube-section">
+      <section className="youtube-section">
         <div className="container">
           <div className="youtube-section__wrapper">
             <h2>Откройте для себя вековые традиции</h2>
@@ -20,7 +20,7 @@ const Youtube = () => {
             <YoutubeCarusel />
           </div>
         </div>
-      </section> */}
+      </section>
     </>
   );
 };
