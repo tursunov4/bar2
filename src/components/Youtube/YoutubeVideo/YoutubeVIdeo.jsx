@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import "./style.css"
 import Youtubetext from '../Youtubetext/Youtubetext'
 import Modal from '../../Modal/Modal'
+import Gif from '../../../assets/GIf/video (1).gif'
 const YoutubeVIdeo = () => {
    const [modal , setModal] = useState(false)
 
@@ -31,7 +32,7 @@ const YoutubeVIdeo = () => {
         </li>
       </ul>
       <div className="youtubevideo__mashina">
-       <img src="" alt="" />
+       <img src={Gif} alt="" />
                
       </div>
       <div onClick={()=>setModal(true)} className='youtubevideo__mashina-text'>Подробнее об этапах приготовления</div>

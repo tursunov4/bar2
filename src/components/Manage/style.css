@@ -195,6 +195,9 @@ th:nth-child(3) {
 .manage__responsive {
   display: none;
 }
+.manage__resbezwiefe{
+  background-color: #E0E0E0 !important;
+}
 
 @media only screen and (max-width: 1150px) {
   .manage {

@@ -227,7 +227,7 @@ const Manage = () => {
                     <td className="manage__res--h1 center">5 990 руб.</td>
                   </tr>
                 </table>
-                <button>Заказать</button>
+                <button className={res_btn ? "manage__resbezwiefe" : ""}>Заказать</button>
               </div>
             </div>
           </div>
