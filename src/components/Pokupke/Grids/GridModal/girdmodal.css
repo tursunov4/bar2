@@ -1,7 +1,8 @@
 .modal3 {
     position: fixed; /* Stay in place */
     z-index: 1; /* Sit on top */
-    padding-top: 80px; /* Location of the box */
+    padding-top: 50px; /* Location of the box */
+    padding-bottom: 20px;
     left: 0;
     top: 0;
     width: 100%; /* Full width */
@@ -21,7 +22,8 @@ background: #E0E0E0;
    height: 745px;
    padding: 20px;
     margin-bottom: 20px;
-    border-radius: 20px;
+    border-radius: 20px !important;
+    overflow: hidden;
     
   } 
   .modal-exit3{

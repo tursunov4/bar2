@@ -4,11 +4,8 @@ import image_res from "../../assets/Images/png//manage__res.png";
 import "./style.css";
 
 const Manage = () => {
-  const [btn, setBtn] = useState(true);
-  const [btn1, setBtn1] = useState(true);
-
+  const [btn, setBtn] = useState(false);
   const [res_btn, setResBtn] = useState(true);
-  const [res_btn1, setResBtn1] = useState(true);
 
   return (
     <>
@@ -24,7 +21,7 @@ const Manage = () => {
                 <th className="table__one">Функции</th>
                 <th>
                   <button
-                    onClick={() => setBtn(!btn)}
+                    onClick={() => setBtn(false)}
                     className={btn ? "table__two" : "table__two btn__border"}
                   >
                     Пивоварня <br /> без WiFi
@@ -32,9 +29,9 @@ const Manage = () => {
                 </th>
                 <th>
                   <button
-                    onClick={() => setBtn1(!btn1)}
+                    onClick={() => setBtn(true)}
                     className={
-                      btn1 ? "table__three" : "table__three btn__border"
+                      btn ? "table__three btn__border" : "table__three "
                     }
                   >
                     Пивоварня <br /> c WiFi
@@ -111,20 +108,10 @@ const Manage = () => {
               <tr>
                 <td className="manage__td1 "></td>
                 <td className="manage__td2 titles__btns">
-                  <button
-                    onClick={() => setBtn(!btn)}
-                    className={btn ? "" : "btn__bg"}
-                  >
-                    Заказать
-                  </button>
+                  <button className={btn ? "" : "btn__bg"}>Заказать</button>
                 </td>
                 <td className="manage__td3 titles__btns">
-                  <button
-                    onClick={() => setBtn1(!btn1)}
-                    className={btn1 ? "" : "btn__bg"}
-                  >
-                    Заказать
-                  </button>
+                  <button className={btn ? "btn__bg" : ""}>Заказать</button>
                 </td>
               </tr>
             </table>
@@ -133,23 +120,20 @@ const Manage = () => {
           <div className="manage__responsive">
             <h1>Управляйте пивоварней со своего смартфона</h1>
             <p>В мобильном приложении, благодаря блоку управления с WiFi</p>
-            <img src={image_res} alt="Image" />
+            <img src={image_res} alt="IMage" />
 
             <button
               onClick={() => setResBtn(!res_btn)}
-              className={res_btn ? "manage__res--btn1" : "clc"}
+              className="madange__resbtn-active"
             >
               {res_btn ? " Сравнить с моделью с WiFi" : "Пивоварня c WiFi"}
             </button>
 
-            <button
-              onClick={() => setResBtn1(!res_btn1)}
-              className={res_btn1 ? "manage__res--btn1" : "clc"}
-            >
-              {res_btn ? "Сравнить с моделью без WiFi" : "Пивоварня без WiFi"}
+            <button onClick={() => setResBtn(!res_btn)} className="clc">
+              {res_btn ? "Пивоварня без WiFi" : " Сравнить с моделью без WiFi"}
             </button>
 
-            <div className="table__res1">
+            <div className="table__res">
               <div className="phone__manage--res" style={{ display: res_btn ? "none" : "block" }}>
                 <table className="wifi__table">
                   <tr>
@@ -195,11 +179,10 @@ const Manage = () => {
                     <td className="manage__res--h1 center">5 990 руб.</td>
                   </tr>
                 </table>
-
                 <button>Заказать</button>
               </div>
 
-              <div className="phone__manage--res" style={{ display: res_btn1 ? "none" : "block" }}>
+              <div className="phone__manage--res" style={{ display: res_btn ? "block" : "none" }}>
                 <table className="wifi__table">
                   <tr>
                     <td>Дисплей</td>
@@ -244,7 +227,6 @@ const Manage = () => {
                     <td className="manage__res--h1 center">5 990 руб.</td>
                   </tr>
                 </table>
-
                 <button>Заказать</button>
               </div>
             </div>
