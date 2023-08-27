@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import './style.css'
 import { Navigation, Pagination, Scrollbar, A11y } from 'swiper/modules';
 import {Swiper,SwiperSlide} from 'swiper/react'
@@ -10,9 +10,10 @@ import next from '../../../assets/Images/svg/next.svg'
 import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
-
+import Modal from '../YoutubevideoModal/YoutubevideoModal'
 
 const YoutubeCarusel = () => {
+  const [modal ,setModal] = useState(false)
   const carusel = [
     {
       img : buttle1,
@@ -33,6 +34,7 @@ const YoutubeCarusel = () => {
   ]
   return (
     <div className='youtubecarusel'>
+     <Modal modal={modal} setModal={setModal}/>
       <div className='youtubecarusel-line'></div>
       <h4>Классические рецепты, адаптированные под пивоварню BAVARIA</h4>
         <div className="youtubecarusel__wrapper">
@@ -64,7 +66,7 @@ const YoutubeCarusel = () => {
       <SwiperSlide key={index} className='youtubecarusel__swipper-slide'>
         <div className='youtubecarusel__swipper-wrap'>
           <h4>{item.text}</h4>
-          <p>Открыть рецепт</p>
+          <p onClick={()=>setModal(true)} >Открыть рецепт</p>
           <img src={item.img} alt="img" />
         </div>
       </SwiperSlide>

@@ -54,7 +54,7 @@ const Otziv = () => {
              onSwiper={(swiper) => console.log(swiper)}
              onSlideChange={() => console.log('slide change')}
             >
-              <div  className="otziv__prev">
+        <div  className="otziv__prev">
         <img src={prev} alt="" />
        </div>
        <div  className="otziv__next">

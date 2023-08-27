@@ -15,15 +15,16 @@ import Kanstruktor from "../components/Kasntruktor/Kanstruktor";
 import Manage from "./../components/Manage/Manage";
 import Zakajite from "./../components/Zakajite/Zakajite";
 import Yandexmap from "../components/Yandexmap/Yandexmap";
+
 import Modal from "./../components/Modal/Modal";
 import Headertop from "./../components/Headertop/Headertop";
+
+import ZakajiteModal from "../components/Zakajite/Zakajitemodal/ZakajiteModal";
+
 const Mian = () => {
   return (
     <div>
-      {/* <Header /> */}
-      {/* <Hero />
-
-      {/* <Header />
+      <Header />
       <Hero />
       <Bavariya /> 
       <Youtube />
@@ -31,11 +32,13 @@ const Mian = () => {
       <Bvcards />
       <Delivery />
       <Kanstruktor/>
+      <Manage/>
       <Otziv />
       <Zakajite />
       <Pokupke />
       <Order />
       <Khaos />
+
 
       <Footer /> */}
       {/* <Yandexmap/> */}
@@ -61,6 +64,10 @@ const Mian = () => {
       {/* <Pokupke /> */}
       {/* <Khaos /> */}
       {/* <Footer /> */}
+
+      <Yandexmap/>    
+      <Footer /> 
+
     </div>
   );
 };

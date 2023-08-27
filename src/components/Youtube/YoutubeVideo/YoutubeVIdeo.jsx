@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import "./style.css"
-import YoutubeModaltext from "../YoutubevideoModal/YoutubevideoModal"
+import Youtubetext from '../Youtubetext/Youtubetext'
 import Modal from '../../Modal/Modal'
 const YoutubeVIdeo = () => {
    const [modal , setModal] = useState(false)
@@ -8,7 +8,7 @@ const YoutubeVIdeo = () => {
   return (
     <div className='youtubevideo-wrapper'>
       <Modal modal={modal} setModal={setModal}>
-         <YoutubeModaltext/>
+          <Youtubetext/>
       </Modal>
      <div className="youtubevideo-wrapper__text">
       <h4>Все этапы приготовления пива в одном аппарате!</h4>
