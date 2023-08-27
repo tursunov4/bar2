@@ -15,6 +15,8 @@ import Kanstruktor from "../components/Kasntruktor/Kanstruktor";
 import Manage from "./../components/Manage/Manage";
 import Zakajite from "./../components/Zakajite/Zakajite";
 import Yandexmap from "../components/Yandexmap/Yandexmap";
+import Modal from "./../components/Modal/Modal";
+import Headertop from "./../components/Headertop/Headertop";
 const Mian = () => {
   return (
     <div>
@@ -46,12 +48,11 @@ const Mian = () => {
       <Hero />
       <Bavariya />
       <Youtube /> */}
-
+      <Headertop />
       {/* <Youtube /> */}
       {/* <Padarka /> */}
       {/* <Bvcards /> */}
       {/* <Delivery /> */}
-
       {/* <Order /> */}
       {/* <Otziv /> */}
       {/* <Manage /> */}
