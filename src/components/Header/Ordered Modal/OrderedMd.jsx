@@ -1,13 +1,13 @@
 import React from "react";
 import "./style.css";
-import Exit from "../../assets/Images/svg/exit.svg";
+import Exit from "../../../assets/Images/svg/exit.svg";
 const OrderedMd = ({ modal, setModal, children }) => {
   window.onclick = function (event) {
     if (event.target.id === "ordered__modal") {
       setModal(false);
     }
   };
-//   if (modal) {
+  if (modal) {
     return (
       <div id="ordered__modal" class="ordered__modal">
         <div class="ordered__modal--content">
@@ -34,7 +34,6 @@ const OrderedMd = ({ modal, setModal, children }) => {
         </div>
       </div>
     );
-//   }
-};
+}}
 
 export default OrderedMd;

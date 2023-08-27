@@ -19,7 +19,7 @@ import Yandexmap from "../components/Yandexmap/Yandexmap";
 import Modal from "./../components/Modal/Modal";
 import Headertop from "../components/Header/Headertop/Headertop";
 
-import OrderedMd from "./../components/Ordered Modal/OrderedMd";
+import OrderedMd from "../components/Header/Ordered Modal/OrderedMd";
 
 
 import ZakajiteModal from "../components/Zakajite/Zakajitemodal/ZakajiteModal";
@@ -28,51 +28,23 @@ import ZakajiteModal from "../components/Zakajite/Zakajitemodal/ZakajiteModal";
 const Mian = () => {
   return (
     <div>
-      <Header />
-      {/* <Headertop />
+      <Header />      
       <Hero />
       <Bavariya /> 
-      <Youtube />
       <Padarka />
+      <Youtube />
       <Bvcards />
-      <Delivery />
-      <Kanstruktor/>
       <Manage/>
+      <Kanstruktor/>
       <Otziv />
       <Zakajite />
+      <Bavariya /> 
+      <Delivery />
       <Pokupke />
       <Order />
-      <Khaos />
-
+      <Khaos />      
       <Yandexmap/> 
-      <Footer /> */}
-     
-   {/* <OrderedMd/> */}
-
-      
-      {/* <Yandexmap/> */}
-      {/* <Header /> */}
-      {/* <Hero /> */}
-      {/* <Bavariya /> */}
-      {/* <Header />
-      <Hero />
-      <Bavariya />
-      <Youtube /> */}
-      {/* <Youtube /> */}
-      {/* <Padarka /> */}
-      {/* <Bvcards /> */}
-      {/* <Delivery /> */}
-      {/* <Order /> */}
-      {/* <Otziv /> */}
-      {/* <Manage /> */}
-      {/* <Zakajite /> */}
-      {/* <Footer /> */}
-      {/* <Pokupke /> */}
-      {/* <Khaos /> */}
-      {/* <Footer /> */}
-      <Headertop />
-      {/* <OrderedMd /> */}
-      {/* <Yandexmap/>     */}
+      <Footer /> 
     </div>
   );
 };

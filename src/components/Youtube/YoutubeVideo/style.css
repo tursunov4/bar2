@@ -60,6 +60,11 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  overflow: hidden;
+}
+.youtubevideo__mashina > img{
+  width: 88%;
+  height: 100%;
 }
 
 .youtubevideo-wrapper__video {

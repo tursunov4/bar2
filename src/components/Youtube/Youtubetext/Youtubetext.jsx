@@ -1,11 +1,12 @@
 import React from 'react'
 import './style.css'
+import gif from '../../../assets/GIf/video (1).gif'
 const Youtubetext = () => {
   return (
     <div className='youtubevideo-text'>
         <h4>Все этапы приготовления пивав одном аппарате!</h4>
         <div className="youtubevideo-video">
-            <img src="" alt="" />
+            <img src={gif} alt="" />
         </div>
         <ul className="youtubevideo-text__list">
             <li className="youtubevideo-text__list-item">

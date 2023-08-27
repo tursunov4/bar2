@@ -5,13 +5,13 @@ import { Link } from 'react-router-dom'
 import hamburger from '../../../assets/Images/svg/header.hamburger.svg'
 import call from '../../../assets/Images/svg/contact.svg'
 import exit from '../../../assets/Images/svg/exitheader.svg'
-
+import OrderedMd from '../Ordered Modal/OrderedMd'
 const Navbar = () => {
   const [sidebar ,setSidebar] = useState(false)
-
+  const [modal ,setModal] = useState(false)
   return (
     <div className='navbar-section'>
-
+  <OrderedMd setModal={setModal} modal={modal}/>
      <Link to={'/'}>
      <img  src={sitelogo} alt="sitelogo" />
      </Link>
@@ -27,7 +27,7 @@ const Navbar = () => {
         </span>
         <Link className='navbar-section__link' to={'/'}>Bavaria с WIFI</Link>   
      </div>
-     <div className="navbar-section__contact">
+     <div onClick={()=>setModal(true)} className="navbar-section__contact">
          <h4>8 800 250 59 32</h4>
         <a>Заказать звонок</a>
        
