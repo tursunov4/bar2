@@ -28,6 +28,7 @@
   background: #fff;
   padding: 50px;
   width: 70%;
+  position: relative;
 }
 
 .youTube__modal h3 {
@@ -129,6 +130,20 @@ td {
 
 .modal__left--img img {
   width: 50%;
+}
+
+.close__md {
+  width: 25px;
+  height: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  background: #fff;
+  cursor: pointer;
+  position: absolute;
+  top: 15px;
+  right: 15px;
 }
 
 @media only screen and (max-width: 1710px) {
@@ -265,7 +280,7 @@ td {
     line-height: 22px;
   }
 
-  .video__md{
+  .video__md {
     display: flex;
     justify-content: center;
   }

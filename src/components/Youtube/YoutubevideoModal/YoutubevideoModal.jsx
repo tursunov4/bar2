@@ -2,6 +2,8 @@ import React from "react";
 import img1 from "../../../assets/Images/png/Modal Image/Image 1.png";
 import img2 from "../../../assets/Images/png/Modal Image/Image 2.png";
 import img3 from "../../../assets/Images/png/Modal Image/Image 3.png";
+import close from "../../../assets/Images/svg/close.svg";
+
 import "./sytle.css";
 const YoutubevideoModal = () => {
   return (
@@ -121,6 +123,10 @@ const YoutubevideoModal = () => {
               </div>
             </div>
           </div>
+
+          <button className="close__md">
+            <img src={close} alt="Close" />
+          </button>
         </div>
       </div>
     </>
