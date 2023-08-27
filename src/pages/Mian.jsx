@@ -18,7 +18,7 @@ import Zakajite from './../components/Zakajite/Zakajite';
 const Mian = () => {
   return (
     <div>  
-      <Header />
+      {/* <Header />
       <Hero />
       <Bavariya /> 
       <Youtube />
@@ -31,7 +31,7 @@ const Mian = () => {
       <Pokupke />
       <Order />
       <Khaos />
-      <Footer />
+      <Footer /> */}
 
 
     
