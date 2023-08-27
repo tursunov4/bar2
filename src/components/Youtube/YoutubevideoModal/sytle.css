@@ -291,6 +291,9 @@ td {
   }
 }
 
+
+
+
 @media only screen and (max-width: 370px) {
   .video__md iframe {
     height: 135px;
