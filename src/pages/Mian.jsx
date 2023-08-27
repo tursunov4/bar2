@@ -28,47 +28,23 @@ import ZakajiteModal from "../components/Zakajite/Zakajitemodal/ZakajiteModal";
 const Mian = () => {
   return (
     <div>
-      {/* <Header />
+      <Header />
       <Hero />
-      <Bavariya /> 
-      <Youtube />
+      <Bavariya />
       <Padarka />
+      <Youtube />
       <Bvcards />
-      <Delivery />
-      <Kanstruktor/> */}
-      {/* <Manage/> */}
-      {/* <Otziv />
+      <Manage />
+      <Kanstruktor />
+      <Otziv />
       <Zakajite />
+      <Bavariya />
+      <Delivery />
       <Pokupke />
       <Order />
       <Khaos />
-
-
-      <Footer /> */}
-      {/* <Yandexmap/> */}
-      {/* <Header /> */}
-      {/* <Hero /> */}
-      {/* <Bavariya /> */}
-      {/* <Header />
-      <Hero />
-      <Bavariya />
-      <Youtube /> */}
-      {/* <Headertop /> */}
-      {/* <Youtube /> */}
-      {/* <Padarka /> */}
-      {/* <Bvcards /> */}
-      {/* <Delivery /> */}
-      {/* <Order /> */}
-      {/* <Otziv /> */}
-      {/* <Manage /> */}
-      {/* <Zakajite /> */}
-      {/* <Footer /> */}
-      {/* <Pokupke /> */}
-      {/* <Khaos /> */}
-      {/* <Footer /> */}
-      <Headertop />
-      {/* <OrderedMd /> */}
-      {/* <Yandexmap/>     */}
+      <Yandexmap />
+      <Footer />
     </div>
   );
 };
