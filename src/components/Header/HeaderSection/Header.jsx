@@ -1,12 +1,15 @@
-import React from 'react'
+import React, { useState } from 'react'
 import './header.css'
 import play from '../../../assets/Images/png/play.png'
 import raspochka from '../../../assets/Images/svg/raspochka.svg'
 import bar from '../../../assets/Images/png/headerbar.png'
 import bar2 from '../../../assets/Images/png/headerbarmobile.png'
+import Headermodal from '../Headermodal/Headermodal'
 const Headers = () => {
+  const [modal , setModal] = useState(false)
   return (
     <div className='header-section2'>
+      <Headermodal modal={modal} setModal={setModal}/>
       <div className="header-section__mobile-text">
       <h4>Автоматическая пивоварня</h4>
         <div className="text-wrapper__pirice-mobile">
@@ -19,7 +22,7 @@ const Headers = () => {
         <div className="hus">
           <img className='hus__img1' src={bar} alt="" />
           <img className='hus__img2' src={bar2} alt="" />
-          <div className="img-box__text">
+          <div onClick={()=>setModal(true)} className="img-box__text">
             <img src={play} alt="" />
             <span>Видеообзор пивоварни</span>
           </div>

@@ -14,10 +14,13 @@ import Otziv from './../components/Otziv/Otziv';
 import Kanstruktor from "../components/Kasntruktor/Kanstruktor";
 import Manage from './../components/Manage/Manage';
 import Zakajite from './../components/Zakajite/Zakajite';
-
+import Yandexmap from "../components/Yandexmap/Yandexmap";
 const Mian = () => {
   return (
     <div>  
+      {/* <Header /> */}
+      {/* <Hero />
+=======
       {/* <Header />
       <Hero />
       <Bavariya /> 
@@ -31,7 +34,9 @@ const Mian = () => {
       <Pokupke />
       <Order />
       <Khaos />
-      <Footer /> */}
+
+      <Footer /> */}  
+      {/* <Yandexmap/> */}
 
 
     

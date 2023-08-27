@@ -76,7 +76,7 @@ text-decoration-line: underline;
   top:80px;
   left: 2%;
   position: absolute;
-  z-index: 3;  
+  z-index: 5;  
   background-color: #f4f4f4;
   border-radius: 0 0 10px 10px;
   width: 96%;
@@ -159,7 +159,19 @@ text-decoration-line: underline;
   display: none;
   gap: 20px;
 }
-
+.navbar__exit{
+  width: 40px;
+  height: 40px;
+background-color: #292929 ; 
+display: flex;
+align-items: center;
+justify-content: center;
+cursor: pointer; 
+border-radius: 50%;
+}
+.navbar__exit > img{
+  width: 20px;
+}
 
 
 @media only screen and (max-width: 1080px) {

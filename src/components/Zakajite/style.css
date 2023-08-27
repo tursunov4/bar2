@@ -207,6 +207,22 @@
 .flex img {
   width: 45%;
 }
+.zakajite__carusel{
+  width: 1000px I !important;
+  margin-bottom: 50px;
+}
+.ca{
+  
+}
+
+.zakajite__carusel{
+  width: 400px;
+  height: 400px;
+ 
+}
+.zakajite__carusel-item{
+  width: 100%;
+}
 
 @media only screen and (max-width: 1724px) {
   .zakajite__center--card {

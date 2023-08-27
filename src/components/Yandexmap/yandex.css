@@ -1,0 +1,22 @@
+.yandexmap-section{
+    width: 100%;
+    height: 400px;
+    background-color: aqua;
+    display: block;
+    position: relative;
+}
+.yandex__back{
+    position: absolute;
+    top: 0;
+    display: block;
+
+    background-color: rgba(222,222,218,.6705882353) !important;
+
+}
+.ymaps-layers-pane {
+	filter: brightness(50%) !important;
+	-ms-filter: brightness(50%);
+	-webkit-filter: brightness(50%);
+	-moz-filter: brightness(50%);   
+	-o-filter: brightness(50%);  
+}

@@ -3,8 +3,13 @@ import background from "../../assets/Images/png/Zakajite/Background.jpg";
 import certificate from "../../assets/Images/png/Zakajite/certificate.png";
 import garant from "../../assets/Images/png/Zakajite/garant.png";
 import down_png from "../../assets/Images/png/Zakajite/down__image.png";
-
+import zakaj from '../../assets/Images/png/zakaj1.png'
+import { Navigation, Pagination, Scrollbar, A11y } from 'swiper/modules';
+import {Swiper,SwiperSlide} from 'swiper/react'
 import "./style.css";
+import 'swiper/css';
+import 'swiper/css/navigation';
+import 'swiper/css/pagination';
 
 const Zakajite = () => {
   return (
@@ -16,6 +21,30 @@ const Zakajite = () => {
             <p className="zakajite__paragraph">
               Лучшие условия для обладателей BAVARIA на весь срок экслуатации{" "}
             </p>
+            <div className="zakajite__carusel">
+               {/* <Swiper
+                 className="zakajite__carusel-item"
+                 modules={[Navigation, Pagination,  A11y]}    
+                 centerInsufficientSlides
+                 navigation
+                 slidesPerView={3}
+                
+                    slideActiveClass="ca"
+                 pagination={{ clickable: true }}
+                 onSwiper={(swiper) => console.log(swiper)}
+                 onSlideChange={() => console.log('slide change')}
+               >
+                <SwiperSlide >
+                  <img width={400} height={400} src={zakaj} alt="" />
+                </SwiperSlide>
+                <SwiperSlide>
+                  <img width={400} height={400} src={zakaj} alt="" />
+                </SwiperSlide>
+                <SwiperSlide >
+                  <img width={400} height={400} src={zakaj} alt="" />
+                </SwiperSlide>
+               </Swiper> */}
+            </div>
 
             <div className="zakajite__center">
               <div className="zakajite__center--card">
