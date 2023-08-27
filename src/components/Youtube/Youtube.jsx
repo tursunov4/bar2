@@ -1,12 +1,12 @@
-import React from "react";
+import React, { useState } from "react";
 import "./youtube.css";
 import YoutubeVIdeo from "./YoutubeVideo/YoutubeVIdeo";
 import YoutubeCarusel from "./YoutubeCarusel/YoutubeCarusel";
-import YoutubevideoModal from "./YoutubevideoModal/YoutubevideoModal";
 const Youtube = () => {
+  const [modal ,setModal] = useState(false)
   return (
     <>
-      <YoutubevideoModal />
+      
 
       <section className="youtube-section">
         <div className="container">
@@ -17,7 +17,7 @@ const Youtube = () => {
               просто
             </h3>
             <YoutubeVIdeo />
-            <YoutubeCarusel />
+            <YoutubeCarusel setModal2={setModal} />
           </div>
         </div>
       </section>

@@ -18,10 +18,7 @@ import Yandexmap from "../components/Yandexmap/Yandexmap";
 const Mian = () => {
   return (
     <div>
-      {/* <Header /> */}
-      {/* <Hero />
-
-      {/* <Header />
+      <Header />
       <Hero />
       <Bavariya /> 
       <Youtube />
@@ -29,37 +26,14 @@ const Mian = () => {
       <Bvcards />
       <Delivery />
       <Kanstruktor/>
+      <Manage/>
       <Otziv />
-      <Zakajite />
+      {/* <Zakajite /> */}
       <Pokupke />
       <Order />
       <Khaos />
-
-      <Footer /> */}
-      {/* <Yandexmap/> */}
-
-      {/* <Header /> */}
-      {/* <Hero /> */}
-      {/* <Bavariya /> */}
-
-      {/* <Header />
-      <Hero />
-      <Bavariya />
-      <Youtube /> */}
-
-      {/* <Youtube /> */}
-      {/* <Padarka /> */}
-      {/* <Bvcards /> */}
-      {/* <Delivery /> */}
-
-      {/* <Order /> */}
-      {/* <Otziv /> */}
-      {/* <Manage /> */}
-      {/* <Zakajite /> */}
-      {/* <Footer /> */}
-      {/* <Pokupke /> */}
-      {/* <Khaos /> */}
-      {/* <Footer /> */}
+      <Yandexmap/>    
+      <Footer /> 
     </div>
   );
 };
