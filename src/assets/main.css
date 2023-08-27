@@ -29,6 +29,16 @@
 }
 
 @font-face {
+  font-family: Roboto-Black;
+  src: url('./Fonts/Roboto/Roboto-Black.ttf');
+}
+
+@font-face {
+  font-family: Rubik-Bold;
+  src: url("./Fonts/rubic/Rubik-Bold.ttf");
+}
+
+@font-face {
   font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
   font-family: "Merriweather";
   font-style: normal;
