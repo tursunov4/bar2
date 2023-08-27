@@ -11,24 +11,28 @@ import rasskochka1 from "../../assets/Images/svg/rassrochka_phone.svg";
 import "./style.css";
 const Headermodal = ({ modal, setModal, children }) => {
   const [click, setClick] = useState(true);
-
+  const pop =()=>{
+    setModal(false)
+  }
   window.onclick = function (event) {
-    if (event.target.id === "modal") {
-      setModal(false);
+    if (event.target.id === "headertop__md") {
+      console.log('dfsa')
+      setModal(false)
     }
-  };
-  // if (modal) {
+  }
+
+  if (modal ) {
   return (
     <>
       <div id="headertop__md" className="headertop__md">
-        <div class="headertop__md--content">
+        <div className="headertop__md--content">
           <img
             onClick={() => setModal(false)}
             className="modal-exit"
             src={Exit}
             alt=""
           />
-          {children}
+       
 
           <div className="headertop__md--wrapper">
             <div className="headertop__md--left">
@@ -375,8 +379,7 @@ const Headermodal = ({ modal, setModal, children }) => {
         </div>
       </div>
     </>
-  );
-  // }
-};
-
-export default Headermodal;
+  )
+}
+}
+export default Headermodal

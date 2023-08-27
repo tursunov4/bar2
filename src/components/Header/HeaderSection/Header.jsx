@@ -5,10 +5,13 @@ import raspochka from '../../../assets/Images/svg/raspochka.svg'
 import bar from '../../../assets/Images/png/headerbar.png'
 import bar2 from '../../../assets/Images/png/headerbarmobile.png'
 import Headermodal from '../Headermodal/Headermodal'
+import Headertop from '../../Headertop/Headertop'
 const Headers = () => {
-  const [modal , setModal] = useState(false)
+  const [modal, setModal] = useState(false)
+  const [modal2,setModal2] = useState(false)
   return (
     <div className='header-section2'>
+      <Headertop modal={modal2} setModal={setModal2}/>
       <Headermodal modal={modal} setModal={setModal}/>
       <div className="header-section__mobile-text">
       <h4>Автоматическая пивоварня</h4>
@@ -58,7 +61,7 @@ const Headers = () => {
           <del>64290 ₽</del>
           <h5>44990 ₽</h5>
         </div>
-        <button className='img-wrapper__raspochka'>Заказать</button>
+        <button onClick={()=>setModal2(true)} className='img-wrapper__raspochka'>Заказать</button>
         <button className='img-wrapper__raspochka2'>
           <img src={raspochka} alt="raspochkan" />
           Рассрочка

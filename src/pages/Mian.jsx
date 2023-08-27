@@ -25,51 +25,23 @@ const Mian = () => {
   return (
     <div>
       {/* <Header />
-      <Hero />
+      <Headertop /> */}
+      {/* <Hero />
       <Bavariya /> 
       <Youtube />
       <Padarka />
       <Bvcards />
       <Delivery />
-      <Kanstruktor/> */}
-      {/* <Manage/> */}
-      {/* <Otziv />
-      <Zakajite />
+      <Kanstruktor/>
+      <Manage/>
+      <Otziv /> */}
+      {/* <Zakajite />
       <Pokupke />
       <Order />
       <Khaos />
-
-
-      <Footer /> */}
-      {/* <Yandexmap/> */}
-
-      {/* <Header /> */}
-      {/* <Hero /> */}
-      {/* <Bavariya /> */}
-
-      {/* <Header />
-      <Hero />
-      <Bavariya />
-      <Youtube /> */}
-      {/* <Headertop /> */}
-      {/* <Youtube /> */}
-      {/* <Padarka /> */}
-      {/* <Bvcards /> */}
-      {/* <Delivery /> */}
-      {/* <Order /> */}
-      {/* <Otziv /> */}
-      {/* <Manage /> */}
-      {/* <Zakajite /> */}
-      {/* <Footer /> */}
-      {/* <Pokupke /> */}
-      {/* <Khaos /> */}
-      {/* <Footer /> */}
-
-      {/* <Yandexmap/>     */}
-
- 
-
-
+      <Footer />
+      <Yandexmap/>  */}
+     
     </div>
   );
 };
