@@ -39,24 +39,6 @@ const Mian = () => {
       <Yandexmap />
       <Footer />
 
-      {/* <Header />      
-      <Hero />
-      <Bavariya /> 
-      <Padarka />
-      <Youtube />
-      <Bvcards />
-      <Manage/>
-      <Kanstruktor/>
-      <Otziv />
-      <Zakajite />
-      <Bavariya /> 
-      <Delivery />
-      <Pokupke />
-      <Order />
-      <Khaos />      
-      <Yandexmap/> 
-      <Footer />  */}
-
     </div>
   );
 };
