@@ -61,8 +61,8 @@ const Headers = () => {
           <del>64290 ₽</del>
           <h5>44990 ₽</h5>
         </div>
-        <button onClick={()=>setModal2(true)} className='img-wrapper__raspochka'>Заказать</button>
-        <button className='img-wrapper__raspochka2'>
+        <button onClick={()=>setModal2(true)} className='img-wrapper__raspochka header__btn--hover'>Заказать</button>
+        <button className='img-wrapper__raspochka2 header__btn--hover1'>
           <img src={raspochka} alt="raspochkan" />
           Рассрочка
         </button>

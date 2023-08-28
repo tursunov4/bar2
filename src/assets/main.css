@@ -20,17 +20,17 @@
 
 @font-face {
   font-family: Roboto;
-  src: url('./Fonts/Roboto/Roboto-Regular.ttf');
+  src: url("./Fonts/Roboto/Roboto-Regular.ttf");
 }
 
 @font-face {
   font-family: Roboto-Bold;
-  src: url('./Fonts/Roboto/Roboto-Bold.ttf');
+  src: url("./Fonts/Roboto/Roboto-Bold.ttf");
 }
 
 @font-face {
   font-family: Roboto-Black;
-  src: url('./Fonts/Roboto/Roboto-Black.ttf');
+  src: url("./Fonts/Roboto/Roboto-Black.ttf");
 }
 
 @font-face {
@@ -98,7 +98,6 @@
   src: url("./Fonts/Montserrat/Montserrat-Bold.ttf");
 }
 
-
 @font-face {
   font-family: Montserrat-Semibol;
   src: url("./Fonts/Montserrat/Montserrat-SemiBold.ttf");
@@ -109,12 +108,10 @@
   src: url("./Fonts/Montserrat/Montserrat-Black.ttf");
 }
 
-
 @font-face {
   font-family: Gilroy-Light;
   src: url("./Fonts/font/Gilroy-Light.ttf");
 }
-
 
 @font-face {
   font-family: Gilroy-Medium;
@@ -133,4 +130,11 @@
   max-width: 1620px;
   padding: 0 15px;
   margin: 0 auto;
+}
+
+.all__btn--hover:hover {
+  background: #323232;
+  box-shadow: 0px 4px 14px rgba(255, 255, 255, 0.15);
+  transition: all 0.3s ease-in-out;
+  color: #ffb800;
 }

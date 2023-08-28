@@ -39,37 +39,37 @@ const Manage = () => {
                 </th>
               </tr>
 
-              <tr>
+              <tr className="table__tr--hover">
                 <td className="manage__td1">Дисплей</td>
                 <td className="manage__td2">Текстовый</td>
                 <td className="manage__td3">Графический</td>
               </tr>
 
-              <tr>
+              <tr className="table__tr--hover">
                 <td className="manage__td1">Режим варки</td>
                 <td className="manage__td2">Ручной и автоматический</td>
                 <td className="manage__td3">Ручной и автоматический</td>
               </tr>
 
-              <tr>
+              <tr className="table__tr--hover">
                 <td className="manage__td1">Сохранение рецептов</td>
                 <td className="manage__td2">10</td>
                 <td className="manage__td3">8</td>
               </tr>
 
-              <tr>
+              <tr className="table__tr--hover">
                 <td className="manage__td1">Отложенный старт</td>
                 <td className="manage__td2 true">✓</td>
                 <td className="manage__td3 true">✓</td>
               </tr>
 
-              <tr>
+              <tr className="table__tr--hover">
                 <td className="manage__td1">Звуковая сигнализация</td>
                 <td className="manage__td2 true">✓</td>
                 <td className="manage__td3 true">✓</td>
               </tr>
 
-              <tr>
+              <tr className="table__tr--hover">
                 <td className="manage__td1">
                   Количество температурныхпауз в автоматическом режиме
                 </td>
@@ -77,7 +77,7 @@ const Manage = () => {
                 <td className="manage__td3">6 + температура засыпи</td>
               </tr>
 
-              <tr>
+              <tr className="table__tr--hover">
                 <td className="manage__td1">
                   Удаленное управление-контроль пивоварней через WiFi
                 </td>
@@ -85,7 +85,7 @@ const Manage = () => {
                 <td className="manage__td3 true">✓</td>
               </tr>
 
-              <tr>
+              <tr className="table__tr--hover">
                 <td className="manage__td1">
                   Работа с сеpвеpoм <br /> wifi.bavaria-beer.ru
                 </td>
@@ -93,19 +93,19 @@ const Manage = () => {
                 <td className="manage__td3 true">✓</td>
               </tr>
 
-              <tr>
+              <tr className="table__tr--hover">
                 <td className="manage__td1">Работа с мобильным приложением </td>
                 <td className="manage__td2 false">×</td>
                 <td className="manage__td3 true">✓</td>
               </tr>
 
-              <tr>
+              <tr className="table__tr--hover">
                 <td className="manage__td1 sss__mng">Стоимость</td>
                 <td className="manage__td2 titles__manage">45 999 ₽</td>
                 <td className="manage__td3 titles__manage">55 999 ₽</td>
               </tr>
 
-              <tr>
+              <tr className="table__tr--hover">
                 <td className="manage__td1 "></td>
                 <td className="manage__td2 titles__btns">
                   <button className={btn ? "" : "btn__bg"}>Заказать</button>

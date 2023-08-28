@@ -61,7 +61,7 @@ const delivery = () => {
                 </p>
 
                 <div className="delivery__form">
-                  <button>Заказать</button>
+                  <button className="delivery__form--hover">Заказать</button>
                   <p>От 2 499 руб. / мес.</p>
                 </div>
               </div>

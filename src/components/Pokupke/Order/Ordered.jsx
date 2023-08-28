@@ -137,7 +137,7 @@ const Ordered = () => {
             <input type="text" placeholder="Имя" />
             <input type="tel" placeholder="+7 (___)-___-__-__" />
 
-            <button>Заказать</button>
+            <button className="all__btn--hover">Заказать</button>
           </form>
 
           <p>

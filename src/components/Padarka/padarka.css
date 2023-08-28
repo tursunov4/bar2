@@ -336,6 +336,16 @@
   line-height: 29px; /* 131.818% */
   background: #3f3f3f;
 }
+
+.litraj-wrapper__buttons > button:hover{
+  opacity: 0.7;
+}
+
+.litraj-wrapper__buttons .litraj-buttons__active:hover{
+    color: rgb(50, 50, 50, 0.7) !important;
+    opacity: 1; 
+}
+
 .litraj-buttons__active {
   color: #323232 !important;
   background: #fff !important;
@@ -438,6 +448,12 @@
   font-weight: 700;
   line-height: normal;
 }
+
+
+.padarka__product-numberlist:hover{
+  opacity: 0.7;
+}
+
 @media only screen and (max-width: 1480px) {
   .padarka-section__wrapper {
     padding: 50px 0 0;

@@ -206,7 +206,7 @@ const Padarka = () => {
                 <span className="litraj-price1">44 990 ₽</span>
                 <span className="litraj-price2">64 290 ₽</span>
               </div>
-              <button>Заказать</button>
+              <button className="all__btn--hover">Заказать</button>
             </div>
           </div>
         </div>

@@ -13,6 +13,11 @@
   text-transform: uppercase;
   margin-bottom: 20px;
 }
+
+.kansturuktor__line--hover:hover{
+  opacity: 0.5;
+}
+
 .kansturuktor-section h3 {
   color: #fff;
   text-align: center;
