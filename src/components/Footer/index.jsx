@@ -53,7 +53,9 @@ const index = () => {
                     <a className="footer_link" href="#">
                       Договор оферты
                     </a>
-                    <button className="footer_btn">Купить оптом</button>
+                    <button className="footer_btn all__btn--hover">
+                      Купить оптом
+                    </button>
                   </div>
                 </div>
               </div>

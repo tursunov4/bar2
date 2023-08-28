@@ -14,10 +14,10 @@ const Zakajite = () => {
             <h1>Закажите напрямую от производителя</h1>
             <p className="zakajite__paragraph">
               Лучшие условия для обладателей BAVARIA на весь срок экслуатации{" "}
-            </p> 
+            </p>
             <div className="zakaj-casursel__div">
-                <ZakajiteModal/>
-                </div>          
+              <ZakajiteModal />
+            </div>
             <div className="zakajite__center">
               <div className="zakajite__center--card">
                 <h4>Гарантия 1 год</h4>
@@ -26,7 +26,7 @@ const Zakajite = () => {
                   качестве своей продукции на все 100%.
                 </p>
               </div>
-             
+
               <div className="zakajite__center--card">
                 <h4>Отгрузка в день заказа</h4>
                 <p>
@@ -49,7 +49,7 @@ const Zakajite = () => {
               от 44 990 ₽
             </p>
 
-            <button>Заказать</button>
+            <button className="all__btn--hover">Заказать</button>
 
             <div className="zakajite__down">
               <div className="zakajite__items">

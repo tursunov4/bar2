@@ -39,12 +39,25 @@
   cursor: pointer;
   padding: 15px 47px;
   color: #323232;
-  font-family: Inter;
+  font-family: Inter-Regular;
   font-size: 22px;
   font-style: normal;
   font-weight: 400;
   line-height: 29px; /* 131.818% */
 }
+
+.bavariya-section__quiz-button:hover {
+  /* opacity: 0.5; */
+  color: rgb(50, 50, 50, 0.6);
+  transition: all 0.1s ease-in-out;
+}
+
+.bavariya-section__quiz-avtive:hover {
+  color: rgb(50, 50, 50, 0.7);
+  opacity: 0.9;
+  transition: all 0.1s ease-in-out;
+}
+
 .bavariya-section__quiz-avtive {
   border: none;
   background-color: #ffb800;
@@ -167,7 +180,10 @@
   font-style: normal;
   font-weight: 700;
   line-height: normal;
+  cursor: pointer;
 }
+
+
 .bavariya__product-text > h5 {
   display: none;
 }
