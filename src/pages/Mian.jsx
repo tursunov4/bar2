@@ -39,7 +39,7 @@ const Mian = () => {
       <Yandexmap />
       <Footer />
 
-      <Header />      
+      {/* <Header />      
       <Hero />
       <Bavariya /> 
       <Padarka />
@@ -55,7 +55,7 @@ const Mian = () => {
       <Order />
       <Khaos />      
       <Yandexmap/> 
-      <Footer /> 
+      <Footer />  */}
 
     </div>
   );
