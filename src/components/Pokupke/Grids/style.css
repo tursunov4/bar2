@@ -28,7 +28,8 @@
   width: 100%;
 }
 #item-0 {
-  cursor: pointer;
+  overflow: hidden;
+  cursor: zoom-in;
   grid-row-start: 1;
   grid-column-start: 1;
   border-radius: 5px;
@@ -41,7 +42,8 @@
 }
 
 #item-1 {
-  cursor: pointer;
+  overflow: hidden;
+  cursor: zoom-in;
   grid-row-start: 3;
   grid-column-start: 1;
   border-radius: 5px;
@@ -54,7 +56,8 @@
 }
 
 #item-2 {
-  cursor: pointer;
+  overflow: hidden;
+  cursor: zoom-in;
   grid-row-start: 3;
   grid-column-start: 2;
   border-radius: 5px;
@@ -67,7 +70,8 @@
 }
 
 #item-3 {
-  cursor: pointer;
+  overflow: hidden;
+  cursor: zoom-in;
   grid-row-start: 1;
   grid-column-start: 3;
   border-radius: 5px;
@@ -80,7 +84,8 @@
 }
 
 #item-4 {
-  cursor: pointer;
+  overflow: hidden;
+  cursor: zoom-in;
   grid-row-start: 1;
   grid-column-start: 4;
   border-radius: 5px;
@@ -93,7 +98,8 @@
 }
 
 #item-5 {
-  cursor: pointer;
+  overflow: hidden;
+  cursor: zoom-in;
   grid-row-start: 2;
   grid-column-start: 3;
   border-radius: 5px;
@@ -106,7 +112,8 @@
 }
 
 #item-6 {
-  cursor: pointer;
+  overflow: hidden;
+  cursor: zoom-in;
   grid-row-start: 1;
   grid-column-start: 5;
   border-radius: 5px;
@@ -119,12 +126,45 @@
 }
 
 #item-7 {
-  cursor: pointer;
+  overflow: hidden;
+  cursor: zoom-in;
   grid-row-start: 3;
   grid-column-start: 5;
   border-radius: 5px;
   grid-row-end: 4;
   grid-column-end: 6;
+}
+#item-0 img:hover{
+  transform: scale(1.1);
+  transition: all 0.4s ;
+}
+#item-1 img:hover{
+  transform: scale(1.1);
+  transition: all 0.4s ;
+}
+#item-2 img:hover{
+  transform: scale(1.1);
+  transition: all 0.4s ;
+}
+#item-3 img:hover{
+  transform: scale(1.1);
+  transition: all 0.4s ;
+}
+#item-4 img:hover{
+  transform: scale(1.1);
+  transition: all 0.4s ;
+}
+#item-5 img:hover{
+  transform: scale(1.1);
+  transition: all 0.4s ;
+}
+#item-6 img:hover{
+  transform: scale(1.1);
+  transition: all 0.4s ;
+}
+#item-7 img:hover{
+  transform: scale(1.1);
+  transition: all 0.4s ;
 }
 
 #item-8 img {
@@ -132,12 +172,18 @@
 }
 
 #item-8 {
-  cursor: pointer;
+  cursor: zoom-in;
   grid-row-start: 3;
   grid-column-start: 6;
   border-radius: 5px;
   grid-row-end: 4;
   grid-column-end: 7;
+  overflow: hidden;
+}
+
+#item-8 img:hover{
+  transform: scale(1.1);
+  transition: all 0.4s ;
 }
 
 .responsive {

@@ -16,24 +16,24 @@ const Padarka = () => {
             <div className="padarka-section__product">
               <ul className="padarka-section__product-list">
                 <li className="paraka-list1">
-                  <button className="paraka-list1--btn1 button">1</button>
-                  <button className="paraka-list1--btn2 button">2</button>
-                  <button className="paraka-list1--btn3 button">3</button>
-                  <button className="paraka-list1--btn4 button">4</button>
-                  <button className="paraka-list1--btn5 button">5</button>
-                  <button className="paraka-list1--btn6 button">6</button>
-                  <button className="paraka-list1--btn7 button">7</button>
-                  <button className="paraka-list1--btn8 button">8</button>
+                  <button className={number===1 ? "paraka-list1--btn1 button padarka__product-active " :'paraka-list1--btn1 button' }>1</button>
+                  <button className={number===2 ? "paraka-list1--btn2 button padarka__product-active " :'paraka-list1--btn2 button' }>2</button>
+                  <button className={number===3 ? "paraka-list1--btn3 button padarka__product-active " :'paraka-list1--btn3 button' }>3</button>
+                  <button className={number===4 ? "paraka-list1--btn4 button padarka__product-active " :'paraka-list1--btn4 button' }>4</button>
+                  <button className={number===5 ? "paraka-list1--btn5 button padarka__product-active " :'paraka-list1--btn5 button' }>5</button>
+                  <button className={number===6 ? "paraka-list1--btn6 button padarka__product-active " :'paraka-list1--btn6 button' }>6</button>
+                  <button className={number===7 ? "paraka-list1--btn7 button padarka__product-active " :'paraka-list1--btn7 button' }>7</button>
+                  <button className={number===8 ? "paraka-list1--btn8 button padarka__product-active " :'paraka-list1--btn8 button' }>8</button>
                 </li>
                 <li className="padarka-list2">
-                  <button className="paraka-list2--btn1 button">1</button>
-                  <button className="paraka-list2--btn2 button">2</button>
-                  <button className="paraka-list2--btn3 button">3</button>
-                  <button className="paraka-list2--btn4 button">4</button>
-                  <button className="paraka-list2--btn5 button">5</button>
-                  <button className="paraka-list2--btn6 button">6</button>
-                  <button className="paraka-list2--btn7 button">7</button>
-                  <button className="paraka-list2--btn8 button">8</button>
+                  <button className={number===1 ? "paraka-list2--btn1 button padarka__product-active " :'paraka-list2--btn1 button' }>1</button>
+                  <button className={number===2 ? "paraka-list2--btn2 button padarka__product-active " :'paraka-list2--btn2 button' }>2</button>
+                  <button className={number===3 ? "paraka-list2--btn3 button padarka__product-active " :'paraka-list2--btn3 button' }>3</button>
+                  <button className={number===4 ? "paraka-list2--btn4 button padarka__product-active " :'paraka-list2--btn4 button' }>4</button>
+                  <button className={number===5 ? "paraka-list2--btn5 button padarka__product-active " :'paraka-list2--btn5 button' }>5</button>
+                  <button className={number===6 ? "paraka-list2--btn6 button padarka__product-active " :'paraka-list2--btn6 button' }>6</button>
+                  <button className={number===7 ? "paraka-list2--btn7 button padarka__product-active " :'paraka-list2--btn7 button' }>7</button>
+                  <button className={number===8 ? "paraka-list2--btn8 button padarka__product-active " :'paraka-list2--btn8 button' }>8</button>
                 </li>
                 <li className="padarka-list3">
                   <div className="padarka__product-number">
@@ -158,14 +158,14 @@ const Padarka = () => {
                   </div>
                   <div className="padarka-section__skidka-listitem">
                     <div className="padarka-section__skidka-img">
-                      <img src="" alt="" />
+                
                     </div>
                     <h4>Чиллер</h4>
                     <p>1500 ₽</p>
                   </div>
                   <div className="padarka-section__skidka-listitem">
                     <div className="padarka-section__skidka-img">
-                      <img src="" alt="" />
+                    
                     </div>
                     <h4>Чиллер</h4>
                     <p>1500 ₽</p>

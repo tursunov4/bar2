@@ -39,9 +39,11 @@ const YoutubeVIdeo = () => {
      </div>
      <div className="youtubevide-wrapper__videos">
       <div className='youtubevideo-wrapper__video' >
-      <iframe width="100%" height="100%" src="https://www.youtube.com/embed/5eBBdBEbbXQ?si=lwIgRVcNZcWQl-VX" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+      <iframe width="100%" height="100%" src="https://www.youtube.com/embed/i0182AWPfgI?si=4_y7LinxUpQX6ahh" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
       </div>
-      <div className='youtubevideo-wrapper__video'></div>
+      <div className='youtubevideo-wrapper__video'>
+      <iframe width="100%" height="100%" src="https://www.youtube-nocookie.com/embed/-jaXMjn4hsE?si=oKnZBddzW3RUh3ds" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+      </div>
      </div>
      
     </div>
