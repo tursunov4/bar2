@@ -1,7 +1,64 @@
 .zakazat {
-  display: flex;
-  align-items: center;
-  gap: 80px;
+  display: grid;
+  gap: 10px;
+  grid-template-columns: 427px 1fr 342px;
+  grid-template-rows: auto;
+  place-content: center;
+}
+
+#item-01 {
+  align-self: center;
+  background: #fbfbfb;
+  border-radius: 10px;
+  grid-column: 1/2;
+  grid-row: 1/2;
+  padding: 15px;
+  height: 784px;
+}
+#item-02 {
+  grid-column: 2/3;
+  grid-row: 1/2;
+  padding-top: 30px;
+  width: 100%;
+}
+
+.item-02__images {
+  height: 709px;
+  position: relative;
+}
+
+.absolute {
+  position: absolute;
+}
+
+.item-02__images--1 {
+  top: 14%;
+  left: 29%;
+}
+
+.item-02__images--2 {
+  top: 37%;
+  right: 20%;
+}
+
+.item-02__images--3 {
+  bottom: 32%;
+  left: 16%;
+}
+
+.item-02__images--4 {
+  bottom: 20%;
+  left: 25%;
+}
+
+.item-02__images--5 {
+  bottom: 16%;
+  right: 17%;
+}
+
+#item-03 {
+  grid-column: 3/4;
+  grid-row: 1/2;
 }
 
 .zakazat__left {
@@ -11,9 +68,10 @@
 }
 
 .zakazat__left--wrapper {
-  height: 784px;
+  height: 677px;
+  overflow-x: hidden;
   overflow-y: scroll;
-  padding: 8px;
+  padding-right: 8px;
 }
 
 .zakazat__left--wrapper::-webkit-scrollbar {
@@ -21,8 +79,9 @@
 }
 
 .zakazat__bot {
+  height: 709px;
+  width: 100%;
   background-size: cover;
-  width: 50%;
 }
 
 .zakazat__top {
@@ -50,7 +109,10 @@
 }
 
 .zakazat__left--card img {
-  width: 40px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  width: 57px;
 }
 
 .zakazat__left--card h4 {
@@ -65,7 +127,7 @@
 }
 
 .zakazat__left--card button {
-  width: 30px;
+  width: 40px;
   height: 30px;
   border: 3px solid #878787;
   border-radius: 100%;
@@ -83,16 +145,24 @@
 .zakazat__left--card-sale {
   display: flex;
   flex-direction: column;
+  flex-shrink: 0;
+  gap: 5px;
+}
+
+.old__price {
+  display: flex;
+  flex-direction: column;
   color: #c8c8c8;
   font-family: Montserrat-Bold;
   font-size: 14px;
   font-style: normal;
   font-weight: 700;
   line-height: 14px;
-  text-decoration-line: strikethrough;
+  text-decoration: line-through;
 }
 
-.zakazat__left--card-sale strong {
+.new__price {
+  text-decoration: none;
   color: #323232;
   font-family: Montserrat-Black;
   font-size: 16px;
@@ -102,6 +172,7 @@
 }
 
 .zakazat__right {
+  height: 784px;
   padding: 30px;
   border-radius: 10px;
   background: #fff;
@@ -274,10 +345,11 @@
   top: 45%;
   width: 50%;
 }
-@media only screen and (max-width: 1370px) {
+
+@media only screen and (max-width: 1490px) {
   .zakazat {
-    flex-wrap: wrap;
-    justify-content: center;
+    grid-template-columns: 390px 0.8fr 300px;
+    gap: 20px;
   }
 
   .zakazat__left {
@@ -290,8 +362,54 @@
   }
 
   .zakazat__left--card button {
-    width: 24px;
+    width: 30px;
     height: 24px;
+  }`
+
+  .item-02__images--1 img {
+    width: 80%;
+  }
+  .item-02__images--2 img {
+    width: 80%;
+  }
+  .item-02__images--3 img {
+    width: 80%;
+  }
+  .item-02__images--4 img {
+    width: 80%;
+  }
+  .item-02__images--5 img {
+    width: 80%;
+  }
+
+  .item-02__images--1 {
+    top: 14%;
+    left: 29%;
+    width: 50%;
+  }
+
+  .item-02__images--2 {
+    top: 33%;
+    right: 17%;
+    width: 15%;
+  }
+
+  .item-02__images--3 {
+    bottom: 38%;
+    left: 16%;
+    width: 15%;
+  }
+
+  .item-02__images--4 {
+    bottom: 28%;
+    left: 25%;
+    width: 15%;
+  }
+
+  .item-02__images--5 {
+    bottom: 25%;
+    right: 6%;
+    width: 50%;
   }
 
   .zakazat__left--card-sale {
@@ -366,7 +484,6 @@
     align-items: center;
     justify-content: center;
   }
-
 }
 
 @media only screen and (max-width: 570px) {
