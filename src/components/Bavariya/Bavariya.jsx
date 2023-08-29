@@ -15,7 +15,7 @@ const Bavariya = () => {
         litr2:'30 литров',
         ves :'13,7 кг',
         vife:wife ? 'нет': 'да',
-        motor :'3,2 кВт'
+        motor :'1,5 кВт'
         },
         {img:wife ? product2 : wpro2  ,
          litr:'30 литров',
@@ -29,7 +29,7 @@ const Bavariya = () => {
         litr2:'70 литров',
         ves :'25,5 кг',
         vife:wife ? 'нет': 'да',
-        motor :'1,5 кВт'
+        motor :'3,2 кВт'
         }
     ]
   return (
