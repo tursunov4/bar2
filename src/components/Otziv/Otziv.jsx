@@ -49,8 +49,7 @@ const Otziv = () => {
             className='otziv__carusel'      
              modules={[Navigation, Pagination,  A11y]}    
              centerInsufficientSlides
-             navigation
-             pagination={{ clickable: true }}
+             navigation     
              onSwiper={(swiper) => console.log(swiper)}
              onSlideChange={() => console.log('slide change')}
             >
