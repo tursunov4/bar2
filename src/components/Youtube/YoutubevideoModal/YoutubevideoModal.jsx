@@ -2,7 +2,7 @@ import React from "react";
 import img1 from "../../../assets/Images/png/Modal Image/Image 1.png";
 import img2 from "../../../assets/Images/png/Modal Image/Image 2.png";
 import img3 from "../../../assets/Images/png/Modal Image/Image 3.png";
-import close from "../../../assets/Images/svg/close.svg"; 
+import Exit from '../../../assets/Images/svg/exit.svg'
 import "./sytle.css";
 const YoutubevideoModal = ({modal , setModal}) => {
   window.onclick = function(event) {
@@ -131,7 +131,7 @@ if(modal){
             </div>
   
             <button className="close__md">
-              <img onClick={()=>setModal(false)} src={close} alt="Close" />
+              <img onClick={()=>setModal(false)} src={Exit} alt="Close" />
             </button>
           </div>
     </div>
