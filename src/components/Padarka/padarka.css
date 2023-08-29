@@ -232,6 +232,7 @@
   padding: 30px 140px;
   border-radius: 10px;
   background: #ffb800;
+  margin-left: 10px;
 }
 .padarka-section__skidka > h3 {
   color: #fff;
@@ -385,9 +386,15 @@
   background-color: #fff;
   height: 224px;
 }
+.padarka__litraj-inputs{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
 .padarka__litraj-inputs > label {
   display: block;
-  margin-bottom: 30px;
   position: relative;
 }
 .padarka__litraj-inputs input {
@@ -453,8 +460,22 @@
 .padarka__product-numberlist:hover{
   opacity: 0.7;
 }
+@media only screen and (max-width:1353px){
+  .padarka-section__skidka {
+    padding: 20px 80px;
+    border-radius: 10px;
+    background: #ffb800;
+  }
+}
+@media only screen and (max-width:1250px){
+  .padarka-section__skidka {
+    padding: 20px 40px;
+    border-radius: 10px;
+    background: #ffb800;
+  }
+}
 
-@media only screen and (max-width: 1480px) {
+@media only screen and (max-width: 1130px) {
   .padarka-section__wrapper {
     padding: 50px 0 0;
   }
@@ -463,6 +484,7 @@
     align-items: center;
   }
   .padarka-section__skidka {
+    margin-left: 0;
     width: 100%;
     border-radius: 0px !important;
   }
@@ -477,6 +499,7 @@
 @media only screen and (max-width: 1167px) {
   .padarka__contact {
     flex-direction: column;
+    gap: 20px;
   }
   .padarka__litraj-line {
     gap: 40px;

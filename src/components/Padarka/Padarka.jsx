@@ -158,14 +158,14 @@ const Padarka = () => {
                   </div>
                   <div className="padarka-section__skidka-listitem">
                     <div className="padarka-section__skidka-img">
-                      <img src="" alt="" />
+                
                     </div>
                     <h4>Чиллер</h4>
                     <p>1500 ₽</p>
                   </div>
                   <div className="padarka-section__skidka-listitem">
                     <div className="padarka-section__skidka-img">
-                      <img src="" alt="" />
+                    
                     </div>
                     <h4>Чиллер</h4>
                     <p>1500 ₽</p>
