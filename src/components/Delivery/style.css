@@ -366,6 +366,12 @@
   }
 }
 
+@media only screen and (max-width: 489px) {
+  .delivery__left--card div img{
+    width: 20%;
+  }
+}
+
 @media only screen and (max-width: 380px) {
   .delivery__left--card div {
     justify-content: start;
