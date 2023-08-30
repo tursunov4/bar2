@@ -150,6 +150,10 @@
   line-height: 39px;
 }
 
+.rasskochka__list {
+  display: none;
+}
+
 @media only screen and (max-width: 1480px) {
   .delivery {
     padding: 100px 200px;
@@ -158,6 +162,7 @@
   .delivery__left--card {
     padding: 40px 20px;
   }
+
   .delivery__left--card h3 {
     font-size: 36px;
   }
@@ -166,13 +171,38 @@
     font-size: 26px;
   }
 
-  .delivery__left--card div > img {
-    height: 63px;
-    width: 110px;
+  .rasskochka__list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .rasskochka__list--item {
+    display: flex;
+    gap: 20px;
+    margin: 20px 0;
+  }
+
+  .rasskochka__list--item b {
+    color: #323232;
+    font-family: Gilroy-Medium;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 29px;
+  }
+
+  .rasskochka__list--item span {
+    color: #323232;
+    font-family: Gilroy-Regular;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 29px;
   }
 
   .delivery__right--card div:nth-child(1) {
-    padding: 27px 43px;
+    padding: 10px;
   }
   .delivery__right--card div:nth-child(1) > h2 {
     font-size: 36px;
@@ -181,17 +211,30 @@
     font-size: 26px;
   }
   .delivery__right--card div:nth-child(2) p {
-    font-size: 18px;
+    display: none;
+  }
+
+  .delivery__right--card div:nth-child(2) {
+    border-radius: 0px 0px 10px 10px;
+    background: #fff;
+    padding: 10px 30px;
+    height: 100%;
   }
 
   .delivery__right--card div:nth-child(2) p > strong {
     font-size: 18px;
   }
 
+  .delivery__form {
+    display: flex;
+    width: 100%;
+  }
+
   .delivery__form > button {
     font-size: 32px;
   }
   .delivery__form > p {
+    display: block !important;
     font-size: 22px;
   }
 }
@@ -200,7 +243,7 @@
   .delivery {
     padding: 50px 100px;
   }
-  .del__wrapper {
+  .del__wrapper{
     flex-direction: column;
   }
 
@@ -220,17 +263,24 @@
     text-align: center;
   }
 
+  .delivery__left--card div {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: start;
+  }
+
   .delivery__right--card div:nth-child(2) {
     display: flex;
     flex-direction: column;
     align-items: start;
     justify-content: center;
+    padding: 30px;
   }
 
-  .delivery__form {
-    display: flex;
-    width: 100%;
-    justify-content: center;
+  .delivery__right--card .delivery__right--card-top p {
+    font-size: 26px !important;
+    width: 100% !important;
   }
 }
 

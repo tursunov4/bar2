@@ -14,7 +14,6 @@ const delivery = () => {
   return (
     <>
       <section className="delivery">
-
         <div className="container">
           <div className="del__wrapper">
             <div className="delivery__left">
@@ -41,13 +40,29 @@ const delivery = () => {
             </div>
 
             <div className="delivery__right--card">
-              <div>
+              <div className="delivery__right--card-top">
                 <img src={delLogo} alt="Logo" />
                 <h2>Рассрочка от Тинькофф</h2>
                 <p>на 4 месяца без процентов и переплат</p>
               </div>
 
               <div>
+                
+                <ul className="rasskochka__list">
+                  <li className="rasskochka__list--item">
+                    <b>Шаг 1</b>
+                    <span>Нажмите кнопку «Купить в рассрочку».</span>
+                  </li>
+                  <li className="rasskochka__list--item">
+                    <b>Шаг 2</b>
+                    <span>B появившемся окне выберите нужную.</span>
+                  </li>
+                  <li className="rasskochka__list--item">
+                    <b>Шаг 3</b>
+                    <span>Нажмите «Заказать».</span>
+                  </li>
+                </ul>
+
                 <p>
                   <strong>Шаг 1</strong>
                   Нажмите кнопку «Купить в рассрочку».
